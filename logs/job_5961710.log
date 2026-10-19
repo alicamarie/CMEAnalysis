@@ -1,0 +1,64 @@
+000 (5961710.000.000) 2026-10-16 11:46:57 Job submitted from host: <145.107.7.246:9618?addrs=145.107.7.246-9618+[2a07-8500-120-e070--3f6]-9618&alias=taai-007.nikhef.nl&noUDP&sock=schedd_2720_45b1>
+...
+001 (5961710.000.000) 2026-10-16 11:57:20 Job executing on host: <145.107.4.148:9618?addrs=145.107.4.148-9618+[2a07-8500-120-e070--94]-9618&alias=wn-knek-005.nikhef.nl&noUDP&sock=startd_1994_4bef>
+	SlotName: slot1_16@wn-knek-005.nikhef.nl
+	CondorScratchDir = "/scratch/condor_execute/dir_1893472"
+	Cpus = 4
+	Disk = 3787
+	GPUs = 0
+	Memory = 16384
+...
+006 (5961710.000.000) 2026-10-16 11:57:29 Image size of job updated: 79216
+	78  -  MemoryUsage of job (MB)
+	79216  -  ResidentSetSize of job (KB)
+...
+006 (5961710.000.000) 2026-10-16 12:02:29 Image size of job updated: 2373032
+	2273  -  MemoryUsage of job (MB)
+	2327204  -  ResidentSetSize of job (KB)
+...
+006 (5961710.000.000) 2026-10-16 12:07:29 Image size of job updated: 2424112
+	2367  -  MemoryUsage of job (MB)
+	2422848  -  ResidentSetSize of job (KB)
+...
+006 (5961710.000.000) 2026-10-16 12:12:30 Image size of job updated: 2488604
+	2427  -  MemoryUsage of job (MB)
+	2484568  -  ResidentSetSize of job (KB)
+...
+006 (5961710.000.000) 2026-10-16 12:27:31 Image size of job updated: 2490008
+	2427  -  MemoryUsage of job (MB)
+	2484568  -  ResidentSetSize of job (KB)
+...
+006 (5961710.000.000) 2026-10-16 12:32:32 Image size of job updated: 2525340
+	2467  -  MemoryUsage of job (MB)
+	2525340  -  ResidentSetSize of job (KB)
+...
+006 (5961710.000.000) 2026-10-16 12:37:33 Image size of job updated: 2525384
+	2467  -  MemoryUsage of job (MB)
+	2525340  -  ResidentSetSize of job (KB)
+...
+006 (5961710.000.000) 2026-10-16 13:02:34 Image size of job updated: 2542468
+	2474  -  MemoryUsage of job (MB)
+	2532836  -  ResidentSetSize of job (KB)
+...
+006 (5961710.000.000) 2026-10-16 13:22:37 Image size of job updated: 2542468
+	2482  -  MemoryUsage of job (MB)
+	2541384  -  ResidentSetSize of job (KB)
+...
+004 (5961710.000.000) 2026-10-16 13:24:37 Job was evicted. Code 1009 Subcode 0
+	(0) CPU times
+		Usr 0 01:25:32, Sys 0 00:08:27  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Claim deactivated
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.53        4         4 
+	   Disk (KB)            :     1           1      3787 
+	   GPUs                 :                           0 
+	   Memory (MB)          :  2482       16384     16384 
+	   TimeExecute (s)      :  5237                       
+	   TimeSlotBusy (s)     :  5237                       
+...
+009 (5961710.000.000) 2026-10-16 13:24:37 Job was aborted.
+	via condor_rm (by user aenderic)
+...

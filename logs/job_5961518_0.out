@@ -1,0 +1,1472 @@
+Host: wn-lot-003.nikhef.nl
+Checking executable...
+/data/alice/aenderic/alice/sw/slc9_x86-64/O2Physics/master-local1/bin/o2-analysis-cf-flow-pid-cme
+Current working directory: /data/alice/aenderic/CME_verify_results
+Input file check:
+-rw-r--r-- 1 aenderic alice 36 Oct 15 15:27 input_data.txt
+Absolute input path:
+/data/alice/aenderic/CME_verify_results/input_data.txt
+[INFO] Loading metadata from file data/AO2D_LHC23zzh_544122_pass5.root in PID 30
+[INFO] Metadata for file "data/AO2D_LHC23zzh_544122_pass5.root":
+[INFO] - O2Version: 1.2.0
+[INFO] - LPMProductionTag: LHC23zzh
+[INFO] - ROOTVersion: 6.32.06
+[INFO] - RecoPassName: apass5
+[INFO] - Run: 3
+[INFO] - AnchorPassName: 
+[INFO] - DataType: RAW
+[INFO] - AnchorProduction: 
+[INFO] Setting metadata AnchorPassName to ''
+[INFO] Setting metadata AnchorProduction to ''
+[INFO] Setting metadata DataType to 'RAW'
+[INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[INFO] Setting metadata O2Version to '1.2.0'
+[INFO] Setting metadata ROOTVersion to '6.32.06'
+[INFO] Setting metadata RecoPassName to 'apass5'
+[INFO] Setting metadata Run to '3'
+[INFO] Event selection autoconfiguring from metadata. Availability of info for Run 2/3 is 0
+[WARN] Metadata info missing or incomplete. Make sure --aod-file is provided at the end of the last workflow and that the AO2D has metadata stored.
+[WARN] Initializing with Run 3 data as default. Please note you will not be able to change settings manually.
+[WARN] You should instead make sure the metadata is read in correctly.
+[INFO] Initialising O2 Data Processing Layer. Driver PID: 30.
+[INFO] Driver listening on port: 8110
+[INFO] Rate limiting set up at 2000 MB and 64 timeframes distributed over 1 readers
+[INFO] O2 Data Processing Layer initialised. We brake for nobody.
+[INFO] Optimised build. O2DEBUG / LOG(debug) / LOGF(debug) / assert statement will not be shown.
+[INFO] Redeployment of configuration asked.
+[INFO] Starting internal-dpl-clock on pid 39
+[INFO] Starting internal-dpl-aod-reader on pid 40
+[INFO] Starting internal-dpl-aod-spawner on pid 41
+[INFO] Starting internal-dpl-aod-index-builder on pid 42
+[INFO] Starting eventselection-run3 on pid 43
+[INFO] Starting its-pid on pid 44
+[INFO] Starting pid-tpc-service on pid 45
+[INFO] Starting ft0-corrected-table on pid 46
+[INFO] Starting propagation-service on pid 47
+[INFO] Starting tof-signal on pid 48
+[INFO] Starting track-selection on pid 49
+[INFO] Starting mult-cent-table on pid 50
+[INFO] Starting tof-event-time on pid 51
+[INFO] Starting q-vectors-table on pid 52
+[INFO] Starting tof-pid-merge on pid 53
+[INFO] Starting fill-p-i-dcolums on pid 54
+[INFO] Starting flow-pid-cme on pid 55
+[INFO] Starting q-a-process-cent on pid 56
+[INFO] Starting internal-dpl-aod-global-analysis-file-sink on pid 57
+[INFO] Starting internal-dpl-aod-writer on pid 58
+[INFO] Starting internal-dpl-injected-dummy-sink on pid 59
+[INFO] Redeployment of configuration done.
+[50:mult-cent-table]: [INFO] Setting metadata AnchorPassName to ''
+[50:mult-cent-table]: [INFO] Setting metadata AnchorProduction to ''
+[50:mult-cent-table]: [INFO] Setting metadata DataType to 'RAW'
+[50:mult-cent-table]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[50:mult-cent-table]: [INFO] Setting metadata O2Version to '1.2.0'
+[50:mult-cent-table]: [INFO] Setting metadata ROOTVersion to '6.32.06'
+[50:mult-cent-table]: [INFO] Setting metadata RecoPassName to 'apass5'
+[50:mult-cent-table]: [INFO] Setting metadata Run to '3'
+[42:internal-dpl-aod-index-builder]: [INFO] Instrumenting crash signals
+[43:eventselection-run3]: [INFO] Setting metadata AnchorPassName to ''
+[43:eventselection-run3]: [INFO] Setting metadata AnchorProduction to ''
+[43:eventselection-run3]: [INFO] Setting metadata DataType to 'RAW'
+[43:eventselection-run3]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[43:eventselection-run3]: [INFO] Setting metadata O2Version to '1.2.0'
+[43:eventselection-run3]: [INFO] Setting metadata ROOTVersion to '6.32.06'
+[43:eventselection-run3]: [INFO] Setting metadata RecoPassName to 'apass5'
+[43:eventselection-run3]: [INFO] Setting metadata Run to '3'
+[43:eventselection-run3]: [INFO] Event selection autoconfiguring from metadata. Availability of info for Run 2/3 is 1
+[43:eventselection-run3]: [INFO] Metadata successfully read in. Is this Run 3? 1 - will self-configure.
+[44:its-pid]: [INFO] Setting metadata AnchorPassName to ''
+[44:its-pid]: [INFO] Setting metadata AnchorProduction to ''
+[44:its-pid]: [INFO] Setting metadata DataType to 'RAW'
+[44:its-pid]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[44:its-pid]: [INFO] Setting metadata O2Version to '1.2.0'
+[44:its-pid]: [INFO] Setting metadata ROOTVersion to '6.32.06'
+[44:its-pid]: [INFO] Setting metadata RecoPassName to 'apass5'
+[44:its-pid]: [INFO] Setting metadata Run to '3'
+[52:q-vectors-table]: [INFO] Setting metadata AnchorPassName to ''
+[52:q-vectors-table]: [INFO] Setting metadata AnchorProduction to ''
+[52:q-vectors-table]: [INFO] Setting metadata DataType to 'RAW'
+[52:q-vectors-table]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[52:q-vectors-table]: [INFO] Setting metadata O2Version to '1.2.0'
+[52:q-vectors-table]: [INFO] Setting metadata ROOTVersion to '6.32.06'
+[52:q-vectors-table]: [INFO] Setting metadata RecoPassName to 'apass5'
+[52:q-vectors-table]: [INFO] Setting metadata Run to '3'
+[39:internal-dpl-clock]: [INFO] Instrumenting crash signals
+[43:eventselection-run3]: [INFO] Instrumenting crash signals
+[43:eventselection-run3]: [INFO] Spawning new device eventselection-run3 in process with pid 43
+[43:eventselection-run3]: [10:01:32][INFO] 
+[43:eventselection-run3]:       ______      _    _______  _________ 
+[43:eventselection-run3]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[43:eventselection-run3]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[43:eventselection-run3]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[43:eventselection-run3]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[43:eventselection-run3]: 
+[43:eventselection-run3]: [10:01:32][STATE] Starting FairMQ state machine --> IDLE
+[43:eventselection-run3]: [10:01:32][STATE] IDLE ---> INITIALIZING DEVICE
+[43:eventselection-run3]: [10:01:32][INFO] Init CcdApi with UserAgentID: o2-analysis-eve/o2-analysis-event-selection-service@43 target/Linux_x86_64 init/1792137692313 id/aenderic@stbc-i2.nikhef.nl session/NveLLk9N, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[43:eventselection-run3]: [10:01:32][INFO] Init CcdApi with UserAgentID: o2-analysis-eve/o2-analysis-event-selection-service@43 target/Linux_x86_64 init/1792137692313 id/aenderic@stbc-i2.nikhef.nl session/NveLLk9N, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[43:eventselection-run3]: [10:01:32][INFO] From metadata this data is from Run 3
+[43:eventselection-run3]: [10:01:32][INFO] Auto-enabling table: BcSels
+[43:eventselection-run3]: [10:01:32][INFO] Auto-enabling table: EvSels
+[43:eventselection-run3]: [10:01:32][INFO] BC Selection / Autodetection for aod::BcSels: subscription present, will generate.
+[43:eventselection-run3]: [10:01:32][INFO] From metadata this data is from Data
+[43:eventselection-run3]: [10:01:32][INFO] Auto-enabling table: EvSels
+[43:eventselection-run3]: [10:01:32][INFO] Event Selection / Autodetecting for aod::EvSels: subscription present, will generate.
+[43:eventselection-run3]: [10:01:32][INFO] From metadata this data is from Data
+[43:eventselection-run3]: [10:01:32][INFO] Autosetting the MC mode based on metadata (isMC? 0)
+[43:eventselection-run3]: [10:01:32][INFO] From metadata this data is from Data
+[43:eventselection-run3]: [10:01:32][INFO] Auto-enabling table: BcSels
+[43:eventselection-run3]: [10:01:32][INFO] Auto-enabling table: EvSels
+[43:eventselection-run3]: [10:01:32][INFO] Luminosity / Autodetection for aod::BcSels: subscription present, will generate.
+[53:tof-pid-merge]: [INFO] Setting metadata AnchorPassName to ''
+[53:tof-pid-merge]: [INFO] Setting metadata AnchorProduction to ''
+[53:tof-pid-merge]: [INFO] Setting metadata DataType to 'RAW'
+[53:tof-pid-merge]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[53:tof-pid-merge]: [INFO] Setting metadata O2Version to '1.2.0'
+[53:tof-pid-merge]: [INFO] Setting metadata ROOTVersion to '6.32.06'
+[53:tof-pid-merge]: [INFO] Setting metadata RecoPassName to 'apass5'
+[53:tof-pid-merge]: [INFO] Setting metadata Run to '3'
+[39:internal-dpl-clock]: [INFO] Spawning new device internal-dpl-clock in process with pid 39
+[39:internal-dpl-clock]: [10:01:32][INFO] 
+[39:internal-dpl-clock]:       ______      _    _______  _________ 
+[39:internal-dpl-clock]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[39:internal-dpl-clock]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[39:internal-dpl-clock]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[39:internal-dpl-clock]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[39:internal-dpl-clock]: 
+[39:internal-dpl-clock]: [10:01:32][STATE] Starting FairMQ state machine --> IDLE
+[39:internal-dpl-clock]: [10:01:32][STATE] IDLE ---> INITIALIZING DEVICE
+[39:internal-dpl-clock]: [10:01:32][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[39:internal-dpl-clock]: [10:01:32][STATE] INITIALIZED ---> BINDING
+[39:internal-dpl-clock]: [10:01:32][STATE] BINDING ---> BOUND
+[39:internal-dpl-clock]: [10:01:32][STATE] BOUND ---> CONNECTING
+[39:internal-dpl-clock]: [10:01:32][STATE] CONNECTING ---> DEVICE READY
+[39:internal-dpl-clock]: [10:01:32][STATE] DEVICE READY ---> INITIALIZING TASK
+[39:internal-dpl-clock]: [10:01:32][STATE] INITIALIZING TASK ---> READY
+[39:internal-dpl-clock]: [10:01:32][STATE] READY ---> RUNNING
+[39:internal-dpl-clock]: [10:01:32][INFO] fair::mq::Device running...
+[39:internal-dpl-clock]: [10:01:32][INFO] LHCPeriod is not available, using current month OCT
+[45:pid-tpc-service]: [INFO] Setting metadata AnchorPassName to ''
+[39:internal-dpl-clock]: [10:01:32][INFO] Correctly handshaken websocket connection.
+[INFO] Controller for internal-dpl-aod-reader not yet available.
+[45:pid-tpc-service]: [INFO] Setting metadata AnchorProduction to ''
+[45:pid-tpc-service]: [INFO] Setting metadata DataType to 'RAW'
+[45:pid-tpc-service]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[45:pid-tpc-service]: [INFO] Setting metadata O2Version to '1.2.0'
+[45:pid-tpc-service]: [INFO] Setting metadata ROOTVersion to '6.32.06'
+[45:pid-tpc-service]: [INFO] Setting metadata RecoPassName to 'apass5'
+[45:pid-tpc-service]: [INFO] Setting metadata Run to '3'
+[47:propagation-service]: [INFO] Instrumenting crash signals
+[47:propagation-service]: [INFO] Spawning new device propagation-service in process with pid 47
+[47:propagation-service]: [10:01:32][INFO] 
+[47:propagation-service]:       ______      _    _______  _________ 
+[47:propagation-service]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[47:propagation-service]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[47:propagation-service]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[47:propagation-service]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[47:propagation-service]: 
+[47:propagation-service]: [10:01:32][STATE] Starting FairMQ state machine --> IDLE
+[47:propagation-service]: [10:01:32][STATE] IDLE ---> INITIALIZING DEVICE
+[47:propagation-service]: [10:01:32][INFO] Init CcdApi with UserAgentID: o2-analysis-pro/o2-analysis-propagationservice@47 target/Linux_x86_64 init/1792137692768 id/aenderic@stbc-i2.nikhef.nl session/v8A4t8oj, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[47:propagation-service]: [10:01:32][INFO] Init CcdApi with UserAgentID: o2-analysis-pro/o2-analysis-propagationservice@47 target/Linux_x86_64 init/1792137692768 id/aenderic@stbc-i2.nikhef.nl session/v8A4t8oj, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[47:propagation-service]: [10:01:32][INFO]  Track propagation table detection results:
+[47:propagation-service]: [10:01:32][INFO]  ---> Will generate Tracks table.
+[47:propagation-service]: [10:01:32][INFO]  ---> Will generate TracksDCA table.
+[44:its-pid]: [INFO] Instrumenting crash signals
+[44:its-pid]: [INFO] Spawning new device its-pid in process with pid 44
+[44:its-pid]: [10:01:32][INFO] 
+[44:its-pid]:       ______      _    _______  _________ 
+[44:its-pid]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[44:its-pid]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[44:its-pid]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[44:its-pid]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[44:its-pid]: 
+[44:its-pid]: [10:01:32][STATE] Starting FairMQ state machine --> IDLE
+[44:its-pid]: [10:01:32][STATE] IDLE ---> INITIALIZING DEVICE
+[44:its-pid]: [10:01:32][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-its@44 target/Linux_x86_64 init/1792137692965 id/aenderic@stbc-i2.nikhef.nl session/4Ey2UGgF, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[44:its-pid]: [10:01:32][INFO] From metadata this data is from Data
+[44:its-pid]: [10:01:32][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[44:its-pid]: [10:01:32][STATE] INITIALIZED ---> BINDING
+[44:its-pid]: [10:01:32][STATE] BINDING ---> BOUND
+[44:its-pid]: [10:01:32][STATE] BOUND ---> CONNECTING
+[44:its-pid]: [10:01:32][STATE] CONNECTING ---> DEVICE READY
+[44:its-pid]: [10:01:32][STATE] DEVICE READY ---> INITIALIZING TASK
+[44:its-pid]: [10:01:32][STATE] INITIALIZING TASK ---> READY
+[44:its-pid]: [10:01:32][STATE] READY ---> RUNNING
+[44:its-pid]: [10:01:32][INFO] fair::mq::Device running...
+[44:its-pid]: [10:01:32][INFO] LHCPeriod is not available, using current month OCT
+[44:its-pid]: [10:01:32][INFO] Correctly handshaken websocket connection.
+[42:internal-dpl-aod-index-builder]: [INFO] Spawning new device internal-dpl-aod-index-builder in process with pid 42
+[42:internal-dpl-aod-index-builder]: [10:01:33][INFO] 
+[42:internal-dpl-aod-index-builder]:       ______      _    _______  _________ 
+[42:internal-dpl-aod-index-builder]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[42:internal-dpl-aod-index-builder]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[42:internal-dpl-aod-index-builder]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[42:internal-dpl-aod-index-builder]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[42:internal-dpl-aod-index-builder]: 
+[42:internal-dpl-aod-index-builder]: [10:01:33][STATE] Starting FairMQ state machine --> IDLE
+[46:ft0-corrected-table]: [INFO] Instrumenting crash signals
+[46:ft0-corrected-table]: [INFO] Spawning new device ft0-corrected-table in process with pid 46
+[46:ft0-corrected-table]: [10:01:33][INFO] 
+[46:ft0-corrected-table]:       ______      _    _______  _________ 
+[46:ft0-corrected-table]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[46:ft0-corrected-table]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[46:ft0-corrected-table]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[46:ft0-corrected-table]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[46:ft0-corrected-table]: 
+[46:ft0-corrected-table]: [10:01:33][STATE] Starting FairMQ state machine --> IDLE
+[46:ft0-corrected-table]: [10:01:33][STATE] IDLE ---> INITIALIZING DEVICE
+[42:internal-dpl-aod-index-builder]: [10:01:33][STATE] IDLE ---> INITIALIZING DEVICE
+[46:ft0-corrected-table]: [10:01:33][INFO] Init CcdApi with UserAgentID: o2-analysis-ft0/o2-analysis-ft0-corrected-table@46 target/Linux_x86_64 init/1792137693332 id/aenderic@stbc-i2.nikhef.nl session/PkWrU7Te, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[46:ft0-corrected-table]: [10:01:33][INFO] Init CcdApi with UserAgentID: o2-analysis-ft0/o2-analysis-ft0-corrected-table@46 target/Linux_x86_64 init/1792137693332 id/aenderic@stbc-i2.nikhef.nl session/PkWrU7Te, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[46:ft0-corrected-table]: [10:01:33][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[46:ft0-corrected-table]: [10:01:33][STATE] INITIALIZED ---> BINDING
+[46:ft0-corrected-table]: [10:01:33][STATE] BINDING ---> BOUND
+[46:ft0-corrected-table]: [10:01:33][STATE] BOUND ---> CONNECTING
+[46:ft0-corrected-table]: [10:01:33][STATE] CONNECTING ---> DEVICE READY
+[46:ft0-corrected-table]: [10:01:33][STATE] DEVICE READY ---> INITIALIZING TASK
+[46:ft0-corrected-table]: [10:01:33][STATE] INITIALIZING TASK ---> READY
+[46:ft0-corrected-table]: [10:01:33][STATE] READY ---> RUNNING
+[46:ft0-corrected-table]: [10:01:33][INFO] fair::mq::Device running...
+[46:ft0-corrected-table]: [10:01:33][INFO] LHCPeriod is not available, using current month OCT
+[46:ft0-corrected-table]: [10:01:33][INFO] Correctly handshaken websocket connection.
+[42:internal-dpl-aod-index-builder]: [10:01:33][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[45:pid-tpc-service]: [INFO] Instrumenting crash signals
+[42:internal-dpl-aod-index-builder]: [10:01:33][STATE] INITIALIZED ---> BINDING
+[42:internal-dpl-aod-index-builder]: [10:01:33][STATE] BINDING ---> BOUND
+[42:internal-dpl-aod-index-builder]: [10:01:33][STATE] BOUND ---> CONNECTING
+[42:internal-dpl-aod-index-builder]: [10:01:33][STATE] CONNECTING ---> DEVICE READY
+[42:internal-dpl-aod-index-builder]: [10:01:33][STATE] DEVICE READY ---> INITIALIZING TASK
+[42:internal-dpl-aod-index-builder]: [10:01:33][STATE] INITIALIZING TASK ---> READY
+[42:internal-dpl-aod-index-builder]: [10:01:33][STATE] READY ---> RUNNING
+[42:internal-dpl-aod-index-builder]: [10:01:33][INFO] fair::mq::Device running...
+[42:internal-dpl-aod-index-builder]: [10:01:33][INFO] LHCPeriod is not available, using current month OCT
+[49:track-selection]: [INFO] Instrumenting crash signals
+[42:internal-dpl-aod-index-builder]: [10:01:33][INFO] Correctly handshaken websocket connection.
+[50:mult-cent-table]: [INFO] Instrumenting crash signals
+[51:tof-event-time]: [INFO] Setting metadata AnchorPassName to ''
+[51:tof-event-time]: [INFO] Setting metadata AnchorProduction to ''
+[51:tof-event-time]: [INFO] Setting metadata DataType to 'RAW'
+[51:tof-event-time]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[51:tof-event-time]: [INFO] Setting metadata O2Version to '1.2.0'
+[51:tof-event-time]: [INFO] Setting metadata ROOTVersion to '6.32.06'
+[51:tof-event-time]: [INFO] Setting metadata RecoPassName to 'apass5'
+[51:tof-event-time]: [INFO] Setting metadata Run to '3'
+[48:tof-signal]: [INFO] Setting metadata AnchorPassName to ''
+[48:tof-signal]: [INFO] Setting metadata AnchorProduction to ''
+[48:tof-signal]: [INFO] Setting metadata DataType to 'RAW'
+[48:tof-signal]: [INFO] Setting metadata LPMProductionTag to 'LHC23zzh'
+[48:tof-signal]: [INFO] Setting metadata O2Version to '1.2.0'
+[48:tof-signal]: [INFO] Setting metadata ROOTVersion to '6.32.06'
+[48:tof-signal]: [INFO] Setting metadata RecoPassName to 'apass5'
+[48:tof-signal]: [INFO] Setting metadata Run to '3'
+[49:track-selection]: [INFO] Spawning new device track-selection in process with pid 49
+[49:track-selection]: [10:01:34][INFO] 
+[49:track-selection]:       ______      _    _______  _________ 
+[49:track-selection]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[49:track-selection]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[49:track-selection]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[49:track-selection]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[49:track-selection]: 
+[49:track-selection]: [10:01:34][STATE] Starting FairMQ state machine --> IDLE
+[49:track-selection]: [10:01:34][STATE] IDLE ---> INITIALIZING DEVICE
+[49:track-selection]: [10:01:34][INFO] Auto-enabling table: TrackSelection
+[49:track-selection]: [10:01:34][INFO] Auto-enabling table: TrackSelectionExtension
+[49:track-selection]: [10:01:34][INFO] setting up getGlobalTrackSelectionRun3ITSMatch(TrackSelection::GlobalTrackRun3ITSMatching::Run3ITSibAny, 0);
+[49:track-selection]: [10:01:34][INFO] Track selection, set track type: 254
+[49:track-selection]: [10:01:34][INFO] Track selection, set pt range: 0.1 - 1e+10
+[49:track-selection]: [10:01:34][INFO] Track selection, set eta range: -0.8 - 0.8
+[49:track-selection]: [10:01:34][INFO] Track selection, set require ITS refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require TPC refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require golden chi2: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows TPC: 70
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster TPC: 4
+[49:track-selection]: [10:01:34][INFO] Track selection, set require hits in ITS layers: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster ITS: 36
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA z: 2
+[49:track-selection]: [10:01:34][INFO] Track selection, set track type: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require hits in ITS layers: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set pt range: 0.1 - 1e+10
+[49:track-selection]: [10:01:34][INFO] Track selection, set eta range: -1 - 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set track type: 1
+[49:track-selection]: [10:01:34][INFO] Track selection:
+[49:track-selection]: [10:01:34][INFO] TrackType == 1
+[49:track-selection]: [10:01:34][INFO] PtRange in [0.1, 1e+10]
+[49:track-selection]: [10:01:34][INFO] EtaRange in [-1, 1]
+[49:track-selection]: [10:01:34][INFO] TPCNCls > 0
+[49:track-selection]: [10:01:34][INFO] TPCCrossedRows > 70
+[49:track-selection]: [10:01:34][INFO] TPCCrossedRowsOverNCls > 0.8
+[49:track-selection]: [10:01:34][INFO] TPCChi2NDF < 4
+[49:track-selection]: [10:01:34][INFO] TPCRefit == 1
+[49:track-selection]: [10:01:34][INFO] ITSNCls > 0
+[49:track-selection]: [10:01:34][INFO] ITSChi2NDF < 36
+[49:track-selection]: [10:01:34][INFO] ITSRefit == 1
+[49:track-selection]: [10:01:34][INFO] ITSHits == 
+[49:track-selection]: [10:01:34][INFO] GoldenChi2 == 1
+[49:track-selection]: [10:01:34][INFO] DCAxy < 1e+10
+[49:track-selection]: [10:01:34][INFO] DCAz < 2
+[49:track-selection]: [10:01:34][INFO] TPCFracSharedCls < 1e+10
+[49:track-selection]: [10:01:34][INFO] Track selection, set track type: 254
+[49:track-selection]: [10:01:34][INFO] Track selection, set pt range: 0.1 - 1e+10
+[49:track-selection]: [10:01:34][INFO] Track selection, set eta range: -0.8 - 0.8
+[49:track-selection]: [10:01:34][INFO] Track selection, set require ITS refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require TPC refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require golden chi2: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows TPC: 70
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster TPC: 4
+[49:track-selection]: [10:01:34][INFO] Track selection, set require hits in ITS layers: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster ITS: 36
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA z: 2
+[49:track-selection]: [10:01:34][INFO] Track selection, set require no hits in ITS layers
+[49:track-selection]: [10:01:34][INFO] Track selection, set require hits in ITS layers: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set pt range: 0.1 - 1e+10
+[49:track-selection]: [10:01:34][INFO] Track selection, set eta range: -1 - 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set track type: 254
+[49:track-selection]: [10:01:34][INFO] Track selection, set pt range: 0.1 - 1e+10
+[49:track-selection]: [10:01:34][INFO] Track selection, set eta range: -0.8 - 0.8
+[49:track-selection]: [10:01:34][INFO] Track selection, set require ITS refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require TPC refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require golden chi2: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows TPC: 70
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster TPC: 4
+[49:track-selection]: [10:01:34][INFO] Track selection, set require hits in ITS layers: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster ITS: 36
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA z: 2
+[49:track-selection]: [10:01:34][INFO] Track selection, set track type: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require hits in ITS layers: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set track type: 254
+[49:track-selection]: [10:01:34][INFO] Track selection, set pt range: 0.1 - 1e+10
+[49:track-selection]: [10:01:34][INFO] Track selection, set eta range: -0.8 - 0.8
+[49:track-selection]: [10:01:34][INFO] Track selection, set require ITS refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require TPC refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require golden chi2: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows TPC: 70
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster TPC: 4
+[49:track-selection]: [10:01:34][INFO] Track selection, set require hits in ITS layers: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster ITS: 36
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA z: 2
+[49:track-selection]: [10:01:34][INFO] Track selection, set track type: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require hits in ITS layers: 2
+[49:track-selection]: [10:01:34][INFO] Track selection, set track type: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set pt range: 0.1 - 1e+10
+[49:track-selection]: [10:01:34][INFO] Track selection, set eta range: -0.8 - 0.8
+[49:track-selection]: [10:01:34][INFO] Track selection, set require ITS refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require TPC refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require golden chi2: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows TPC: 70
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster TPC: 4
+[49:track-selection]: [10:01:34][INFO] Track selection, set require hits in ITS layers: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster ITS: 36
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA z: 2
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA xy: 0.25
+[49:track-selection]: [10:01:34][INFO] Track selection, set track type: 254
+[49:track-selection]: [10:01:34][INFO] Track selection, set pt range: 0.1 - 1e+10
+[49:track-selection]: [10:01:34][INFO] Track selection, set eta range: -0.8 - 0.8
+[49:track-selection]: [10:01:34][INFO] Track selection, set require ITS refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require TPC refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require golden chi2: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows TPC: 70
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster TPC: 4
+[49:track-selection]: [10:01:34][INFO] Track selection, set require hits in ITS layers: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster ITS: 36
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA z: 2
+[49:track-selection]: [10:01:34][INFO] Track selection, set track type: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require hits in ITS layers: 2
+[49:track-selection]: [10:01:34][INFO] setting up filtBit5 = getJEGlobalTrackSelectionRun2();
+[49:track-selection]: [10:01:34][INFO] Track selection, set track type: 254
+[49:track-selection]: [10:01:34][INFO] Track selection, set require ITS refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require TPC refit: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set require golden chi2: 1
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows TPC: 70
+[49:track-selection]: [10:01:34][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster TPC: 4
+[49:track-selection]: [10:01:34][INFO] Track selection, set max chi2 per cluster ITS: 36
+[49:track-selection]: [10:01:34][INFO] Track selection, set pt range: 0.15 - 1000
+[49:track-selection]: [10:01:34][INFO] Track selection, set eta range: -0.9 - 0.9
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA xy pt dep: 1e+10
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA xy: 2.4
+[49:track-selection]: [10:01:34][INFO] Track selection, set max DCA z: 3.2
+[49:track-selection]: [10:01:34][INFO] Track selection, set require hits in ITS layers: 0
+[49:track-selection]: [10:01:34][INFO] Track selection, set max fraction of shared clusters TPC: 0.4
+[49:track-selection]: [10:01:34][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[49:track-selection]: [10:01:34][STATE] INITIALIZED ---> BINDING
+[49:track-selection]: [10:01:34][STATE] BINDING ---> BOUND
+[49:track-selection]: [10:01:34][STATE] BOUND ---> CONNECTING
+[49:track-selection]: [10:01:34][STATE] CONNECTING ---> DEVICE READY
+[49:track-selection]: [10:01:34][STATE] DEVICE READY ---> INITIALIZING TASK
+[48:tof-signal]: [INFO] Instrumenting crash signals
+[49:track-selection]: [10:01:34][STATE] INITIALIZING TASK ---> READY
+[49:track-selection]: [10:01:34][STATE] READY ---> RUNNING
+[49:track-selection]: [10:01:34][INFO] fair::mq::Device running...
+[49:track-selection]: [10:01:34][INFO] LHCPeriod is not available, using current month OCT
+[49:track-selection]: [10:01:34][INFO] Correctly handshaken websocket connection.
+[48:tof-signal]: [INFO] Spawning new device tof-signal in process with pid 48
+[48:tof-signal]: [10:01:34][INFO] 
+[48:tof-signal]:       ______      _    _______  _________ 
+[48:tof-signal]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[48:tof-signal]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[48:tof-signal]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[48:tof-signal]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[48:tof-signal]: 
+[48:tof-signal]: [10:01:34][STATE] Starting FairMQ state machine --> IDLE
+[48:tof-signal]: [10:01:34][STATE] IDLE ---> INITIALIZING DEVICE
+[45:pid-tpc-service]: [INFO] Spawning new device pid-tpc-service in process with pid 45
+[48:tof-signal]: [10:01:34][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tof-merge@48 target/Linux_x86_64 init/1792137694386 id/aenderic@stbc-i2.nikhef.nl session/eBnjNjbr, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[48:tof-signal]: [10:01:34][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tof-merge@48 target/Linux_x86_64 init/1792137694386 id/aenderic@stbc-i2.nikhef.nl session/eBnjNjbr, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[48:tof-signal]: [10:01:34][INFO] Getting pass from metadata
+[48:tof-signal]: [10:01:34][INFO] From metadata this data is from Data
+[48:tof-signal]: [10:01:34][INFO] Passed autodetect mode for pass. Taking 'apass5'
+[48:tof-signal]: [10:01:34][INFO] Using parameter collection, starting from pass 'apass5'
+[48:tof-signal]: [10:01:34][INFO] From metadata this data is from Data
+[48:tof-signal]: [10:01:34][INFO]  test getTimeShift at 0 pos: 0
+[48:tof-signal]: [10:01:34][INFO] From metadata this data is from Data
+[48:tof-signal]: [10:01:34][INFO]  test getTimeShift at 0 neg: 0
+[48:tof-signal]: [10:01:34][INFO] Parametrization at init time:
+[48:tof-signal]: [10:01:34][INFO] Parameters 'TOFResoParamsV3'
+[48:tof-signal]: [10:01:34][INFO] Parameter 0/12 time_resolution is 60
+[48:tof-signal]: [10:01:34][INFO] Parameter 1/12 time_resolution is 60
+[48:tof-signal]: [10:01:34][INFO] Parameter 2/12 time_resolution is 60
+[48:tof-signal]: [10:01:34][INFO] Parameter 3/12 time_resolution is 60
+[48:tof-signal]: [10:01:34][INFO] Parameter 4/12 time_resolution is 60
+[48:tof-signal]: [10:01:34][INFO] Parameter 5/12 time_resolution is 60
+[48:tof-signal]: [10:01:34][INFO] Parameter 6/12 time_resolution is 60
+[48:tof-signal]: [10:01:34][INFO] Parameter 7/12 time_resolution is 60
+[48:tof-signal]: [10:01:34][INFO] Parameter 8/12 time_resolution is 60
+[48:tof-signal]: [10:01:34][INFO] Parameter 9/12 time_resolution is 60
+[48:tof-signal]: [10:01:34][INFO] Parameter 10/12 time_resolution is 60
+[48:tof-signal]: [10:01:34][INFO] Parameter 11/12 time_resolution is 60
+[48:tof-signal]: [10:01:34][INFO] Parameter 12/12 time_resolution is 60
+[48:tof-signal]: [10:01:34][INFO] TOF momentum shift parameters
+[48:tof-signal]: [10:01:34][INFO] etaN: 0
+[48:tof-signal]: [10:01:34][INFO] etaStart: 0
+[48:tof-signal]: [10:01:34][INFO] etaStop: 0
+[48:tof-signal]: [10:01:34][INFO] content size 0
+[48:tof-signal]: [10:01:34][INFO] Using no time shift for Pos vs correction 0
+[48:tof-signal]: [10:01:34][INFO] Using no time shift for Neg vs correction 0
+[48:tof-signal]: [10:01:34][INFO] Resolution function for El is not defined yet
+[48:tof-signal]: [10:01:34][INFO] Resolution function for Mu is not defined yet
+[48:tof-signal]: [10:01:34][INFO] Resolution function for Pi is not defined yet
+[48:tof-signal]: [10:01:34][INFO] Resolution function for Ka is not defined yet
+[48:tof-signal]: [10:01:34][INFO] Resolution function for Pr is not defined yet
+[48:tof-signal]: [10:01:34][INFO] Resolution function for De is not defined yet
+[48:tof-signal]: [10:01:34][INFO] Resolution function for Tr is not defined yet
+[48:tof-signal]: [10:01:34][INFO] Resolution function for He is not defined yet
+[48:tof-signal]: [10:01:34][INFO] Resolution function for Al is not defined yet
+[48:tof-signal]: [10:01:34][INFO] Table TOFSignal enabled!
+[48:tof-signal]: [10:01:34][INFO] Autodetecting process functions
+[48:tof-signal]: [10:01:34][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[48:tof-signal]: [10:01:34][STATE] INITIALIZED ---> BINDING
+[48:tof-signal]: [10:01:34][STATE] BINDING ---> BOUND
+[45:pid-tpc-service]: [10:01:34][INFO] 
+[45:pid-tpc-service]:       ______      _    _______  _________ 
+[45:pid-tpc-service]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[45:pid-tpc-service]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[45:pid-tpc-service]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[45:pid-tpc-service]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[45:pid-tpc-service]: 
+[45:pid-tpc-service]: [10:01:34][STATE] Starting FairMQ state machine --> IDLE
+[45:pid-tpc-service]: [10:01:34][STATE] IDLE ---> INITIALIZING DEVICE
+[45:pid-tpc-service]: [10:01:34][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tpc-service@45 target/Linux_x86_64 init/1792137694498 id/aenderic@stbc-i2.nikhef.nl session/RWJmJ2lB, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[45:pid-tpc-service]: [10:01:34][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tpc-service@45 target/Linux_x86_64 init/1792137694498 id/aenderic@stbc-i2.nikhef.nl session/RWJmJ2lB, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[45:pid-tpc-service]: [10:01:34][INFO] ***************************************************
+[45:pid-tpc-service]: [10:01:34][INFO]  the skipTPConly flag has a value of -1! 
+[45:pid-tpc-service]: [10:01:34][INFO]  ---> autodetecting TPC-only track necessity now 
+[45:pid-tpc-service]: [10:01:34][INFO] ***************************************************
+[45:pid-tpc-service]: [10:01:34][INFO] Will search for #0 device requiring TPC PID for TPC only: photon-conversion-builder
+[45:pid-tpc-service]: [10:01:34][INFO] Will search for #1 device requiring TPC PID for TPC only: dalitz-selection
+[45:pid-tpc-service]: [10:01:34][INFO] ***************************************************
+[45:pid-tpc-service]: [10:01:34][INFO]  ---> propagation service detected, checking if photons enabled...
+[45:pid-tpc-service]: [10:01:34][INFO]  ---> propagation service: photons disabled, TPC PID not required for TPC-only tracks
+[45:pid-tpc-service]: [10:01:34][INFO] ***************************************************
+[45:pid-tpc-service]: [10:01:34][INFO] No need for TPC only information detected. Will not generate Nsigma for TPC only tracks
+[45:pid-tpc-service]: [10:01:34][INFO] If this is unexpected behaviour and a necessity was not identified, please add the
+[45:pid-tpc-service]: [10:01:34][INFO] corresponding task to the configurable 'devicesRequiringTPCOnlyPID' of this task
+[45:pid-tpc-service]: [10:01:34][INFO] To do that, please get in touch with core service wagon maintainers and ask:
+[45:pid-tpc-service]: [10:01:34][INFO] It is always best to use core service wagons instead of private copies
+[45:pid-tpc-service]: [10:01:34][INFO] ***************************************************
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: DEdxsCorrected
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCFullEl
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCFullMu
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-enabling table: pidTPCFullPi
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-enabling table: pidTPCFullKa
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-enabling table: pidTPCFullPr
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCFullDe
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCFullTr
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCFullHe
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCFullAl
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCEl
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCMu
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCPi
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCKa
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCPr
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCDe
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCTr
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCHe
+[45:pid-tpc-service]: [10:01:34][INFO] Auto-disabling table: pidTPCAl
+[45:pid-tpc-service]: [10:01:34][INFO] From metadata this data is from Data
+[45:pid-tpc-service]: [10:01:34][INFO] Automatically setting reco pass for TPC Response to apass5 from AO2D
+[45:pid-tpc-service]: [10:01:34][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[45:pid-tpc-service]: [10:01:34][STATE] INITIALIZED ---> BINDING
+[45:pid-tpc-service]: [10:01:34][STATE] BINDING ---> BOUND
+[45:pid-tpc-service]: [10:01:34][STATE] BOUND ---> CONNECTING
+[45:pid-tpc-service]: [10:01:34][STATE] CONNECTING ---> DEVICE READY
+[45:pid-tpc-service]: [10:01:34][STATE] DEVICE READY ---> INITIALIZING TASK
+[45:pid-tpc-service]: [10:01:34][STATE] INITIALIZING TASK ---> READY
+[45:pid-tpc-service]: [10:01:34][STATE] READY ---> RUNNING
+[45:pid-tpc-service]: [10:01:34][INFO] fair::mq::Device running...
+[45:pid-tpc-service]: [10:01:34][INFO] LHCPeriod is not available, using current month OCT
+[48:tof-signal]: [10:01:34][STATE] BOUND ---> CONNECTING
+[48:tof-signal]: [10:01:34][STATE] CONNECTING ---> DEVICE READY
+[48:tof-signal]: [10:01:34][STATE] DEVICE READY ---> INITIALIZING TASK
+[45:pid-tpc-service]: [10:01:34][INFO] Correctly handshaken websocket connection.
+[48:tof-signal]: [10:01:34][STATE] INITIALIZING TASK ---> READY
+[48:tof-signal]: [10:01:34][STATE] READY ---> RUNNING
+[48:tof-signal]: [10:01:34][INFO] fair::mq::Device running...
+[48:tof-signal]: [10:01:34][INFO] LHCPeriod is not available, using current month OCT
+[48:tof-signal]: [10:01:34][INFO] Correctly handshaken websocket connection.
+[59:internal-dpl-injected-dummy-sink]: [INFO] Instrumenting crash signals
+[59:internal-dpl-injected-dummy-sink]: [INFO] Spawning new device internal-dpl-injected-dummy-sink in process with pid 59
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][INFO] 
+[59:internal-dpl-injected-dummy-sink]:       ______      _    _______  _________ 
+[59:internal-dpl-injected-dummy-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[59:internal-dpl-injected-dummy-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[59:internal-dpl-injected-dummy-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[59:internal-dpl-injected-dummy-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[59:internal-dpl-injected-dummy-sink]: 
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][STATE] Starting FairMQ state machine --> IDLE
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][STATE] IDLE ---> INITIALIZING DEVICE
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][STATE] INITIALIZED ---> BINDING
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][STATE] BINDING ---> BOUND
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][STATE] BOUND ---> CONNECTING
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][STATE] CONNECTING ---> DEVICE READY
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][STATE] DEVICE READY ---> INITIALIZING TASK
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][STATE] INITIALIZING TASK ---> READY
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][STATE] READY ---> RUNNING
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][INFO] fair::mq::Device running...
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][INFO] LHCPeriod is not available, using current month OCT
+[59:internal-dpl-injected-dummy-sink]: [10:01:34][INFO] Correctly handshaken websocket connection.
+[50:mult-cent-table]: [INFO] Spawning new device mult-cent-table in process with pid 50
+[55:flow-pid-cme]: [INFO] Instrumenting crash signals
+[50:mult-cent-table]: [10:01:34][INFO] 
+[50:mult-cent-table]:       ______      _    _______  _________ 
+[50:mult-cent-table]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[50:mult-cent-table]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[50:mult-cent-table]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[50:mult-cent-table]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[50:mult-cent-table]: 
+[58:internal-dpl-aod-writer]: [INFO] Instrumenting crash signals
+[50:mult-cent-table]: [10:01:34][STATE] Starting FairMQ state machine --> IDLE
+[55:flow-pid-cme]: [INFO] Spawning new device flow-pid-cme in process with pid 55
+[57:internal-dpl-aod-global-analysis-file-sink]: [INFO] Instrumenting crash signals
+[51:tof-event-time]: [INFO] Instrumenting crash signals
+[55:flow-pid-cme]: [10:01:34][INFO] 
+[55:flow-pid-cme]:       ______      _    _______  _________ 
+[55:flow-pid-cme]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[55:flow-pid-cme]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[55:flow-pid-cme]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[55:flow-pid-cme]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[55:flow-pid-cme]: 
+[55:flow-pid-cme]: [10:01:34][STATE] Starting FairMQ state machine --> IDLE
+[55:flow-pid-cme]: [10:01:34][STATE] IDLE ---> INITIALIZING DEVICE
+[55:flow-pid-cme]: [10:01:34][INFO] Init CcdApi with UserAgentID: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@55 target/Linux_x86_64 init/1792137694903 id/aenderic@stbc-i2.nikhef.nl session/bbPQ10e9, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[55:flow-pid-cme]: [10:01:34][INFO] Init CcdApi with UserAgentID: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@55 target/Linux_x86_64 init/1792137694903 id/aenderic@stbc-i2.nikhef.nl session/bbPQ10e9, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[53:tof-pid-merge]: [INFO] Instrumenting crash signals
+[58:internal-dpl-aod-writer]: [INFO] Spawning new device internal-dpl-aod-writer in process with pid 58
+[58:internal-dpl-aod-writer]: [10:01:35][INFO] 
+[58:internal-dpl-aod-writer]:       ______      _    _______  _________ 
+[58:internal-dpl-aod-writer]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[58:internal-dpl-aod-writer]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[58:internal-dpl-aod-writer]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[58:internal-dpl-aod-writer]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[58:internal-dpl-aod-writer]: 
+[58:internal-dpl-aod-writer]: [10:01:35][STATE] Starting FairMQ state machine --> IDLE
+[58:internal-dpl-aod-writer]: [10:01:35][STATE] IDLE ---> INITIALIZING DEVICE
+[58:internal-dpl-aod-writer]: [10:01:35][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[58:internal-dpl-aod-writer]: [10:01:35][STATE] INITIALIZED ---> BINDING
+[58:internal-dpl-aod-writer]: [10:01:35][STATE] BINDING ---> BOUND
+[58:internal-dpl-aod-writer]: [10:01:35][STATE] BOUND ---> CONNECTING
+[58:internal-dpl-aod-writer]: [10:01:35][STATE] CONNECTING ---> DEVICE READY
+[58:internal-dpl-aod-writer]: [10:01:35][STATE] DEVICE READY ---> INITIALIZING TASK
+[58:internal-dpl-aod-writer]: [10:01:35][STATE] INITIALIZING TASK ---> READY
+[58:internal-dpl-aod-writer]: [10:01:35][STATE] READY ---> RUNNING
+[58:internal-dpl-aod-writer]: [10:01:35][INFO] fair::mq::Device running...
+[58:internal-dpl-aod-writer]: [10:01:35][INFO] LHCPeriod is not available, using current month OCT
+[58:internal-dpl-aod-writer]: [10:01:35][INFO] Correctly handshaken websocket connection.
+[57:internal-dpl-aod-global-analysis-file-sink]: [INFO] Spawning new device internal-dpl-aod-global-analysis-file-sink in process with pid 57
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][INFO] 
+[57:internal-dpl-aod-global-analysis-file-sink]:       ______      _    _______  _________ 
+[57:internal-dpl-aod-global-analysis-file-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[57:internal-dpl-aod-global-analysis-file-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[57:internal-dpl-aod-global-analysis-file-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[57:internal-dpl-aod-global-analysis-file-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[57:internal-dpl-aod-global-analysis-file-sink]: 
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][STATE] Starting FairMQ state machine --> IDLE
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][STATE] IDLE ---> INITIALIZING DEVICE
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][STATE] INITIALIZED ---> BINDING
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][STATE] BINDING ---> BOUND
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][STATE] BOUND ---> CONNECTING
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][STATE] CONNECTING ---> DEVICE READY
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][STATE] DEVICE READY ---> INITIALIZING TASK
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][STATE] INITIALIZING TASK ---> READY
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][STATE] READY ---> RUNNING
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][INFO] fair::mq::Device running...
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][INFO] LHCPeriod is not available, using current month OCT
+[57:internal-dpl-aod-global-analysis-file-sink]: [10:01:35][INFO] Correctly handshaken websocket connection.
+[52:q-vectors-table]: [INFO] Instrumenting crash signals
+[41:internal-dpl-aod-spawner]: [INFO] Instrumenting crash signals
+[41:internal-dpl-aod-spawner]: [INFO] Spawning new device internal-dpl-aod-spawner in process with pid 41
+[41:internal-dpl-aod-spawner]: [10:01:35][INFO] 
+[41:internal-dpl-aod-spawner]:       ______      _    _______  _________ 
+[41:internal-dpl-aod-spawner]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[41:internal-dpl-aod-spawner]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[41:internal-dpl-aod-spawner]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[41:internal-dpl-aod-spawner]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[41:internal-dpl-aod-spawner]: 
+[41:internal-dpl-aod-spawner]: [10:01:35][STATE] Starting FairMQ state machine --> IDLE
+[41:internal-dpl-aod-spawner]: [10:01:35][STATE] IDLE ---> INITIALIZING DEVICE
+[41:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[41:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:324: Detected CPU Name : znver2
+[41:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:325: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 -avx512bw +sse3 -pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[40:internal-dpl-aod-reader]: [INFO] Instrumenting crash signals
+[54:fill-p-i-dcolums]: [INFO] Instrumenting crash signals
+[56:q-a-process-cent]: [INFO] Instrumenting crash signals
+[54:fill-p-i-dcolums]: [INFO] Spawning new device fill-p-i-dcolums in process with pid 54
+[54:fill-p-i-dcolums]: [10:01:35][INFO] 
+[54:fill-p-i-dcolums]:       ______      _    _______  _________ 
+[54:fill-p-i-dcolums]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[54:fill-p-i-dcolums]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[54:fill-p-i-dcolums]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[54:fill-p-i-dcolums]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[54:fill-p-i-dcolums]: 
+[54:fill-p-i-dcolums]: [10:01:35][STATE] Starting FairMQ state machine --> IDLE
+[54:fill-p-i-dcolums]: [10:01:35][STATE] IDLE ---> INITIALIZING DEVICE
+[54:fill-p-i-dcolums]: [10:01:35][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[54:fill-p-i-dcolums]: [10:01:35][STATE] INITIALIZED ---> BINDING
+[54:fill-p-i-dcolums]: [10:01:35][STATE] BINDING ---> BOUND
+[54:fill-p-i-dcolums]: [10:01:35][STATE] BOUND ---> CONNECTING
+[54:fill-p-i-dcolums]: [10:01:35][STATE] CONNECTING ---> DEVICE READY
+[54:fill-p-i-dcolums]: [10:01:35][STATE] DEVICE READY ---> INITIALIZING TASK
+[54:fill-p-i-dcolums]: [10:01:35][STATE] INITIALIZING TASK ---> READY
+[54:fill-p-i-dcolums]: [10:01:35][STATE] READY ---> RUNNING
+[54:fill-p-i-dcolums]: [10:01:35][INFO] fair::mq::Device running...
+[54:fill-p-i-dcolums]: [10:01:35][INFO] LHCPeriod is not available, using current month OCT
+[54:fill-p-i-dcolums]: [10:01:35][INFO] Correctly handshaken websocket connection.
+[53:tof-pid-merge]: [INFO] Spawning new device tof-pid-merge in process with pid 53
+[53:tof-pid-merge]: [10:01:35][INFO] 
+[53:tof-pid-merge]:       ______      _    _______  _________ 
+[53:tof-pid-merge]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[53:tof-pid-merge]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[53:tof-pid-merge]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[53:tof-pid-merge]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[53:tof-pid-merge]: 
+[53:tof-pid-merge]: [10:01:35][STATE] Starting FairMQ state machine --> IDLE
+[53:tof-pid-merge]: [10:01:35][STATE] IDLE ---> INITIALIZING DEVICE
+[53:tof-pid-merge]: [10:01:35][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tof-merge@53 target/Linux_x86_64 init/1792137695761 id/aenderic@stbc-i2.nikhef.nl session/I7FpoF2U, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[53:tof-pid-merge]: [10:01:35][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tof-merge@53 target/Linux_x86_64 init/1792137695761 id/aenderic@stbc-i2.nikhef.nl session/I7FpoF2U, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[53:tof-pid-merge]: [10:01:35][INFO] Getting pass from metadata
+[53:tof-pid-merge]: [10:01:35][INFO] From metadata this data is from Data
+[53:tof-pid-merge]: [10:01:35][INFO] Passed autodetect mode for pass. Taking 'apass5'
+[53:tof-pid-merge]: [10:01:35][INFO] Using parameter collection, starting from pass 'apass5'
+[53:tof-pid-merge]: [10:01:35][INFO] From metadata this data is from Data
+[53:tof-pid-merge]: [10:01:35][INFO]  test getTimeShift at 0 pos: 0
+[53:tof-pid-merge]: [10:01:35][INFO] From metadata this data is from Data
+[53:tof-pid-merge]: [10:01:35][INFO]  test getTimeShift at 0 neg: 0
+[53:tof-pid-merge]: [10:01:35][INFO] Parametrization at init time:
+[53:tof-pid-merge]: [10:01:35][INFO] Parameters 'TOFResoParamsV3'
+[53:tof-pid-merge]: [10:01:35][INFO] Parameter 0/12 time_resolution is 60
+[53:tof-pid-merge]: [10:01:35][INFO] Parameter 1/12 time_resolution is 60
+[53:tof-pid-merge]: [10:01:35][INFO] Parameter 2/12 time_resolution is 60
+[53:tof-pid-merge]: [10:01:35][INFO] Parameter 3/12 time_resolution is 60
+[53:tof-pid-merge]: [10:01:35][INFO] Parameter 4/12 time_resolution is 60
+[53:tof-pid-merge]: [10:01:35][INFO] Parameter 5/12 time_resolution is 60
+[53:tof-pid-merge]: [10:01:35][INFO] Parameter 6/12 time_resolution is 60
+[53:tof-pid-merge]: [10:01:35][INFO] Parameter 7/12 time_resolution is 60
+[53:tof-pid-merge]: [10:01:35][INFO] Parameter 8/12 time_resolution is 60
+[53:tof-pid-merge]: [10:01:35][INFO] Parameter 9/12 time_resolution is 60
+[53:tof-pid-merge]: [10:01:35][INFO] Parameter 10/12 time_resolution is 60
+[53:tof-pid-merge]: [10:01:35][INFO] Parameter 11/12 time_resolution is 60
+[53:tof-pid-merge]: [10:01:35][INFO] Parameter 12/12 time_resolution is 60
+[53:tof-pid-merge]: [10:01:35][INFO] TOF momentum shift parameters
+[53:tof-pid-merge]: [10:01:35][INFO] etaN: 0
+[53:tof-pid-merge]: [10:01:35][INFO] etaStart: 0
+[53:tof-pid-merge]: [10:01:35][INFO] etaStop: 0
+[53:tof-pid-merge]: [10:01:35][INFO] content size 0
+[53:tof-pid-merge]: [10:01:35][INFO] Using no time shift for Pos vs correction 0
+[53:tof-pid-merge]: [10:01:35][INFO] Using no time shift for Neg vs correction 0
+[53:tof-pid-merge]: [10:01:35][INFO] Resolution function for El is not defined yet
+[53:tof-pid-merge]: [10:01:35][INFO] Resolution function for Mu is not defined yet
+[53:tof-pid-merge]: [10:01:35][INFO] Resolution function for Pi is not defined yet
+[53:tof-pid-merge]: [10:01:35][INFO] Resolution function for Ka is not defined yet
+[53:tof-pid-merge]: [10:01:35][INFO] Resolution function for Pr is not defined yet
+[53:tof-pid-merge]: [10:01:35][INFO] Resolution function for De is not defined yet
+[53:tof-pid-merge]: [10:01:35][INFO] Resolution function for Tr is not defined yet
+[53:tof-pid-merge]: [10:01:35][INFO] Resolution function for He is not defined yet
+[53:tof-pid-merge]: [10:01:35][INFO] Resolution function for Al is not defined yet
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFEl
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFFullEl
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFMu
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFFullMu
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFPi
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-enabling table: pidTOFFullPi
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFKa
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-enabling table: pidTOFFullKa
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFPr
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-enabling table: pidTOFFullPr
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFDe
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFFullDe
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFTr
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFFullTr
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFHe
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFFullHe
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFAl
+[53:tof-pid-merge]: [10:01:35][INFO] Auto-disabling table: pidTOFFullAl
+[53:tof-pid-merge]: [10:01:35][INFO] Autodetecting process functions for mass and beta
+[53:tof-pid-merge]: [10:01:35][INFO] From metadata this data is from Run 3
+[53:tof-pid-merge]: [10:01:35][INFO] ++ Enabled tables:
+[53:tof-pid-merge]: [10:01:35][INFO] ++  pidTOFFullPi is enabled
+[53:tof-pid-merge]: [10:01:35][INFO] ++  pidTOFFullKa is enabled
+[53:tof-pid-merge]: [10:01:35][INFO] ++  pidTOFFullPr is enabled
+[53:tof-pid-merge]: [10:01:35][INFO] No table for TOF mass and beta is required. Disabling beta and mass tables
+[53:tof-pid-merge]: [10:01:35][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[53:tof-pid-merge]: [10:01:35][STATE] INITIALIZED ---> BINDING
+[53:tof-pid-merge]: [10:01:35][STATE] BINDING ---> BOUND
+[53:tof-pid-merge]: [10:01:35][STATE] BOUND ---> CONNECTING
+[53:tof-pid-merge]: [10:01:35][STATE] CONNECTING ---> DEVICE READY
+[53:tof-pid-merge]: [10:01:35][STATE] DEVICE READY ---> INITIALIZING TASK
+[53:tof-pid-merge]: [10:01:35][STATE] INITIALIZING TASK ---> READY
+[53:tof-pid-merge]: [10:01:35][STATE] READY ---> RUNNING
+[53:tof-pid-merge]: [10:01:35][INFO] fair::mq::Device running...
+[53:tof-pid-merge]: [10:01:35][INFO] LHCPeriod is not available, using current month OCT
+[53:tof-pid-merge]: [10:01:35][INFO] Correctly handshaken websocket connection.
+[51:tof-event-time]: [INFO] Spawning new device tof-event-time in process with pid 51
+[51:tof-event-time]: [10:01:35][INFO] 
+[51:tof-event-time]:       ______      _    _______  _________ 
+[51:tof-event-time]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[51:tof-event-time]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[51:tof-event-time]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[51:tof-event-time]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[51:tof-event-time]: 
+[51:tof-event-time]: [10:01:35][STATE] Starting FairMQ state machine --> IDLE
+[51:tof-event-time]: [10:01:35][STATE] IDLE ---> INITIALIZING DEVICE
+[51:tof-event-time]: [10:01:35][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tof-merge@51 target/Linux_x86_64 init/1792137695807 id/aenderic@stbc-i2.nikhef.nl session/FBmr93ns, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[51:tof-event-time]: [10:01:35][INFO] Init CcdApi with UserAgentID: o2-analysis-pid/o2-analysis-pid-tof-merge@51 target/Linux_x86_64 init/1792137695807 id/aenderic@stbc-i2.nikhef.nl session/FBmr93ns, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[51:tof-event-time]: [10:01:35][INFO] Getting pass from metadata
+[51:tof-event-time]: [10:01:35][INFO] From metadata this data is from Data
+[51:tof-event-time]: [10:01:35][INFO] Passed autodetect mode for pass. Taking 'apass5'
+[51:tof-event-time]: [10:01:35][INFO] Using parameter collection, starting from pass 'apass5'
+[51:tof-event-time]: [10:01:35][INFO] From metadata this data is from Data
+[51:tof-event-time]: [10:01:35][INFO]  test getTimeShift at 0 pos: 0
+[51:tof-event-time]: [10:01:35][INFO] From metadata this data is from Data
+[51:tof-event-time]: [10:01:35][INFO]  test getTimeShift at 0 neg: 0
+[51:tof-event-time]: [10:01:35][INFO] Parametrization at init time:
+[51:tof-event-time]: [10:01:35][INFO] Parameters 'TOFResoParamsV3'
+[51:tof-event-time]: [10:01:35][INFO] Parameter 0/12 time_resolution is 60
+[51:tof-event-time]: [10:01:35][INFO] Parameter 1/12 time_resolution is 60
+[51:tof-event-time]: [10:01:35][INFO] Parameter 2/12 time_resolution is 60
+[51:tof-event-time]: [10:01:35][INFO] Parameter 3/12 time_resolution is 60
+[51:tof-event-time]: [10:01:35][INFO] Parameter 4/12 time_resolution is 60
+[51:tof-event-time]: [10:01:35][INFO] Parameter 5/12 time_resolution is 60
+[51:tof-event-time]: [10:01:35][INFO] Parameter 6/12 time_resolution is 60
+[51:tof-event-time]: [10:01:35][INFO] Parameter 7/12 time_resolution is 60
+[51:tof-event-time]: [10:01:35][INFO] Parameter 8/12 time_resolution is 60
+[51:tof-event-time]: [10:01:35][INFO] Parameter 9/12 time_resolution is 60
+[51:tof-event-time]: [10:01:35][INFO] Parameter 10/12 time_resolution is 60
+[51:tof-event-time]: [10:01:35][INFO] Parameter 11/12 time_resolution is 60
+[51:tof-event-time]: [10:01:35][INFO] Parameter 12/12 time_resolution is 60
+[51:tof-event-time]: [10:01:35][INFO] TOF momentum shift parameters
+[51:tof-event-time]: [10:01:35][INFO] etaN: 0
+[51:tof-event-time]: [10:01:35][INFO] etaStart: 0
+[51:tof-event-time]: [10:01:35][INFO] etaStop: 0
+[51:tof-event-time]: [10:01:35][INFO] content size 0
+[51:tof-event-time]: [10:01:35][INFO] Using no time shift for Pos vs correction 0
+[51:tof-event-time]: [10:01:35][INFO] Using no time shift for Neg vs correction 0
+[51:tof-event-time]: [10:01:35][INFO] Resolution function for El is not defined yet
+[51:tof-event-time]: [10:01:35][INFO] Resolution function for Mu is not defined yet
+[51:tof-event-time]: [10:01:35][INFO] Resolution function for Pi is not defined yet
+[51:tof-event-time]: [10:01:35][INFO] Resolution function for Ka is not defined yet
+[51:tof-event-time]: [10:01:35][INFO] Resolution function for Pr is not defined yet
+[51:tof-event-time]: [10:01:35][INFO] Resolution function for De is not defined yet
+[51:tof-event-time]: [10:01:35][INFO] Resolution function for Tr is not defined yet
+[51:tof-event-time]: [10:01:35][INFO] Resolution function for He is not defined yet
+[51:tof-event-time]: [10:01:35][INFO] Resolution function for Al is not defined yet
+[51:tof-event-time]: [10:01:35][INFO] Table TOFEvTime enabled!
+[51:tof-event-time]: [10:01:35][INFO] Autodetecting process functions
+[51:tof-event-time]: [10:01:35][INFO] From metadata this data is from Run 3
+[51:tof-event-time]: [10:01:35][INFO] From metadata this data is from Run 3
+[51:tof-event-time]: [10:01:35][INFO] From metadata this data is from Run 3
+[51:tof-event-time]: [10:01:35][INFO] Configuring track sample for TOF ev. time: 0.5 < p < 2
+[51:tof-event-time]: [10:01:35][INFO] Enabling process function: processRun3
+[51:tof-event-time]: [10:01:35][INFO] eventTimeContainer configuration:
+[51:tof-event-time]: [10:01:35][INFO]  maxNtracksInSet = 10
+[51:tof-event-time]: [10:01:35][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[51:tof-event-time]: [10:01:35][STATE] INITIALIZED ---> BINDING
+[51:tof-event-time]: [10:01:35][STATE] BINDING ---> BOUND
+[51:tof-event-time]: [10:01:35][STATE] BOUND ---> CONNECTING
+[51:tof-event-time]: [10:01:35][STATE] CONNECTING ---> DEVICE READY
+[51:tof-event-time]: [10:01:35][STATE] DEVICE READY ---> INITIALIZING TASK
+[51:tof-event-time]: [10:01:35][STATE] INITIALIZING TASK ---> READY
+[51:tof-event-time]: [10:01:35][STATE] READY ---> RUNNING
+[51:tof-event-time]: [10:01:35][INFO] fair::mq::Device running...
+[51:tof-event-time]: [10:01:35][INFO] LHCPeriod is not available, using current month OCT
+[51:tof-event-time]: [10:01:35][INFO] Correctly handshaken websocket connection.
+[52:q-vectors-table]: [INFO] Spawning new device q-vectors-table in process with pid 52
+[52:q-vectors-table]: [10:01:36][INFO] 
+[52:q-vectors-table]:       ______      _    _______  _________ 
+[52:q-vectors-table]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[52:q-vectors-table]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[52:q-vectors-table]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[52:q-vectors-table]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[52:q-vectors-table]: 
+[52:q-vectors-table]: [10:01:36][STATE] Starting FairMQ state machine --> IDLE
+[40:internal-dpl-aod-reader]: [INFO] Spawning new device internal-dpl-aod-reader in process with pid 40
+[52:q-vectors-table]: [10:01:36][STATE] IDLE ---> INITIALIZING DEVICE
+[40:internal-dpl-aod-reader]: [10:01:36][INFO] 
+[40:internal-dpl-aod-reader]:       ______      _    _______  _________ 
+[40:internal-dpl-aod-reader]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[40:internal-dpl-aod-reader]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[40:internal-dpl-aod-reader]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[40:internal-dpl-aod-reader]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[40:internal-dpl-aod-reader]: 
+[56:q-a-process-cent]: [INFO] Spawning new device q-a-process-cent in process with pid 56
+[40:internal-dpl-aod-reader]: [10:01:36][STATE] Starting FairMQ state machine --> IDLE
+[52:q-vectors-table]: [10:01:36][INFO] Init CcdApi with UserAgentID: o2-analysis-qve/o2-analysis-qvector-table@52 target/Linux_x86_64 init/1792137696334 id/aenderic@stbc-i2.nikhef.nl session/jwi2sBaA, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[52:q-vectors-table]: [10:01:36][INFO] Using all detectors.
+[52:q-vectors-table]: [10:01:36][INFO] Init CcdApi with UserAgentID: o2-analysis-qve/o2-analysis-qvector-table@52 target/Linux_x86_64 init/1792137696334 id/aenderic@stbc-i2.nikhef.nl session/jwi2sBaA, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[52:q-vectors-table]: [10:01:36][INFO] FV0 geometry instance created
+[56:q-a-process-cent]: [10:01:36][INFO] 
+[56:q-a-process-cent]:       ______      _    _______  _________ 
+[56:q-a-process-cent]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[56:q-a-process-cent]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[56:q-a-process-cent]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[56:q-a-process-cent]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[56:q-a-process-cent]: 
+[56:q-a-process-cent]: [10:01:36][STATE] Starting FairMQ state machine --> IDLE
+[52:q-vectors-table]: [10:01:36][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[52:q-vectors-table]: [10:01:36][STATE] INITIALIZED ---> BINDING
+[40:internal-dpl-aod-reader]: [10:01:36][STATE] IDLE ---> INITIALIZING DEVICE
+[52:q-vectors-table]: [10:01:36][STATE] BINDING ---> BOUND
+[52:q-vectors-table]: [10:01:36][STATE] BOUND ---> CONNECTING
+[56:q-a-process-cent]: [10:01:36][STATE] IDLE ---> INITIALIZING DEVICE
+[56:q-a-process-cent]: [10:01:36][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[56:q-a-process-cent]: [10:01:36][STATE] INITIALIZED ---> BINDING
+[56:q-a-process-cent]: [10:01:36][STATE] BINDING ---> BOUND
+[56:q-a-process-cent]: [10:01:36][STATE] BOUND ---> CONNECTING
+[52:q-vectors-table]: [10:01:36][STATE] CONNECTING ---> DEVICE READY
+[52:q-vectors-table]: [10:01:36][STATE] DEVICE READY ---> INITIALIZING TASK
+[56:q-a-process-cent]: [10:01:36][STATE] CONNECTING ---> DEVICE READY
+[56:q-a-process-cent]: [10:01:36][STATE] DEVICE READY ---> INITIALIZING TASK
+[56:q-a-process-cent]: [10:01:36][STATE] INITIALIZING TASK ---> READY
+[56:q-a-process-cent]: [10:01:36][STATE] READY ---> RUNNING
+[56:q-a-process-cent]: [10:01:36][INFO] fair::mq::Device running...
+[56:q-a-process-cent]: [10:01:36][INFO] LHCPeriod is not available, using current month OCT
+[56:q-a-process-cent]: [10:01:36][INFO] Correctly handshaken websocket connection.
+[52:q-vectors-table]: [10:01:36][STATE] INITIALIZING TASK ---> READY
+[52:q-vectors-table]: [10:01:36][STATE] READY ---> RUNNING
+[52:q-vectors-table]: [10:01:36][INFO] fair::mq::Device running...
+[52:q-vectors-table]: [10:01:36][INFO] LHCPeriod is not available, using current month OCT
+[52:q-vectors-table]: [10:01:36][INFO] Correctly handshaken websocket connection.
+[50:mult-cent-table]: Warning in <TDatabasePDG::AddParticle>: Particle with PDGcode=1000030040 already defined
+[50:mult-cent-table]: [10:01:38][STATE] IDLE ---> INITIALIZING DEVICE
+[50:mult-cent-table]: [10:01:38][INFO] Init CcdApi with UserAgentID: o2-analysis-mul/o2-analysis-multcenttable@50 target/Linux_x86_64 init/1792137698212 id/aenderic@stbc-i2.nikhef.nl session/Rqd9cpPz, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[47:propagation-service]: [10:01:38][INFO] Checking if strangeness building is required
+[47:propagation-service]: [10:01:38][INFO] Strangeness building not required. Will suppress all functionality, including logs, from this point forward.
+[50:mult-cent-table]: [10:01:38][INFO] Init CcdApi with UserAgentID: o2-analysis-mul/o2-analysis-multcenttable@50 target/Linux_x86_64 init/1792137698212 id/aenderic@stbc-i2.nikhef.nl session/Rqd9cpPz, Host: http://alice-ccdb.cern.ch, Curl timeouts: upload:20 download:5
+[50:mult-cent-table]: [10:01:38][INFO] Configuring tables to generate
+[50:mult-cent-table]: [10:01:38][INFO] From metadata this data is from Data
+[50:mult-cent-table]: [10:01:38][INFO] Metadata information: isMC? 0
+[50:mult-cent-table]: [10:01:38][INFO] Device q-vectors-table has subscribed to FV0Mults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device flow-pid-cme has subscribed to FV0Mults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device q-vectors-table has subscribed to FT0Mults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device flow-pid-cme has subscribed to FT0Mults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device q-vectors-table has subscribed to FDDMults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device flow-pid-cme has subscribed to FDDMults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device q-vectors-table has subscribed to ZDCMults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device flow-pid-cme has subscribed to ZDCMults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device q-vectors-table has subscribed to TrackletMults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device flow-pid-cme has subscribed to TrackletMults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device q-vectors-table has subscribed to TPCMults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device flow-pid-cme has subscribed to TPCMults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device q-vectors-table has subscribed to PVMults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device flow-pid-cme has subscribed to PVMults (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device q-vectors-table has subscribed to CentFV0As (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device q-vectors-table has subscribed to CentFT0Ms (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device q-vectors-table has subscribed to CentFT0As (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device q-vectors-table has subscribed to CentFT0Cs (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device flow-pid-cme has subscribed to CentFT0Cs (version 0)
+[50:mult-cent-table]: [10:01:38][INFO] Device q-a-process-cent has subscribed to CentFT0Cs (version 0)
+[50:mult-cent-table]: [10:01:38][INFO]  -~> Table enabled: FV0Mults, requested by q-vectors-table flow-pid-cme 
+[50:mult-cent-table]: [10:01:38][INFO]  -~> Table enabled: FT0Mults, requested by q-vectors-table flow-pid-cme 
+[50:mult-cent-table]: [10:01:38][INFO]  -~> Table enabled: FDDMults, requested by q-vectors-table flow-pid-cme 
+[50:mult-cent-table]: [10:01:38][INFO]  -~> Table enabled: ZDCMults, requested by q-vectors-table flow-pid-cme 
+[50:mult-cent-table]: [10:01:38][INFO]  -~> Table enabled: TrackletMults, requested by q-vectors-table flow-pid-cme 
+[50:mult-cent-table]: [10:01:38][INFO]  -~> Table enabled: TPCMults, requested by q-vectors-table flow-pid-cme 
+[50:mult-cent-table]: [10:01:38][INFO]  -~> Table enabled: PVMults, requested by q-vectors-table flow-pid-cme 
+[50:mult-cent-table]: [10:01:38][INFO]  -~> Table enabled: FV0MultZeqs, requested by dependency check 
+[50:mult-cent-table]: [10:01:38][INFO]  -~> Table enabled: FT0MultZeqs, requested by dependency check 
+[50:mult-cent-table]: [10:01:38][INFO]  -~> Table enabled: CentFV0As, requested by q-vectors-table 
+[50:mult-cent-table]: [10:01:38][INFO]  -~> Table enabled: CentFT0Ms, requested by q-vectors-table 
+[50:mult-cent-table]: [10:01:38][INFO]  -~> Table enabled: CentFT0As, requested by q-vectors-table 
+[50:mult-cent-table]: [10:01:38][INFO]  -~> Table enabled: CentFT0Cs, requested by q-vectors-table flow-pid-cme q-a-process-cent 
+[50:mult-cent-table]: [10:01:38][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[47:propagation-service]: [10:01:38][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[47:propagation-service]: [10:01:38][STATE] INITIALIZED ---> BINDING
+[47:propagation-service]: [10:01:38][STATE] BINDING ---> BOUND
+[47:propagation-service]: [10:01:38][STATE] BOUND ---> CONNECTING
+[47:propagation-service]: [10:01:38][STATE] CONNECTING ---> DEVICE READY
+[47:propagation-service]: [10:01:38][STATE] DEVICE READY ---> INITIALIZING TASK
+[50:mult-cent-table]: [10:01:38][STATE] INITIALIZED ---> BINDING
+[47:propagation-service]: [10:01:38][STATE] INITIALIZING TASK ---> READY
+[47:propagation-service]: [10:01:38][STATE] READY ---> RUNNING
+[47:propagation-service]: [10:01:38][INFO] fair::mq::Device running...
+[47:propagation-service]: [10:01:38][INFO] LHCPeriod is not available, using current month OCT
+[47:propagation-service]: [10:01:38][INFO] Correctly handshaken websocket connection.
+[55:flow-pid-cme]: [10:01:38][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[55:flow-pid-cme]: [10:01:38][STATE] INITIALIZED ---> BINDING
+[55:flow-pid-cme]: [10:01:38][STATE] BINDING ---> BOUND
+[55:flow-pid-cme]: [10:01:38][STATE] BOUND ---> CONNECTING
+[55:flow-pid-cme]: [10:01:38][STATE] CONNECTING ---> DEVICE READY
+[55:flow-pid-cme]: [10:01:38][STATE] DEVICE READY ---> INITIALIZING TASK
+[50:mult-cent-table]: [10:01:38][STATE] BINDING ---> BOUND
+[50:mult-cent-table]: [10:01:38][STATE] BOUND ---> CONNECTING
+[55:flow-pid-cme]: [10:01:38][STATE] INITIALIZING TASK ---> READY
+[55:flow-pid-cme]: [10:01:38][STATE] READY ---> RUNNING
+[55:flow-pid-cme]: [10:01:38][INFO] fair::mq::Device running...
+[55:flow-pid-cme]: [10:01:38][INFO] LHCPeriod is not available, using current month OCT
+[55:flow-pid-cme]: [10:01:38][INFO] Correctly handshaken websocket connection.
+[50:mult-cent-table]: [10:01:38][STATE] CONNECTING ---> DEVICE READY
+[50:mult-cent-table]: [10:01:38][STATE] DEVICE READY ---> INITIALIZING TASK
+[50:mult-cent-table]: [10:01:38][STATE] INITIALIZING TASK ---> READY
+[50:mult-cent-table]: [10:01:38][STATE] READY ---> RUNNING
+[50:mult-cent-table]: [10:01:38][INFO] fair::mq::Device running...
+[50:mult-cent-table]: [10:01:38][INFO] LHCPeriod is not available, using current month OCT
+[50:mult-cent-table]: [10:01:38][INFO] Correctly handshaken websocket connection.
+[43:eventselection-run3]: [10:01:38][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[43:eventselection-run3]: [10:01:38][STATE] INITIALIZED ---> BINDING
+[43:eventselection-run3]: [10:01:38][STATE] BINDING ---> BOUND
+[43:eventselection-run3]: [10:01:38][STATE] BOUND ---> CONNECTING
+[43:eventselection-run3]: [10:01:38][STATE] CONNECTING ---> DEVICE READY
+[43:eventselection-run3]: [10:01:38][STATE] DEVICE READY ---> INITIALIZING TASK
+[43:eventselection-run3]: [10:01:38][STATE] INITIALIZING TASK ---> READY
+[43:eventselection-run3]: [10:01:38][STATE] READY ---> RUNNING
+[43:eventselection-run3]: [10:01:38][INFO] fair::mq::Device running...
+[43:eventselection-run3]: [10:01:38][INFO] LHCPeriod is not available, using current month OCT
+[43:eventselection-run3]: [10:01:38][INFO] Correctly handshaken websocket connection.
+[41:internal-dpl-aod-spawner]: [10:01:38][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[41:internal-dpl-aod-spawner]: [10:01:38][STATE] INITIALIZED ---> BINDING
+[41:internal-dpl-aod-spawner]: [10:01:38][STATE] BINDING ---> BOUND
+[41:internal-dpl-aod-spawner]: [10:01:38][STATE] BOUND ---> CONNECTING
+[41:internal-dpl-aod-spawner]: [10:01:38][STATE] CONNECTING ---> DEVICE READY
+[41:internal-dpl-aod-spawner]: [10:01:38][STATE] DEVICE READY ---> INITIALIZING TASK
+[41:internal-dpl-aod-spawner]: [10:01:38][STATE] INITIALIZING TASK ---> READY
+[41:internal-dpl-aod-spawner]: [10:01:38][STATE] READY ---> RUNNING
+[41:internal-dpl-aod-spawner]: [10:01:38][INFO] fair::mq::Device running...
+[41:internal-dpl-aod-spawner]: [10:01:38][INFO] LHCPeriod is not available, using current month OCT
+[41:internal-dpl-aod-spawner]: [10:01:38][INFO] Correctly handshaken websocket connection.
+[40:internal-dpl-aod-reader]: [10:01:39][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[40:internal-dpl-aod-reader]: [10:01:39][STATE] INITIALIZED ---> BINDING
+[40:internal-dpl-aod-reader]: [10:01:39][STATE] BINDING ---> BOUND
+[INFO] Controller for internal-dpl-aod-reader now available.
+[40:internal-dpl-aod-reader]: [10:01:39][STATE] BOUND ---> CONNECTING
+[40:internal-dpl-aod-reader]: [10:01:39][STATE] CONNECTING ---> DEVICE READY
+[40:internal-dpl-aod-reader]: [10:01:39][STATE] DEVICE READY ---> INITIALIZING TASK
+[40:internal-dpl-aod-reader]: [10:01:39][STATE] INITIALIZING TASK ---> READY
+[40:internal-dpl-aod-reader]: [10:01:39][STATE] READY ---> RUNNING
+[40:internal-dpl-aod-reader]: [10:01:39][INFO] fair::mq::Device running...
+[40:internal-dpl-aod-reader]: [10:01:39][INFO] LHCPeriod is not available, using current month OCT
+[40:internal-dpl-aod-reader]: [10:01:39][INFO] Correctly handshaken websocket connection.
+[40:internal-dpl-aod-reader]: [10:01:39][INFO] Opening file: lfn=data/AO2D_LHC23zzh_544122_pass5.root,size=4002048504
+[43:eventselection-run3]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[43:eventselection-run3]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:324: Detected CPU Name : znver2
+[43:eventselection-run3]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:325: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 -avx512bw +sse3 -pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[43:eventselection-run3]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[43:eventselection-run3]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.62
+[43:eventselection-run3]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.62
+[43:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/CTP/Calib/OrbitReset/08/03541/8e9235ed-63d1-11ee-8014-0aa140641b9a in SE <ALICE::CCIN2P3::SE>
+[43:eventselection-run3]: [10:01:43][INFO] ccdb reads http://alice-ccdb.cern.ch/CTP/Calib/OrbitReset/1696546217987/8e9235ed-63d1-11ee-8014-0aa140641b9a for 1696559881195 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@43 target/Linux_x86_64 init/1792137692313 id/aenderic@stbc-i2.nikhef.nl session/NveLLk9N), 
+[43:eventselection-run3]: [10:01:43][INFO] Add new run number 544122 with orbit-reset timestamp 1696546217986806, SOR: 1696558312716, EOR: 1696561449674 to cache
+[43:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPECS/00/22039/110766fd-63f5-11ee-8033-0aa145271b9a in SE <ALICE::CCIN2P3::SE>
+[43:eventselection-run3]: [10:01:43][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPECS/1696558260977/110766fd-63f5-11ee-8033-0aa145271b9a for 1696559881195 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@43 target/Linux_x86_64 init/1792137692313 id/aenderic@stbc-i2.nikhef.nl session/NveLLk9N), 
+[43:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPLHCIF/00/20529/c0998e8f-63d6-11ee-8015-0aa1229c1b9a in SE <ALICE::CCIN2P3::SE>
+[43:eventselection-run3]: [10:01:44][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPLHCIF/1696548450045/c0998e8f-63d6-11ee-8015-0aa1229c1b9a for 1696559881195 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@43 target/Linux_x86_64 init/1792137692313 id/aenderic@stbc-i2.nikhef.nl session/NveLLk9N), 
+[43:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/CTP/Calib/FirstRunOrbit/07/15637/b7945bf7-63ed-11ee-8033-0aa140641b9a in SE <ALICE::CCIN2P3::SE>
+[43:eventselection-run3]: [10:01:44][INFO] ccdb reads http://alice-ccdb.cern.ch/CTP/Calib/FirstRunOrbit/1696558312740/b7945bf7-63ed-11ee-8033-0aa140641b9a for 1696559881195 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@43 target/Linux_x86_64 init/1792137692313 id/aenderic@stbc-i2.nikhef.nl session/NveLLk9N), 
+[43:eventselection-run3]: [10:01:44][INFO] BcSelectionModule: isMC = false, NumberOfOrbitsPerTF extracted from AggregatedRunInfo = 32
+[43:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/EventSelection/EventSelectionParams/05/07443/5f880452-f6ff-11ee-82dc-90ce809b250c in SE <ALICE::CCIN2P3::SE>
+[43:eventselection-run3]: [10:01:44][INFO] ccdb reads http://alice-ccdb.cern.ch/EventSelection/EventSelectionParams/1543767116001/5f880452-f6ff-11ee-82dc-90ce809b250c for 1696559881195 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@43 target/Linux_x86_64 init/1792137692313 id/aenderic@stbc-i2.nikhef.nl session/NveLLk9N), 
+[43:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/ITS/Config/AlpideParam/08/59055/55865c37-639c-11ee-8013-0aa1229c1b9a in SE <ALICE::CCIN2P3::SE>
+[43:eventselection-run3]: [10:01:44][INFO] ccdb reads http://alice-ccdb.cern.ch/ITS/Config/AlpideParam/1696523359595/55865c37-639c-11ee-8013-0aa1229c1b9a for 1696559881195 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@43 target/Linux_x86_64 init/1792137692313 id/aenderic@stbc-i2.nikhef.nl session/NveLLk9N), 
+[43:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/EventSelection/TriggerAliases/09/39572/e17f72b8-6827-11ee-94e7-90ce809b24ee in SE <ALICE::CCIN2P3::SE>
+[43:eventselection-run3]: [10:01:45][INFO] ccdb reads http://alice-ccdb.cern.ch/EventSelection/TriggerAliases/1696558260977/e17f72b8-6827-11ee-94e7-90ce809b24ee for 1696559881195 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@43 target/Linux_x86_64 init/1792137692313 id/aenderic@stbc-i2.nikhef.nl session/NveLLk9N), 
+[43:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/ITS/Calib/TimeDeadMap/00/39499/1f034fc0-b3ba-11ee-8f76-200114580202 in SE <ALICE::CCIN2P3::SE>
+[43:eventselection-run3]: [10:01:45][INFO] ccdb reads http://alice-ccdb.cern.ch/ITS/Calib/TimeDeadMap/1696558200977/1f034fc0-b3ba-11ee-8f76-200114580202 for 1696559881195 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@43 target/Linux_x86_64 init/1792137692313 id/aenderic@stbc-i2.nikhef.nl session/NveLLk9N), 
+[43:eventselection-run3]: [10:01:45][INFO] accessing pass-specific rct object for run=544122 and passName=apass5 from ccdb
+[43:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/RCT/Flags/RunFlags/02/16933/dbf3c92e-73a4-11f0-ac77-808d5c23250c in SE <ALICE::CCIN2P3::SE>
+[43:eventselection-run3]: [10:01:46][INFO] ccdb reads http://alice-ccdb.cern.ch/RCT/Flags/RunFlags/1696558302716/dbf3c92e-73a4-11f0-ac77-808d5c23250c for 1696559881195 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@43 target/Linux_x86_64 init/1792137692313 id/aenderic@stbc-i2.nikhef.nl session/NveLLk9N), 
+[43:eventselection-run3]: [10:01:46][INFO] EventSelectionModule: isMC = false, NumberOfOrbitsPerTF extracted from AggregatedRunInfo = 32
+[43:eventselection-run3]: [10:01:46][INFO] beamZ1=82 beamZ2=82 sqrts=5361.0024
+[43:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/CTP/Config/Config/02/62904/993423c5-63ed-11ee-8033-0aa140651b9a in SE <ALICE::CCIN2P3::SE>
+[43:eventselection-run3]: [10:01:46][INFO] ccdb reads http://alice-ccdb.cern.ch/CTP/Config/Config/1696557662374/993423c5-63ed-11ee-8033-0aa140651b9a for 1696561077036 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@43 target/Linux_x86_64 init/1792137692313 id/aenderic@stbc-i2.nikhef.nl session/NveLLk9N), 
+[43:eventselection-run3]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/CTP/Calib/Scalers/04/12532/05b8755f-63f5-11ee-8033-0aa140651b9a in SE <ALICE::CCIN2P3::SE>
+[43:eventselection-run3]: [10:01:46][INFO] ccdb reads http://alice-ccdb.cern.ch/CTP/Calib/Scalers/1696557662374/05b8755f-63f5-11ee-8033-0aa140651b9a for 1696561077036 (retrieve, agent_id: o2-analysis-eve/o2-analysis-event-selection-service@43 target/Linux_x86_64 init/1792137692313 id/aenderic@stbc-i2.nikhef.nl session/NveLLk9N), 
+[45:pid-tpc-service]: [10:01:46][INFO] Retrieving latest TPC response object for timestamp 1696561077036:
+[45:pid-tpc-service]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[45:pid-tpc-service]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.33
+[40:internal-dpl-aod-reader]: [10:01:49][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 486 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:01:49][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 486 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[45:pid-tpc-service]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.33
+[45:pid-tpc-service]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Analysis/PID/TPC/Response/14/33907/548d7766-17f6-11f1-b1cc-8cb53d0d24ee in SE <ALICE::CCIN2P3::SE>
+[45:pid-tpc-service]: [10:01:49][INFO] ccdb reads http://alice-ccdb.cern.ch/Analysis/PID/TPC/Response/1696527047467/548d7766-17f6-11f1-b1cc-8cb53d0d24ee for 1696561077036 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tpc-service@45 target/Linux_x86_64 init/1792137694498 id/aenderic@stbc-i2.nikhef.nl session/RWJmJ2lB), 
+[45:pid-tpc-service]: [10:01:49][INFO] Successfully retrieved TPC PID object from CCDB for timestamp 1696561077036, period LHC23zzh, recoPass apass5
+[45:pid-tpc-service]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPLHCIF/00/20529/c0998e8f-63d6-11ee-8015-0aa1229c1b9a in SE <ALICE::CCIN2P3::SE>
+[40:internal-dpl-aod-reader]: [10:01:49][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 1213 ms ago. Missing: - shared memory (have 0 MB, need 100 MB) timeslices (have 0, need 1). Data is not lost and it will be scheduled again.
+[45:pid-tpc-service]: [10:01:50][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPLHCIF/1696548450045/c0998e8f-63d6-11ee-8015-0aa1229c1b9a for 1696561077036 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tpc-service@45 target/Linux_x86_64 init/1792137694498 id/aenderic@stbc-i2.nikhef.nl session/RWJmJ2lB), 
+[45:pid-tpc-service]: [10:01:50][INFO] Collisions type::1
+[45:pid-tpc-service]: [10:01:50][INFO] ==== TPC PID response parameters: ====
+[45:pid-tpc-service]: [10:01:50][INFO] BB param [0] = 0.17159343
+[45:pid-tpc-service]: [10:01:50][INFO] BB param [1] = 4.8327484
+[45:pid-tpc-service]: [10:01:50][INFO] BB param [2] = 0.0035045191
+[45:pid-tpc-service]: [10:01:50][INFO] BB param [3] = 2.3281538
+[45:pid-tpc-service]: [10:01:50][INFO] BB param [4] = 1.0115023
+[45:pid-tpc-service]: [10:01:50][INFO] use default resolution parametrization = true
+[45:pid-tpc-service]: [10:01:50][INFO] Default Resolution parametrization: 
+[45:pid-tpc-service]: [10:01:50][INFO] Resolution param [0] = 0.07
+[45:pid-tpc-service]: [10:01:50][INFO] Resolution param [1] = 0
+[45:pid-tpc-service]: [10:01:50][INFO] mMIP = 50
+[45:pid-tpc-service]: [10:01:50][INFO] mChargeFactor = 2.3
+[45:pid-tpc-service]: [10:01:50][INFO] mMultNormalization = 11000
+[45:pid-tpc-service]: [10:01:50][INFO] nClNorm = 152
+[40:internal-dpl-aod-reader]: [10:01:50][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 1695 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:01:50][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 2009 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[47:propagation-service]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[47:propagation-service]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.17
+[47:propagation-service]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.17
+[47:propagation-service]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPMagField/07/61367/03cf166c-5f60-11ee-8003-0aa1229c1b9a in SE <ALICE::CCIN2P3::SE>
+[47:propagation-service]: [10:01:52][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPMagField/1696057648043/03cf166c-5f60-11ee-8003-0aa1229c1b9a for 1696559881195 (retrieve, agent_id: o2-analysis-pro/o2-analysis-propagationservice@47 target/Linux_x86_64 init/1792137692768 id/aenderic@stbc-i2.nikhef.nl session/v8A4t8oj), 
+[47:propagation-service]: [10:01:52][INFO] Setting global propagator magnetic field to current 29999.8 A for run 544122 from its GRPMagField CCDB object
+[47:propagation-service]: [10:01:52][INFO] Field origin is set to: XYZ: 0.0000,0.0000,0.0000
+[47:propagation-service]: [10:01:52][INFO] MagneticField::Print: MagneticFieldMap:
+[47:propagation-service]: [10:01:52][INFO] MagneticField::Print: Solenoid (0.999995*)5 kG, Dipole ON (0.999993) 
+[47:propagation-service]: [10:01:52][INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[47:propagation-service]: [10:01:52][INFO] MagneticField::Print: Uses Sol30_Dip6_Hole  of /data/alice/aenderic/alice/sw/slc9_x86-64/O2/daily-20260916-0500-local1/share/Common/maps/mfchebKGI_sym.root
+[47:propagation-service]: Info in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+[47:propagation-service]: Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[47:propagation-service]: [10:01:52][INFO] Loaded 440 params from $(O2_ROOT)/share/Common/maps/sol5k.txt
+[47:propagation-service]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Calib/MeanVertex/15/28479/76dfef27-63f2-11ee-8033-0aa200321b9a in SE <ALICE::CCIN2P3::SE>
+[40:internal-dpl-aod-reader]: [10:01:52][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 4171 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[47:propagation-service]: [10:01:52][INFO] Mean vertex is biased by: XYZ: 0.0000,0.0000,0.0000 SlopeXY: 0.000e+00,0.000e+00
+[47:propagation-service]: [10:01:52][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Calib/MeanVertex/1696559867786/76dfef27-63f2-11ee-8033-0aa200321b9a for 1696559881195 (retrieve, agent_id: o2-analysis-pro/o2-analysis-propagationservice@47 target/Linux_x86_64 init/1792137692768 id/aenderic@stbc-i2.nikhef.nl session/v8A4t8oj), 
+[47:propagation-service]: [10:01:52][INFO] Loading material look-up table for timestamp: 544122
+[47:propagation-service]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Param/MatLUTInner/02/16901/59dbb323-99d9-11ee-ae3f-200114580202 in SE <ALICE::CCIN2P3::SE>
+[47:propagation-service]: [10:01:53][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Param/MatLUTInner/1546300800000/59dbb323-99d9-11ee-ae3f-200114580202 for 1696559881195 (retrieve, agent_id: o2-analysis-pro/o2-analysis-propagationservice@47 target/Linux_x86_64 init/1792137692768 id/aenderic@stbc-i2.nikhef.nl session/v8A4t8oj), 
+[47:propagation-service]: [10:01:53][INFO] Initializing voxel layer lookup
+[47:propagation-service]: [10:01:53][INFO] Setting global propagator material propagation LUT
+[50:mult-cent-table]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[50:mult-cent-table]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.51
+[50:mult-cent-table]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.51
+[50:mult-cent-table]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Centrality/Calibration/01/25381/341f036d-99f3-11ee-ae3f-20010871025e in SE <ALICE::CCIN2P3::SE>
+[50:mult-cent-table]: [10:01:59][INFO] ccdb reads http://alice-ccdb.cern.ch/Centrality/Calibration/1695750420000/341f036d-99f3-11ee-ae3f-20010871025e for 1696559881195 (retrieve, agent_id: o2-analysis-mul/o2-analysis-multcenttable@50 target/Linux_x86_64 init/1792137698212 id/aenderic@stbc-i2.nikhef.nl session/Rqd9cpPz), 
+[50:mult-cent-table]: [10:01:59][INFO] MFT track counter: vertex-Z calibration not loaded, will run without.
+[50:mult-cent-table]: [10:01:59][INFO] Global track counter: vertex-Z calibration not loaded, will run without.
+[50:mult-cent-table]: [10:01:59][INFO] centrality loading procedure for timestamp=1696561077036, run number=544122
+[50:mult-cent-table]: [10:01:59][INFO] From metadata this data is from Data
+[50:mult-cent-table]: [10:01:59][INFO] From metadata this data is from Data
+[50:mult-cent-table]: [10:01:59][INFO] centrality loading procedure for timestamp=1696561077036, run number=544122
+[50:mult-cent-table]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Centrality/Estimators/11/52392/f1996f0a-3055-11f1-90c5-d9c29a4424ee in SE <ALICE::CCIN2P3::SE>
+[50:mult-cent-table]: [10:02:00][INFO] ccdb reads http://alice-ccdb.cern.ch/Centrality/Estimators/1696558260677/f1996f0a-3055-11f1-90c5-d9c29a4424ee for 1696559881195 (retrieve, agent_id: o2-analysis-mul/o2-analysis-multcenttable@50 target/Linux_x86_64 init/1792137698212 id/aenderic@stbc-i2.nikhef.nl session/Rqd9cpPz), 
+[50:mult-cent-table]: [10:02:00][INFO] Getting new histograms with 544122 run number for 544122 run number
+[50:mult-cent-table]: [10:02:00][INFO] Calibration information from FT0A for run 544122 not available, will fill this estimator with invalid values and continue (no crash).
+[51:tof-event-time]: [10:02:00][INFO] Updating the parametrization from last run -1 to 544122 and timestamp from -1 1696561077036
+[40:internal-dpl-aod-reader]: [10:02:00][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 12138 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:02:06][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 17670 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[51:tof-event-time]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[51:tof-event-time]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.60
+[51:tof-event-time]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.60
+[51:tof-event-time]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPLHCIF/00/20529/c0998e8f-63d6-11ee-8015-0aa1229c1b9a in SE <ALICE::CCIN2P3::SE>
+[51:tof-event-time]: [10:02:08][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPLHCIF/1696548450045/c0998e8f-63d6-11ee-8015-0aa1229c1b9a for 1696561077036 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tof-merge@51 target/Linux_x86_64 init/1792137695807 id/aenderic@stbc-i2.nikhef.nl session/FBmr93ns), 
+[51:tof-event-time]: [10:02:08][INFO] Updating parametrization from path 'TOF/Calib/Params' and timestamp 1696561077036 and reconstruction pass 'apass5' for run number 544122
+[51:tof-event-time]: [10:02:08][INFO] Updating parametrization from ccdb
+[51:tof-event-time]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/TOF/Calib/Params/12/40346/3f9ff634-3ffb-11f0-b0a3-808de0f524ee in SE <ALICE::CCIN2P3::SE>
+[51:tof-event-time]: [10:02:09][INFO] ccdb reads http://alice-ccdb.cern.ch/TOF/Calib/Params/1696467684347/3f9ff634-3ffb-11f0-b0a3-808de0f524ee for 1696561077036 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tof-merge@51 target/Linux_x86_64 init/1792137695807 id/aenderic@stbc-i2.nikhef.nl session/FBmr93ns), 
+[51:tof-event-time]: [10:02:09][INFO] From metadata this data is from Run 3
+[51:tof-event-time]: [10:02:09][INFO] Set the resolution function for El with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[51:tof-event-time]: [10:02:09][INFO] Set the resolution function for Mu with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[51:tof-event-time]: [10:02:09][INFO] Set the resolution function for Pi with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[51:tof-event-time]: [10:02:09][INFO] Set the resolution function for Ka with formula 36.8721*TMath::Power((TMath::Max(x-0.417,0.1))*(1-1.05167*y*y),-0.602673)
+[51:tof-event-time]: [10:02:09][INFO] Set the resolution function for Pr with formula 95.060*TMath::Power((TMath::Max(x-0.447,0.1))*(1-0.563191*y*y),-0.630723)
+[51:tof-event-time]: [10:02:09][INFO] Set the resolution function for De with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[51:tof-event-time]: [10:02:09][INFO] Set the resolution function for Tr with formula 335*TMath::Power((TMath::Max(x-0.811,0.1))*(1-0.4235*y*y),-0.783)
+[51:tof-event-time]: [10:02:09][INFO] Set the resolution function for He with formula 170*TMath::Power((TMath::Max(x-0.556,0.1))*(1-0.4235*y*y),-0.783)
+[51:tof-event-time]: [10:02:09][INFO] Set the resolution function for Al with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for El is tofResTrack.El_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for Mu is tofResTrack.Mu_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for Pi is tofResTrack.Pi_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for Ka is tofResTrack.Ka_ with formula 36.8721*TMath::Power((TMath::Max(x-0.417,0.1))*(1-1.05167*y*y),-0.602673)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for Pr is tofResTrack.Pr_ with formula 95.060*TMath::Power((TMath::Max(x-0.447,0.1))*(1-0.563191*y*y),-0.630723)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for De is tofResTrack.De_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for Tr is tofResTrack.Tr_ with formula 335*TMath::Power((TMath::Max(x-0.811,0.1))*(1-0.4235*y*y),-0.783)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for He is tofResTrack.He_ with formula 170*TMath::Power((TMath::Max(x-0.556,0.1))*(1-0.4235*y*y),-0.783)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for Al is tofResTrack.Al_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[51:tof-event-time]: [10:02:09][INFO] From metadata this data is from Data
+[51:tof-event-time]: [10:02:09][INFO] Updating the time shift for positive from ccdb 'Analysis/PID/TOFOffsetPos' and timestamp 1696561077036 and pass 'apass5'
+[51:tof-event-time]: [10:02:09][ERROR] Requested resource does not exist: http://alice-ccdb.cern.ch/Analysis/PID/TOFOffsetPos/1696561077036/RecoPassName=apass5/
+[51:tof-event-time]: [10:02:09][INFO] No Time Shift parameter is passed for positive
+[51:tof-event-time]: [10:02:09][INFO]  test getTimeShift at 0 pos: 0
+[51:tof-event-time]: [10:02:09][INFO] From metadata this data is from Data
+[51:tof-event-time]: [10:02:09][INFO] Updating the time shift for negative from ccdb 'Analysis/PID/TOFOffsetPos' and timestamp 1696561077036 and pass 'apass5'
+[51:tof-event-time]: [10:02:09][ERROR] Requested resource does not exist: http://alice-ccdb.cern.ch/Analysis/PID/TOFOffsetPos/1696561077036/RecoPassName=apass5/
+[51:tof-event-time]: [10:02:09][INFO] No Time Shift parameter is passed for negative
+[51:tof-event-time]: [10:02:09][INFO]  test getTimeShift at 0 neg: 0
+[51:tof-event-time]: [10:02:09][INFO] Parametrization at setup time:
+[51:tof-event-time]: [10:02:09][INFO] Parameters 'TOFResoParamsV3'
+[51:tof-event-time]: [10:02:09][INFO] Parameter 0/12 time_resolution is 62
+[51:tof-event-time]: [10:02:09][INFO] Parameter 1/12 time_resolution is 62
+[51:tof-event-time]: [10:02:09][INFO] Parameter 2/12 time_resolution is 62
+[51:tof-event-time]: [10:02:09][INFO] Parameter 3/12 time_resolution is 62
+[51:tof-event-time]: [10:02:09][INFO] Parameter 4/12 time_resolution is 62
+[51:tof-event-time]: [10:02:09][INFO] Parameter 5/12 time_resolution is 62
+[51:tof-event-time]: [10:02:09][INFO] Parameter 6/12 time_resolution is 62
+[51:tof-event-time]: [10:02:09][INFO] Parameter 7/12 time_resolution is 62
+[51:tof-event-time]: [10:02:09][INFO] Parameter 8/12 time_resolution is 62
+[51:tof-event-time]: [10:02:09][INFO] Parameter 9/12 time_resolution is 62
+[51:tof-event-time]: [10:02:09][INFO] Parameter 10/12 time_resolution is 62
+[51:tof-event-time]: [10:02:09][INFO] Parameter 11/12 time_resolution is 62
+[51:tof-event-time]: [10:02:09][INFO] Parameter 12/12 time_resolution is 62
+[51:tof-event-time]: [10:02:09][INFO] TOF momentum shift parameters
+[51:tof-event-time]: [10:02:09][INFO] etaN: 0
+[51:tof-event-time]: [10:02:09][INFO] etaStart: 0
+[51:tof-event-time]: [10:02:09][INFO] etaStop: 0
+[51:tof-event-time]: [10:02:09][INFO] content size 0
+[51:tof-event-time]: [10:02:09][INFO] Using no time shift for Pos vs correction 0
+[51:tof-event-time]: [10:02:09][INFO] Using no time shift for Neg vs correction 0
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for El is tofResTrack.El_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for Mu is tofResTrack.Mu_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for Pi is tofResTrack.Pi_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for Ka is tofResTrack.Ka_ with formula 36.8721*TMath::Power((TMath::Max(x-0.417,0.1))*(1-1.05167*y*y),-0.602673)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for Pr is tofResTrack.Pr_ with formula 95.060*TMath::Power((TMath::Max(x-0.447,0.1))*(1-0.563191*y*y),-0.630723)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for De is tofResTrack.De_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for Tr is tofResTrack.Tr_ with formula 335*TMath::Power((TMath::Max(x-0.811,0.1))*(1-0.4235*y*y),-0.783)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for He is tofResTrack.He_ with formula 170*TMath::Power((TMath::Max(x-0.556,0.1))*(1-0.4235*y*y),-0.783)
+[51:tof-event-time]: [10:02:09][INFO] Resolution function for Al is tofResTrack.Al_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[52:q-vectors-table]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[52:q-vectors-table]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.54
+[52:q-vectors-table]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.54
+[52:q-vectors-table]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/FT0/Calib/Align/00/37459/3f67485b-e310-11ec-9e90-2a010e0a0b16 in SE <ALICE::CCIN2P3::SE>
+[40:internal-dpl-aod-reader]: [10:02:22][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 33707 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[52:q-vectors-table]: [10:02:24][INFO] ccdb reads http://alice-ccdb.cern.ch/FT0/Calib/Align/1640991600000/3f67485b-e310-11ec-9e90-2a010e0a0b16 for 1696559881195 (retrieve, agent_id: o2-analysis-qve/o2-analysis-qvector-table@52 target/Linux_x86_64 init/1792137696334 id/aenderic@stbc-i2.nikhef.nl session/jwi2sBaA), 
+[52:q-vectors-table]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/FV0/Calib/Align/15/55175/38865750-e310-11ec-9e90-2a010e0a0b16 in SE <ALICE::CCIN2P3::SE>
+[52:q-vectors-table]: [10:02:25][INFO] ccdb reads http://alice-ccdb.cern.ch/FV0/Calib/Align/1640991600000/38865750-e310-11ec-9e90-2a010e0a0b16 for 1696559881195 (retrieve, agent_id: o2-analysis-qve/o2-analysis-qvector-table@52 target/Linux_x86_64 init/1792137696334 id/aenderic@stbc-i2.nikhef.nl session/jwi2sBaA), 
+[52:q-vectors-table]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Analysis/EventPlane/QVecCorrections/v2/05/32340/ce189c9d-4ce8-11f0-8001-c087133324ee in SE <ALICE::CCIN2P3::SE>
+[52:q-vectors-table]: [10:02:25][INFO] ccdb reads http://alice-ccdb.cern.ch/Analysis/EventPlane/QVecCorrections/v2/1696558260977/ce189c9d-4ce8-11f0-8001-c087133324ee for 1696559881195 (retrieve, agent_id: o2-analysis-qve/o2-analysis-qvector-table@52 target/Linux_x86_64 init/1792137696334 id/aenderic@stbc-i2.nikhef.nl session/jwi2sBaA), 
+[52:q-vectors-table]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Analysis/EventPlane/QVecCorrections/v3/04/06364/d4212d8d-4ce8-11f0-ac70-c0871333250c in SE <ALICE::CCIN2P3::SE>
+[52:q-vectors-table]: [10:02:25][INFO] ccdb reads http://alice-ccdb.cern.ch/Analysis/EventPlane/QVecCorrections/v3/1696558260977/d4212d8d-4ce8-11f0-ac70-c0871333250c for 1696559881195 (retrieve, agent_id: o2-analysis-qve/o2-analysis-qvector-table@52 target/Linux_x86_64 init/1792137696334 id/aenderic@stbc-i2.nikhef.nl session/jwi2sBaA), 
+[52:q-vectors-table]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Analysis/EventPlane/GainEq/FT0/03/35390/085317c2-46b7-11f0-ac70-c0871389250c in SE <ALICE::CCIN2P3::SE>
+[52:q-vectors-table]: [10:02:26][INFO] ccdb reads http://alice-ccdb.cern.ch/Analysis/EventPlane/GainEq/FT0/1696558260977/085317c2-46b7-11f0-ac70-c0871389250c for 1696559881195 (retrieve, agent_id: o2-analysis-qve/o2-analysis-qvector-table@52 target/Linux_x86_64 init/1792137696334 id/aenderic@stbc-i2.nikhef.nl session/jwi2sBaA), 
+[52:q-vectors-table]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Analysis/EventPlane/GainEq/FV0/02/15616/57779693-46b7-11f0-ac70-c0871389250c in SE <ALICE::CCIN2P3::SE>
+[52:q-vectors-table]: [10:02:26][INFO] ccdb reads http://alice-ccdb.cern.ch/Analysis/EventPlane/GainEq/FV0/1696558260977/57779693-46b7-11f0-ac70-c0871389250c for 1696559881195 (retrieve, agent_id: o2-analysis-qve/o2-analysis-qvector-table@52 target/Linux_x86_64 init/1792137696334 id/aenderic@stbc-i2.nikhef.nl session/jwi2sBaA), 
+[53:tof-pid-merge]: [10:02:26][INFO] Updating the parametrization from last run -1 to 544122 and timestamp from -1 1696561077036
+[53:tof-pid-merge]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[53:tof-pid-merge]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.34
+[53:tof-pid-merge]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.34
+[53:tof-pid-merge]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Config/GRPLHCIF/00/20529/c0998e8f-63d6-11ee-8015-0aa1229c1b9a in SE <ALICE::CCIN2P3::SE>
+[53:tof-pid-merge]: [10:02:32][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPLHCIF/1696548450045/c0998e8f-63d6-11ee-8015-0aa1229c1b9a for 1696561077036 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tof-merge@53 target/Linux_x86_64 init/1792137695761 id/aenderic@stbc-i2.nikhef.nl session/I7FpoF2U), 
+[53:tof-pid-merge]: [10:02:32][INFO] Updating parametrization from path 'TOF/Calib/Params' and timestamp 1696561077036 and reconstruction pass 'apass5' for run number 544122
+[53:tof-pid-merge]: [10:02:32][INFO] Updating parametrization from ccdb
+[53:tof-pid-merge]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/TOF/Calib/Params/12/40346/3f9ff634-3ffb-11f0-b0a3-808de0f524ee in SE <ALICE::CCIN2P3::SE>
+[53:tof-pid-merge]: [10:02:32][INFO] ccdb reads http://alice-ccdb.cern.ch/TOF/Calib/Params/1696467684347/3f9ff634-3ffb-11f0-b0a3-808de0f524ee for 1696561077036 (retrieve, agent_id: o2-analysis-pid/o2-analysis-pid-tof-merge@53 target/Linux_x86_64 init/1792137695761 id/aenderic@stbc-i2.nikhef.nl session/I7FpoF2U), 
+[53:tof-pid-merge]: [10:02:32][INFO] From metadata this data is from Run 3
+[53:tof-pid-merge]: [10:02:32][INFO] Set the resolution function for El with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[53:tof-pid-merge]: [10:02:32][INFO] Set the resolution function for Mu with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[53:tof-pid-merge]: [10:02:32][INFO] Set the resolution function for Pi with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[53:tof-pid-merge]: [10:02:32][INFO] Set the resolution function for Ka with formula 36.8721*TMath::Power((TMath::Max(x-0.417,0.1))*(1-1.05167*y*y),-0.602673)
+[53:tof-pid-merge]: [10:02:32][INFO] Set the resolution function for Pr with formula 95.060*TMath::Power((TMath::Max(x-0.447,0.1))*(1-0.563191*y*y),-0.630723)
+[53:tof-pid-merge]: [10:02:32][INFO] Set the resolution function for De with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[53:tof-pid-merge]: [10:02:32][INFO] Set the resolution function for Tr with formula 335*TMath::Power((TMath::Max(x-0.811,0.1))*(1-0.4235*y*y),-0.783)
+[53:tof-pid-merge]: [10:02:32][INFO] Set the resolution function for He with formula 170*TMath::Power((TMath::Max(x-0.556,0.1))*(1-0.4235*y*y),-0.783)
+[53:tof-pid-merge]: [10:02:32][INFO] Set the resolution function for Al with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for El is tofResTrack.El_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for Mu is tofResTrack.Mu_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for Pi is tofResTrack.Pi_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for Ka is tofResTrack.Ka_ with formula 36.8721*TMath::Power((TMath::Max(x-0.417,0.1))*(1-1.05167*y*y),-0.602673)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for Pr is tofResTrack.Pr_ with formula 95.060*TMath::Power((TMath::Max(x-0.447,0.1))*(1-0.563191*y*y),-0.630723)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for De is tofResTrack.De_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for Tr is tofResTrack.Tr_ with formula 335*TMath::Power((TMath::Max(x-0.811,0.1))*(1-0.4235*y*y),-0.783)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for He is tofResTrack.He_ with formula 170*TMath::Power((TMath::Max(x-0.556,0.1))*(1-0.4235*y*y),-0.783)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for Al is tofResTrack.Al_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[53:tof-pid-merge]: [10:02:32][INFO] From metadata this data is from Data
+[53:tof-pid-merge]: [10:02:32][INFO] Updating the time shift for positive from ccdb 'Analysis/PID/TOFOffsetPos' and timestamp 1696561077036 and pass 'apass5'
+[53:tof-pid-merge]: [10:02:32][ERROR] Requested resource does not exist: http://alice-ccdb.cern.ch/Analysis/PID/TOFOffsetPos/1696561077036/RecoPassName=apass5/
+[53:tof-pid-merge]: [10:02:32][INFO] No Time Shift parameter is passed for positive
+[53:tof-pid-merge]: [10:02:32][INFO]  test getTimeShift at 0 pos: 0
+[53:tof-pid-merge]: [10:02:32][INFO] From metadata this data is from Data
+[53:tof-pid-merge]: [10:02:32][INFO] Updating the time shift for negative from ccdb 'Analysis/PID/TOFOffsetPos' and timestamp 1696561077036 and pass 'apass5'
+[53:tof-pid-merge]: [10:02:32][ERROR] Requested resource does not exist: http://alice-ccdb.cern.ch/Analysis/PID/TOFOffsetPos/1696561077036/RecoPassName=apass5/
+[53:tof-pid-merge]: [10:02:32][INFO] No Time Shift parameter is passed for negative
+[53:tof-pid-merge]: [10:02:32][INFO]  test getTimeShift at 0 neg: 0
+[53:tof-pid-merge]: [10:02:32][INFO] Parametrization at setup time:
+[53:tof-pid-merge]: [10:02:32][INFO] Parameters 'TOFResoParamsV3'
+[53:tof-pid-merge]: [10:02:32][INFO] Parameter 0/12 time_resolution is 62
+[53:tof-pid-merge]: [10:02:32][INFO] Parameter 1/12 time_resolution is 62
+[53:tof-pid-merge]: [10:02:32][INFO] Parameter 2/12 time_resolution is 62
+[53:tof-pid-merge]: [10:02:32][INFO] Parameter 3/12 time_resolution is 62
+[53:tof-pid-merge]: [10:02:32][INFO] Parameter 4/12 time_resolution is 62
+[53:tof-pid-merge]: [10:02:32][INFO] Parameter 5/12 time_resolution is 62
+[53:tof-pid-merge]: [10:02:32][INFO] Parameter 6/12 time_resolution is 62
+[53:tof-pid-merge]: [10:02:32][INFO] Parameter 7/12 time_resolution is 62
+[53:tof-pid-merge]: [10:02:32][INFO] Parameter 8/12 time_resolution is 62
+[53:tof-pid-merge]: [10:02:32][INFO] Parameter 9/12 time_resolution is 62
+[53:tof-pid-merge]: [10:02:32][INFO] Parameter 10/12 time_resolution is 62
+[53:tof-pid-merge]: [10:02:32][INFO] Parameter 11/12 time_resolution is 62
+[53:tof-pid-merge]: [10:02:32][INFO] Parameter 12/12 time_resolution is 62
+[53:tof-pid-merge]: [10:02:32][INFO] TOF momentum shift parameters
+[53:tof-pid-merge]: [10:02:32][INFO] etaN: 0
+[53:tof-pid-merge]: [10:02:32][INFO] etaStart: 0
+[53:tof-pid-merge]: [10:02:32][INFO] etaStop: 0
+[53:tof-pid-merge]: [10:02:32][INFO] content size 0
+[53:tof-pid-merge]: [10:02:32][INFO] Using no time shift for Pos vs correction 0
+[53:tof-pid-merge]: [10:02:32][INFO] Using no time shift for Neg vs correction 0
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for El is tofResTrack.El_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for Mu is tofResTrack.Mu_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for Pi is tofResTrack.Pi_ with formula 21.7611*TMath::Power((TMath::Max(x-0.319,0.2))*(1-1.22354*y*y),-0.476418)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for Ka is tofResTrack.Ka_ with formula 36.8721*TMath::Power((TMath::Max(x-0.417,0.1))*(1-1.05167*y*y),-0.602673)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for Pr is tofResTrack.Pr_ with formula 95.060*TMath::Power((TMath::Max(x-0.447,0.1))*(1-0.563191*y*y),-0.630723)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for De is tofResTrack.De_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for Tr is tofResTrack.Tr_ with formula 335*TMath::Power((TMath::Max(x-0.811,0.1))*(1-0.4235*y*y),-0.783)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for He is tofResTrack.He_ with formula 170*TMath::Power((TMath::Max(x-0.556,0.1))*(1-0.4235*y*y),-0.783)
+[53:tof-pid-merge]: [10:02:32][INFO] Resolution function for Al is tofResTrack.Al_ with formula 236*TMath::Power((TMath::Max(x-0.647,0.1))*(1-0.4235*y*y),-0.76)
+[58:internal-dpl-aod-writer]: [10:02:33][INFO] No AODs to be saved.
+[55:flow-pid-cme]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[55:flow-pid-cme]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:324: Detected CPU Name : znver2
+[55:flow-pid-cme]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:325: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 -avx512bw +sse3 -pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[55:flow-pid-cme]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[55:flow-pid-cme]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.31
+[55:flow-pid-cme]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.31
+[55:flow-pid-cme]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_500_600/12/55429/b363295a-edac-11ef-9234-200114580301 in SE <ALICE::CCIN2P3::SE>
+[55:flow-pid-cme]: [10:02:41][INFO] ccdb reads http://alice-ccdb.cern.ch/Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_500_600/1/b363295a-edac-11ef-9234-200114580301 for 1696561077036 (retrieve, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@55 target/Linux_x86_64 init/1792137694903 id/aenderic@stbc-i2.nikhef.nl session/bbPQ10e9), 
+[55:flow-pid-cme]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_500_600/05/50812/13cce654-edad-11ef-9234-200114580301 in SE <ALICE::CCIN2P3::SE>
+[55:flow-pid-cme]: [10:02:41][INFO] ccdb reads http://alice-ccdb.cern.ch/Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_500_600/1/13cce654-edad-11ef-9234-200114580301 for 1696561077036 (retrieve, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@55 target/Linux_x86_64 init/1792137694903 id/aenderic@stbc-i2.nikhef.nl session/bbPQ10e9), 
+[55:flow-pid-cme]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_600_700/02/30249/d420f18c-edac-11ef-9234-200114580301 in SE <ALICE::CCIN2P3::SE>
+[55:flow-pid-cme]: [10:02:41][INFO] ccdb reads http://alice-ccdb.cern.ch/Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_600_700/1/d420f18c-edac-11ef-9234-200114580301 for 1696561077036 (retrieve, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@55 target/Linux_x86_64 init/1792137694903 id/aenderic@stbc-i2.nikhef.nl session/bbPQ10e9), 
+[55:flow-pid-cme]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_600_700/05/01193/0b2409f0-edad-11ef-9234-200114580301 in SE <ALICE::CCIN2P3::SE>
+[55:flow-pid-cme]: [10:02:42][INFO] ccdb reads http://alice-ccdb.cern.ch/Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_600_700/1/0b2409f0-edad-11ef-9234-200114580301 for 1696561077036 (retrieve, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@55 target/Linux_x86_64 init/1792137694903 id/aenderic@stbc-i2.nikhef.nl session/bbPQ10e9), 
+[55:flow-pid-cme]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_700_800/07/29756/df0748f8-edac-11ef-b238-200114580301 in SE <ALICE::CCIN2P3::SE>
+[55:flow-pid-cme]: [10:02:42][INFO] ccdb reads http://alice-ccdb.cern.ch/Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_700_800/1/df0748f8-edac-11ef-b238-200114580301 for 1696561077036 (retrieve, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@55 target/Linux_x86_64 init/1792137694903 id/aenderic@stbc-i2.nikhef.nl session/bbPQ10e9), 
+[55:flow-pid-cme]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_700_800/02/33092/0239d8fe-edad-11ef-b238-200114580301 in SE <ALICE::CCIN2P3::SE>
+[55:flow-pid-cme]: [10:02:42][INFO] ccdb reads http://alice-ccdb.cern.ch/Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_700_800/1/0239d8fe-edad-11ef-b238-200114580301 for 1696561077036 (retrieve, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@55 target/Linux_x86_64 init/1792137694903 id/aenderic@stbc-i2.nikhef.nl session/bbPQ10e9), 
+[55:flow-pid-cme]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_800_900/04/13046/e8d13f3a-edac-11ef-b238-200114580301 in SE <ALICE::CCIN2P3::SE>
+[55:flow-pid-cme]: [10:02:43][INFO] ccdb reads http://alice-ccdb.cern.ch/Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_800_900/1/e8d13f3a-edac-11ef-b238-200114580301 for 1696561077036 (retrieve, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@55 target/Linux_x86_64 init/1792137694903 id/aenderic@stbc-i2.nikhef.nl session/bbPQ10e9), 
+[55:flow-pid-cme]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_800_900/11/32828/f8a114cd-edac-11ef-9234-200114580301 in SE <ALICE::CCIN2P3::SE>
+[55:flow-pid-cme]: [10:02:43][INFO] ccdb reads http://alice-ccdb.cern.ch/Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_800_900/1/f8a114cd-edac-11ef-9234-200114580301 for 1696561077036 (retrieve, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@55 target/Linux_x86_64 init/1792137694903 id/aenderic@stbc-i2.nikhef.nl session/bbPQ10e9), 
+[55:flow-pid-cme]: [10:02:43][INFO] ==================CCDB file successfuly applied====================
+[55:flow-pid-cme]: [10:02:43][INFO] size of hPosPrCut is 1 x 4
+[55:flow-pid-cme]: [10:02:43][INFO] size of hNegPrCut is 1 x 4
+[55:flow-pid-cme]: [10:02:43][INFO] ===================================================================
+[40:internal-dpl-aod-reader]: [10:03:02][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 73570 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:04:24][WARN] Not enough resources to schedule computation on stream 0. 1024 consecutive skips, last scheduled 156219 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[56:q-a-process-cent]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[56:q-a-process-cent]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:324: Detected CPU Name : znver2
+[56:q-a-process-cent]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:325: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 -avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs -invpcid +64bit +xsavec -avx10.1-512 -avx512vpopcntdq +cmov -avx512vp2intersect -avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 -sha512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -vpclmulqdq -avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 -gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd -avx512f -amx-bf16 -avx512bf16 -avx512vnni -push2pop2 +cx8 -avx512bw +sse3 -pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c -avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed -avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 -avx512vbmi -shstk -vaes -waitpkg -sgx +fxsr -avx512dq +sse4a]
+[40:internal-dpl-aod-reader]: [10:06:45][WARN] Not enough resources to schedule computation on stream 0. 2048 consecutive skips, last scheduled 297114 ms ago. Missing: - shared memory (have 98 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:07:29][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 1788 ms ago. Missing: - shared memory (have 35 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:07:29][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 1788 ms ago. Missing: - shared memory (have 35 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:07:29][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 1904 ms ago. Missing: - shared memory (have 35 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:07:30][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 2270 ms ago. Missing: - shared memory (have 35 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:07:31][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 3508 ms ago. Missing: - shared memory (have 35 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:07:35][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 7752 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:07:40][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 12152 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:07:46][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 18264 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:08:01][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 34009 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:08:33][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 65324 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:09:40][WARN] Not enough resources to schedule computation on stream 0. 1024 consecutive skips, last scheduled 132784 ms ago. Missing: - shared memory (have 86 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:11:25][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 1380 ms ago. Missing: - shared memory (have 75 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:11:25][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 1381 ms ago. Missing: - shared memory (have 75 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:11:25][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 1437 ms ago. Missing: - shared memory (have 75 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:11:26][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 1572 ms ago. Missing: - shared memory (have 75 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:11:27][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 3227 ms ago. Missing: - shared memory (have 75 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:11:27][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 3228 ms ago. Missing: - shared memory (have 75 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:11:33][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 9544 ms ago. Missing: - shared memory (have 75 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:11:40][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 16440 ms ago. Missing: - shared memory (have 58 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:11:57][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 33152 ms ago. Missing: - shared memory (have 58 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:12:26][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 62335 ms ago. Missing: - shared memory (have 58 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:13:17][WARN] Not enough resources to schedule computation on stream 0. 1024 consecutive skips, last scheduled 113265 ms ago. Missing: - shared memory (have 58 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:14:21][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 791 ms ago. Missing: - shared memory (have 83 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:14:21][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 791 ms ago. Missing: - shared memory (have 83 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:14:21][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 993 ms ago. Missing: - shared memory (have 83 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:14:23][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 2419 ms ago. Missing: - shared memory (have 83 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:14:23][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 2420 ms ago. Missing: - shared memory (have 83 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:14:25][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 4385 ms ago. Missing: - shared memory (have 83 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:14:29][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 8847 ms ago. Missing: - shared memory (have 83 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:14:38][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 17933 ms ago. Missing: - shared memory (have 70 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:14:52][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 31451 ms ago. Missing: - shared memory (have 70 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:15:28][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 67292 ms ago. Missing: - shared memory (have 70 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:16:32][WARN] Not enough resources to schedule computation on stream 0. 1024 consecutive skips, last scheduled 131458 ms ago. Missing: - shared memory (have 70 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:16:54][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 1160 ms ago. Missing: - shared memory (have 71 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:16:54][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 1160 ms ago. Missing: - shared memory (have 71 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:16:54][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 1540 ms ago. Missing: - shared memory (have 71 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:16:55][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 2928 ms ago. Missing: - shared memory (have 71 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:16:55][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 2932 ms ago. Missing: - shared memory (have 71 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:16:56][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 3732 ms ago. Missing: - shared memory (have 71 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:17:01][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 8792 ms ago. Missing: - shared memory (have 71 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:17:07][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 14104 ms ago. Missing: - shared memory (have 54 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:17:21][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 29044 ms ago. Missing: - shared memory (have 54 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:17:53][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 60904 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:18:03][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 363 ms ago. Missing: - shared memory (have 77 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:18:03][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 364 ms ago. Missing: - shared memory (have 77 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:18:03][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 536 ms ago. Missing: - shared memory (have 77 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:18:03][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 869 ms ago. Missing: - shared memory (have 77 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:18:05][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 2051 ms ago. Missing: - shared memory (have 77 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:18:09][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 6208 ms ago. Missing: - shared memory (have 77 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:18:13][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 10751 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:18:25][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 21944 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:18:44][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 41748 ms ago. Missing: - shared memory (have 87 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:19:31][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 88044 ms ago. Missing: - shared memory (have 87 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:20:52][WARN] Not enough resources to schedule computation on stream 0. 1024 consecutive skips, last scheduled 169616 ms ago. Missing: - shared memory (have 87 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:21:01][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 553 ms ago. Missing: - shared memory (have 99 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:21:01][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 553 ms ago. Missing: - shared memory (have 99 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:21:02][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 1800 ms ago. Missing: - shared memory (have 99 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:21:02][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 1908 ms ago. Missing: - shared memory (have 99 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:21:04][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 4047 ms ago. Missing: - shared memory (have 99 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:21:07][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 6340 ms ago. Missing: - shared memory (have 91 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:21:12][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 12179 ms ago. Missing: - shared memory (have 76 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:21:21][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 21036 ms ago. Missing: - shared memory (have 85 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:21:44][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 44103 ms ago. Missing: - shared memory (have 85 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:22:23][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 83219 ms ago. Missing: - shared memory (have 85 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:23:28][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 439 ms ago. Missing: - shared memory (have 92 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:23:28][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 441 ms ago. Missing: - shared memory (have 92 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:23:29][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 1637 ms ago. Missing: - shared memory (have 92 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:23:29][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 1789 ms ago. Missing: - shared memory (have 92 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:23:29][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 2036 ms ago. Missing: - shared memory (have 92 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:23:29][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 2180 ms ago. Missing: - shared memory (have 92 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:23:35][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 7560 ms ago. Missing: - shared memory (have 88 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:23:45][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 17872 ms ago. Missing: - shared memory (have 76 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:24:05][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 38229 ms ago. Missing: - shared memory (have 76 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:24:46][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 79048 ms ago. Missing: - shared memory (have 76 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:25:52][WARN] Not enough resources to schedule computation on stream 0. 1024 consecutive skips, last scheduled 144988 ms ago. Missing: - shared memory (have 76 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:25:58][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 668 ms ago. Missing: - shared memory (have 94 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:25:58][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 668 ms ago. Missing: - shared memory (have 94 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:25:58][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 737 ms ago. Missing: - shared memory (have 94 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:25:58][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 1274 ms ago. Missing: - shared memory (have 94 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:26:01][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 4291 ms ago. Missing: - shared memory (have 94 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:26:03][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 5323 ms ago. Missing: - shared memory (have 94 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:26:05][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 8315 ms ago. Missing: - shared memory (have 94 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:26:12][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 15210 ms ago. Missing: - shared memory (have 80 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:26:31][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 34184 ms ago. Missing: - shared memory (have 80 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:27:04][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 66449 ms ago. Missing: - shared memory (have 80 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:28:20][WARN] Not enough resources to schedule computation on stream 0. 1024 consecutive skips, last scheduled 143193 ms ago. Missing: - shared memory (have 80 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:28:29][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 812 ms ago. Missing: - shared memory (have 99 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:28:29][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 812 ms ago. Missing: - shared memory (have 99 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:28:29][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 1228 ms ago. Missing: - shared memory (have 99 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:28:29][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 1624 ms ago. Missing: - shared memory (have 99 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:28:31][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 2920 ms ago. Missing: - shared memory (have 95 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:28:33][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 5298 ms ago. Missing: - shared memory (have 95 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:28:38][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 10128 ms ago. Missing: - shared memory (have 77 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:28:49][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 21573 ms ago. Missing: - shared memory (have 85 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:29:06][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 38384 ms ago. Missing: - shared memory (have 85 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:29:47][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 78875 ms ago. Missing: - shared memory (have 85 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:31:05][WARN] Not enough resources to schedule computation on stream 0. 1024 consecutive skips, last scheduled 157220 ms ago. Missing: - shared memory (have 85 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:31:25][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 1536 ms ago. Missing: - shared memory (have 41 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:31:25][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 1536 ms ago. Missing: - shared memory (have 41 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:31:25][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 1776 ms ago. Missing: - shared memory (have 41 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:31:26][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 2427 ms ago. Missing: - shared memory (have 41 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:31:28][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 4056 ms ago. Missing: - shared memory (have 41 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:31:29][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 5752 ms ago. Missing: - shared memory (have 41 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:31:34][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 10296 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:31:46][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 22192 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:31:59][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 35344 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:32:39][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 75320 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:34:04][WARN] Not enough resources to schedule computation on stream 0. 1024 consecutive skips, last scheduled 160749 ms ago. Missing: - shared memory (have 55 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:34:07][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 419 ms ago. Missing: - shared memory (have 12 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:34:07][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 419 ms ago. Missing: - shared memory (have 12 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:34:07][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 928 ms ago. Missing: - shared memory (have 12 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:34:08][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 2019 ms ago. Missing: - shared memory (have 12 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:34:09][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 3035 ms ago. Missing: - shared memory (have 12 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:34:09][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 3035 ms ago. Missing: - shared memory (have 12 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:34:16][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 10099 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:34:25][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 18271 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:34:46][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 39531 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:35:36][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 89498 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:37:04][WARN] Not enough resources to schedule computation on stream 0. 1024 consecutive skips, last scheduled 178100 ms ago. Missing: - shared memory (have 94 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:39:07][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 512 ms ago. Missing: - shared memory (have 98 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:39:07][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 512 ms ago. Missing: - shared memory (have 98 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:39:08][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 1005 ms ago. Missing: - shared memory (have 98 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:39:10][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 3077 ms ago. Missing: - shared memory (have 98 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:39:11][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 4508 ms ago. Missing: - shared memory (have 98 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:39:15][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 7916 ms ago. Missing: - shared memory (have 98 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:39:19][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 12528 ms ago. Missing: - shared memory (have 88 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:39:32][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 24789 ms ago. Missing: - shared memory (have 88 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:39:55][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 48448 ms ago. Missing: - shared memory (have 88 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:40:36][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 89284 ms ago. Missing: - shared memory (have 88 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:41:16][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 381 ms ago. Missing: - shared memory (have 27 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:41:16][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 381 ms ago. Missing: - shared memory (have 27 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:41:16][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 637 ms ago. Missing: - shared memory (have 27 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:41:17][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 884 ms ago. Missing: - shared memory (have 27 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:41:17][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 1160 ms ago. Missing: - shared memory (have 27 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:41:20][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 4562 ms ago. Missing: - shared memory (have 27 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:41:27][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 11642 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:41:37][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 21424 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:42:01][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 45173 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:42:48][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 92318 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:44:09][WARN] Not enough resources to schedule computation on stream 0. 1024 consecutive skips, last scheduled 173792 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:47:10][WARN] Not enough resources to schedule computation on stream 0. 2048 consecutive skips, last scheduled 353864 ms ago. Missing: - shared memory (have 99 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:47:20][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 426 ms ago. Missing: - shared memory (have 36 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:47:20][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 426 ms ago. Missing: - shared memory (have 36 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:47:21][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 712 ms ago. Missing: - shared memory (have 36 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:47:22][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 2113 ms ago. Missing: - shared memory (have 36 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:47:24][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 3717 ms ago. Missing: - shared memory (have 36 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:47:25][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 5687 ms ago. Missing: - shared memory (have 36 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:47:34][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 13764 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:47:42][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 22370 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:48:08][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 48089 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:48:51][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 91614 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:50:06][WARN] Not enough resources to schedule computation on stream 0. 1024 consecutive skips, last scheduled 166382 ms ago. Missing: - shared memory (have 86 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:52:51][WARN] Not enough resources to schedule computation on stream 0. 2048 consecutive skips, last scheduled 330737 ms ago. Missing: - shared memory (have 86 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:52:58][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 738 ms ago. Missing: - shared memory (have 47 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:52:58][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 738 ms ago. Missing: - shared memory (have 47 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:52:59][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 1330 ms ago. Missing: - shared memory (have 47 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:52:59][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 1892 ms ago. Missing: - shared memory (have 47 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:53:01][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 3378 ms ago. Missing: - shared memory (have 47 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:53:05][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 7236 ms ago. Missing: - shared memory (have 47 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:53:11][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 13638 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:53:23][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 25409 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:53:47][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 49784 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:54:34][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 96725 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:55:17][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 876 ms ago. Missing: - shared memory (have 20 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:55:17][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 876 ms ago. Missing: - shared memory (have 20 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:55:18][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 1956 ms ago. Missing: - shared memory (have 20 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:55:19][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 2488 ms ago. Missing: - shared memory (have 20 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:55:19][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 2620 ms ago. Missing: - shared memory (have 20 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:55:23][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 6664 ms ago. Missing: - shared memory (have 20 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:55:27][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 10732 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:55:39][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 22868 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:56:10][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 53324 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:57:01][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 104640 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:57:36][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 392 ms ago. Missing: - shared memory (have 23 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:57:36][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 392 ms ago. Missing: - shared memory (have 23 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:57:38][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 1880 ms ago. Missing: - shared memory (have 23 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:57:38][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 1880 ms ago. Missing: - shared memory (have 23 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:57:38][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 1880 ms ago. Missing: - shared memory (have 23 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:57:41][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 5373 ms ago. Missing: - shared memory (have 23 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:57:46][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 10101 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:58:02][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 25692 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:58:24][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 47709 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:59:02][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 86464 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:59:48][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 408 ms ago. Missing: - shared memory (have 57 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:59:48][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 408 ms ago. Missing: - shared memory (have 57 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:59:49][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 1776 ms ago. Missing: - shared memory (have 57 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:59:53][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 5534 ms ago. Missing: - shared memory (have 57 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:59:54][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 6574 ms ago. Missing: - shared memory (have 57 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [10:59:56][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 8920 ms ago. Missing: - shared memory (have 57 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [11:00:07][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 18988 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:internal-dpl-aod-reader]: [11:00:24][WARN] Not enough resources to schedule computation on stream 0. 128 consecuti

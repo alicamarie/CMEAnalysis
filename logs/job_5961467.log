@@ -1,0 +1,36 @@
+000 (5961467.000.000) 2026-10-16 09:36:40 Job submitted from host: <145.107.7.246:9618?addrs=145.107.7.246-9618+[2a07-8500-120-e070--3f6]-9618&alias=taai-007.nikhef.nl&noUDP&sock=schedd_2720_45b1>
+...
+001 (5961467.000.000) 2026-10-16 09:36:54 Job executing on host: <145.107.4.125:9618?addrs=145.107.4.125-9618+[2a07-8500-120-e070--7d]-9618&alias=wn-sate-079.nikhef.nl&noUDP&sock=startd_1735_a4e8>
+	SlotName: slot1_1@wn-sate-079.nikhef.nl
+	CondorScratchDir = "/scratch/condor_execute/dir_3641116"
+	Cpus = 1
+	Disk = 10488519
+	GPUs = 0
+	Memory = 4096
+...
+006 (5961467.000.000) 2026-10-16 09:37:03 Image size of job updated: 76484
+	75  -  MemoryUsage of job (MB)
+	76484  -  ResidentSetSize of job (KB)
+...
+006 (5961467.000.000) 2026-10-16 09:37:26 Image size of job updated: 3794480
+	75  -  MemoryUsage of job (MB)
+	76484  -  ResidentSetSize of job (KB)
+...
+005 (5961467.000.000) 2026-10-16 09:37:26 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:19, Sys 0 00:00:30  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:19, Sys 0 00:00:30  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :        1 10485760  10488519 
+	   GPUs                 :                           0 
+	   Memory (MB)          :       75     4096      4096 
+	   TimeExecute (s)      :       32                    
+	   TimeSlotBusy (s)     :       32                    
+...

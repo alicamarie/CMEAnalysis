@@ -1,0 +1,6 @@
+/user/aenderic/.local/bin/alienv
+Current working directory: /data/alice/aenderic/CME_verify_results
+Input file check:
+-rw-r--r-- 1 aenderic alice 36 Oct 15 15:27 input_data.txt
+Absolute input path:
+/data/alice/aenderic/CME_verify_results/input_data.txt

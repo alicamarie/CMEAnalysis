@@ -1,0 +1,12 @@
+Error in <TFile::TFile>: file /data/alice/aenderic/CME_verify_results/data/AO2D_small.root does not exist
+For later analysis we write a core dump to core_dump_29
+/data/alice/aenderic/CME_verify_results/run.sh: line 22:    20 Done                    o2-analysis-cf-flow-pid-cme -b --configuration json://configuration.json --shm-segment-size 10000000000
+        21                       | o2-analysis-trackselection -b --configuration json://configuration.json
+        22                       | o2-analysis-ft0-corrected-table -b --configuration json://configuration.json
+        23                       | o2-analysis-qvector-table -b --configuration json://configuration.json
+        24                       | o2-analysis-pid-tof-merge -b --configuration json://configuration.json
+        25                       | o2-analysis-pid-its -b --configuration json://configuration.json
+        26                       | o2-analysis-multcenttable -b --configuration json://configuration.json
+        27                       | o2-analysis-event-selection-service -b --configuration json://configuration.json
+        28 Broken pipe             | o2-analysis-propagationservice -b --configuration json://configuration.json
+        29 Aborted                 | o2-analysis-pid-tpc-service -b --configuration json://configuration.json --aod-file @input_data.txt --shm-segment-size 4000000000 --aod-memory-rate-limit 200000000

@@ -1,0 +1,12 @@
+ERROR: Environment Modules was not found on your system.
+       Get it with: yum install environment-modules
+./run.sh: line 10: o2-analysis-cf-flow-pid-cme: command not found
+./run.sh: line 11: o2-analysis-trackselection: command not found
+./run.sh: line 12: o2-analysis-ft0-corrected-table: command not found
+./run.sh: line 13: o2-analysis-qvector-table: command not found
+./run.sh: line 14: o2-analysis-pid-tof-merge: command not found
+./run.sh: line 15: o2-analysis-pid-its: command not found
+./run.sh: line 16: o2-analysis-multcenttable: command not found
+./run.sh: line 17: o2-analysis-event-selection-service: command not found
+./run.sh: line 18: o2-analysis-propagationservice: command not found
+./run.sh: line 19: o2-analysis-pid-tpc-service: command not found

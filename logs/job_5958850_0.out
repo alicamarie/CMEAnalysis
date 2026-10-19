@@ -1,0 +1,9 @@
+modulecmd: 
+alienv: /user/aenderic/.local/bin/alienv
+=== Batch environment ===
+wn-knek-016.nikhef.nl
+aenderic
+MODULESHOME=/usr/share/Modules
+/usr/bin/modulecmd
+ls: cannot access '/usr/share/Modules': No such file or directory
+ls: cannot access '/etc/alternatives/modulecmd': No such file or directory

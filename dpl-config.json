@@ -1,0 +1,963 @@
+{
+    "internal-dpl-clock": "",
+    "internal-dpl-aod-reader": {
+        "aod-file-private": "AO2D_flowinput.root",
+        "aod-max-io-rate": "0",
+        "time-limit": "0",
+        "orbit-offset-enumeration": "0",
+        "orbit-multiplier-enumeration": "0",
+        "start-value-enumeration": "0",
+        "end-value-enumeration": "-1",
+        "step-value-enumeration": "1"
+    },
+    "internal-dpl-aod-spawner": "",
+    "fill-p-i-dcolums": {
+        "cfgPtMaxforTPCOnlyPID": "0.400000006",
+        "cfgMinPtPID": "0.150000006",
+        "cfgMaxPtPID": "99.9000015",
+        "cfgMaxEtaPID": "0.800000012",
+        "cfgMaxTPCChi2NCl": "2.5",
+        "cfgMaxChi2NClITS": "2.5",
+        "cfgMinTPCCls": "70",
+        "cfgMinITSCls": "1",
+        "cfgMaxTPCCls": "999",
+        "cfgMaxITSCls": "999",
+        "cfgMaxDCAxy": "99",
+        "cfgMaxDCAz": "2",
+        "cfgAveClusSizeCoslMinPi": "0",
+        "cfgAveClusSizeCoslMaxPi": "1e+09",
+        "cfgAveClusSizeCoslMinKa": "0",
+        "cfgAveClusSizeCoslMaxKa": "1e+09",
+        "cfgAveClusSizeCoslMinPr": "0",
+        "cfgAveClusSizeCoslMaxPr": "1e+09",
+        "cfgrigidityBins": {
+            "values": [
+                "200",
+                "-10",
+                "10"
+            ]
+        },
+        "cfgdedxBins": {
+            "values": [
+                "1000",
+                "0",
+                "1000"
+            ]
+        },
+        "cfgnSigmaBinsTPC": {
+            "values": [
+                "200",
+                "-5",
+                "5"
+            ]
+        },
+        "cfgnSigmaBinsTOF": {
+            "values": [
+                "200",
+                "-5",
+                "5"
+            ]
+        },
+        "cfgnSigmaBinsITS": {
+            "values": [
+                "200",
+                "-5",
+                "5"
+            ]
+        },
+        "cfgnSigmaBinsCom": {
+            "values": [
+                "100",
+                "0",
+                "10"
+            ]
+        },
+        "cfgaxisptPID": {
+            "values": [
+                "120",
+                "0",
+                "12"
+            ]
+        },
+        "cfgaxispPID": {
+            "values": [
+                "50",
+                "0",
+                "5"
+            ]
+        },
+        "cfgaxisAverClusterCosl": {
+            "values": [
+                "50",
+                "0",
+                "10"
+            ]
+        },
+        "cfgaxisAverClusterCoslnSigma": {
+            "values": [
+                "50",
+                "0",
+                "5"
+            ]
+        },
+        "cfgaxisetaPID": {
+            "values": [
+                "90",
+                "-0.9",
+                "0.9"
+            ]
+        },
+        "cfgaxisDCAz": {
+            "values": [
+                "200",
+                "-1",
+                "1"
+            ]
+        },
+        "cfgaxisDCAxy": {
+            "values": [
+                "100",
+                "-0.5",
+                "0.5"
+            ]
+        },
+        "cfgaxisChi2Ncls": {
+            "values": [
+                "50",
+                "0",
+                "5"
+            ]
+        },
+        "cfgQuietMode": "false",
+        "cfgRequireGlobalTrack": "false",
+        "cfgOpenPIDPtSelection": "false",
+        "cfgOpenPlotnSigmaOrigin": "true",
+        "cfgOpenPlotnSigmaTOFITSPt": "false",
+        "cfgOpenPlotnSigmaITSTPCPt": "false",
+        "cfgOpenPlotnSigmaTOFTPCPt": "false",
+        "cfgOpenPlotAverClus": "false",
+        "cfgOpenPlotAverClusP": "true",
+        "cfgOpenPlotAverClusnSigmaTPC": "false",
+        "cfgOpenPlotPhiDis": "true",
+        "cfgOpenPlotPhiDisPtEta": "false",
+        "cfgOpenITSCut": "true",
+        "cfgOpenITSCutQAPlots": "true",
+        "cfgOpenDetailPlotsTPCITSContaimination": "false",
+        "cfgUseStrictPID": "true",
+        "cfgOpenAllowCrossTrack": "false",
+        "cfgOpenCrossTrackQAPlots": "true",
+        "cfgOpenTOFOnlyPID": "false",
+        "cfgOpenTPCAssistanceTOFOnlyPID": "false",
+        "cfgOpenTPCOnlyPID": "false",
+        "cfgUseCostomTrackCuts": "true",
+        "cfgOpenPtRangedTOFnSigmacutPi": "false",
+        "cfgOpenPtRangedTPCnSigmacutPi": "false",
+        "cfgOpenPtRangedITSnSigmacutPi": "false",
+        "cfgOpenPtRangedTOFnSigmacutKa": "false",
+        "cfgOpenPtRangedTPCnSigmacutKa": "false",
+        "cfgOpenPtRangedITSnSigmacutKa": "false",
+        "cfgOpenPtRangedTOFnSigmacutPr": "false",
+        "cfgOpenPtRangedTPCnSigmacutPr": "false",
+        "cfgOpenPtRangedITSnSigmacutPr": "false",
+        "cfgOpenPlotCheckITSOnlytrackInfo": "true",
+        "cfgOpenTrackingInfoCheck": "true",
+        "cfgPtCutLower": {
+            "values": [
+                "0.15000000596046448",
+                "0.15000000596046448",
+                "0.15000000596046448"
+            ]
+        },
+        "cfgPtCutUpper": {
+            "values": [
+                "99",
+                "99",
+                "99"
+            ]
+        },
+        "cfgnSigmaCutTPCUpper": {
+            "values": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        "cfgnSigmaCutTOFUpper": {
+            "values": [
+                "1.5",
+                "1.5",
+                "1.5"
+            ]
+        },
+        "cfgnSigmaCutRMSUpper": {
+            "values": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        "cfgnSigmaCutITSUpper": {
+            "values": [
+                "3",
+                "2.5",
+                "2"
+            ]
+        },
+        "cfgnSigmaCutTPCLower": {
+            "values": [
+                "-3",
+                "-3",
+                "-3"
+            ]
+        },
+        "cfgnSigmaCutTOFLower": {
+            "values": [
+                "-1.5",
+                "-1.5",
+                "-1.5"
+            ]
+        },
+        "cfgnSigmaCutRMSLower": {
+            "values": [
+                "-3",
+                "-3",
+                "-3"
+            ]
+        },
+        "cfgnSigmaCutITSLower": {
+            "values": [
+                "-3",
+                "-2.5",
+                "-2"
+            ]
+        },
+        "cfgPtBinPionPID": {
+            "values": [
+                "0.20000000298023224",
+                "0.30000001192092896",
+                "0.4000000059604645",
+                "0.5",
+                "0.6000000238418579",
+                "0.699999988079071",
+                "0.800000011920929",
+                "0.8999999761581421",
+                "1",
+                "1.25",
+                "1.5",
+                "1.75",
+                "2",
+                "2.25",
+                "2.5",
+                "3",
+                "3.5",
+                "4",
+                "5",
+                "6",
+                "8",
+                "10"
+            ]
+        },
+        "cfgPtBinKaonPID": {
+            "values": [
+                "0.30000001192092896",
+                "0.4000000059604645",
+                "0.5",
+                "0.6000000238418579",
+                "0.699999988079071",
+                "0.800000011920929",
+                "0.8999999761581421",
+                "1",
+                "1.25",
+                "1.5",
+                "1.75",
+                "2",
+                "2.25",
+                "2.5",
+                "3",
+                "3.5",
+                "4",
+                "5",
+                "6"
+            ]
+        },
+        "cfgPtBinProtonPID": {
+            "values": [
+                "0.5",
+                "0.6000000238418579",
+                "0.699999988079071",
+                "0.800000011920929",
+                "0.8999999761581421",
+                "1",
+                "1.25",
+                "1.5",
+                "1.75",
+                "2",
+                "2.25",
+                "2.5",
+                "3",
+                "3.5",
+                "4",
+                "5",
+                "6"
+            ]
+        },
+        "cfgnSigmaTPCPionPtUpper": {
+            "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        "cfgnSigmaTOFPionPtUpper": {
+            "values": [
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5"
+            ]
+        },
+        "cfgnSigmaITSPionPtUpper": {
+            "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        "cfgnSigmaTPCKaonPtUpper": {
+            "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        "cfgnSigmaTOFKaonPtUpper": {
+            "values": [
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5"
+            ]
+        },
+        "cfgnSigmaITSKaonPtUpper": {
+            "values": [
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5",
+                "2.5"
+            ]
+        },
+        "cfgnSigmaTPCProtonPtUpper": {
+            "values": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        "cfgnSigmaTOFProtonPtUpper": {
+            "values": [
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5",
+                "1.5"
+            ]
+        },
+        "cfgnSigmaITSProtonPtUpper": {
+            "values": [
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2",
+                "2"
+            ]
+        },
+        "cfgnSigmaTPCPionPtLower": {
+            "values": [
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3"
+            ]
+        },
+        "cfgnSigmaTOFPionPtLower": {
+            "values": [
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5"
+            ]
+        },
+        "cfgnSigmaITSPionPtLower": {
+            "values": [
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3"
+            ]
+        },
+        "cfgnSigmaTPCKaonPtLower": {
+            "values": [
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3"
+            ]
+        },
+        "cfgnSigmaTOFKaonPtLower": {
+            "values": [
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5"
+            ]
+        },
+        "cfgnSigmaITSKaonPtLower": {
+            "values": [
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5",
+                "-2.5"
+            ]
+        },
+        "cfgnSigmaTPCProtonPtLower": {
+            "values": [
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3",
+                "-3"
+            ]
+        },
+        "cfgnSigmaTOFProtonPtLower": {
+            "values": [
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5",
+                "-1.5"
+            ]
+        },
+        "cfgnSigmaITSProtonPtLower": {
+            "values": [
+                "-2",
+                "-2",
+                "-2",
+                "-2",
+                "-2",
+                "-2",
+                "-2",
+                "-2",
+                "-2",
+                "-2",
+                "-2",
+                "-2",
+                "-2",
+                "-2",
+                "-2",
+                "-2"
+            ]
+        }
+    },
+    "flow-pid-cme": {
+        "cfgnMods": {
+            "values": [
+                "2"
+            ]
+        },
+        "cfgDetName": "FT0C",
+        "cfgRefAName": "TPCpos",
+        "cfgRefBName": "TPCneg",
+        "cfgnTotalSystem": "7",
+        "cfgCutOccupancyLow": "0",
+        "cfgCutOccupancyHigh": "3000",
+        "cfgVtzCut": "10",
+        "cfgCentMin": "0",
+        "cfgCentMax": "100",
+        "cfgMinPt": "0.150000006",
+        "cfgMaxEta": "0.800000012",
+        "cfgMaxDCArToPVcut": "0.100000001",
+        "cfgMaxDCAzToPVcut": "1",
+        "cfgaxisQvecF": {
+            "values": [
+                "300",
+                "-1",
+                "1"
+            ]
+        },
+        "cfgaxisQvec": {
+            "values": [
+                "100",
+                "-3",
+                "3"
+            ]
+        },
+        "cfgaxisCent": {
+            "values": [
+                "100",
+                "0",
+                "100"
+            ]
+        },
+        "cfgaxiscos": {
+            "values": [
+                "102",
+                "-1.02",
+                "1.02"
+            ]
+        },
+        "cfgaxispt": {
+            "values": [
+                "100",
+                "0",
+                "10"
+            ]
+        },
+        "cfgaxisCentMerged": {
+            "values": [
+                "20",
+                "0",
+                "100"
+            ]
+        },
+        "cfgaxisCentForQA": {
+            "values": [
+                "100",
+                "0",
+                "100"
+            ]
+        },
+        "cfgaxisNch": {
+            "values": [
+                "500",
+                "0",
+                "500"
+            ]
+        },
+        "cfgaxisT0C": {
+            "values": [
+                "60",
+                "0",
+                "6000"
+            ]
+        },
+        "cfgaxisT0A": {
+            "values": [
+                "100",
+                "0",
+                "100000"
+            ]
+        },
+        "cfgaxisNchPV": {
+            "values": [
+                "500",
+                "0",
+                "500"
+            ]
+        },
+        "cfgaxisptPID": {
+            "values": [
+                "120",
+                "0",
+                "12"
+            ]
+        },
+        "cfgnSigmaBinsTPC": {
+            "values": [
+                "200",
+                "-5",
+                "5"
+            ]
+        },
+        "cfgnSigmaBinsITS": {
+            "values": [
+                "200",
+                "-5",
+                "5"
+            ]
+        },
+        "cfgaxissumpt": {
+            "values": [
+                "16",
+                "0",
+                "16"
+            ]
+        },
+        "cfgaxisdeltaeta": {
+            "values": [
+                "16",
+                "-1.6",
+                "1.6"
+            ]
+        },
+        "cfgaxisdeltapt": {
+            "values": [
+                "16",
+                "-8",
+                "8"
+            ]
+        },
+        "cfgUseAdditionalEventCut": "true",
+        "cfgOpenEvSelkIsGoodZvtxFT0vsPV": "false",
+        "cfgOpenEvSelkNoSameBunchPileup": "true",
+        "cfgOpenEvSelkNoCollInTimeRangeStandard": "false",
+        "cfgOpenEvSelkIsGoodITSLayersAll": "true",
+        "cfgOpenEvSelkNoCollInRofStandard": "false",
+        "cfgOpenEvSelkNoHighMultCollInPrevRof": "false",
+        "cfgOpenEvSelOccupancy": "false",
+        "cfgOpenEvSelMultCorrelationPVTracks": "false",
+        "cfgOpenEvSelMultCorrelationGlobalTracks": "false",
+        "cfgOpenEvSelV0AT0ACut": "false",
+        "cfgOpenFullEventQA": "true",
+        "cfgkOpenV2": "true",
+        "cfgkOpenCME": "true",
+        "cfgkOpenCMEDifferential": "true",
+        "cfgkOpenDeltaPt": "true",
+        "cfgkOpenDeltaEta": "true",
+        "cfgkOpenAveragePt": "true",
+        "cfgkOpenPiPi": "true",
+        "cfgkOpenKaKa": "true",
+        "cfgkOpenPrPr": "true",
+        "cfgkOpenPiKa": "true",
+        "cfgkOpenPiPr": "true",
+        "cfgkOpenKaPr": "true",
+        "cfgkOpenHaHa": "true",
+        "cfgkOpenSsOsCrossCheck": "false",
+        "cfgkOpenTPCITSPurityCut": "false",
+        "cfgkOpenTPCITSPurityCutQA": "false",
+        "cfgkOpenDebugPIDCME": "false",
+        "cfgOpenPlotITSNcls": "true",
+        "cfgOpenPlotITSNclsPtCent": "false",
+        "cfgOpenPlotTPCNcls": "true",
+        "cfgOpenPlotTPCNclsPtCent": "false",
+        "cfgOpenCustomTrackCutAssurance": "true",
+        "cfgITSPurityCen": {
+            "values": [
+                "20",
+                "30"
+            ]
+        },
+        "cfgPtPrCut": {
+            "values": [
+                "0.5",
+                "0.6000000238418579",
+                "0.699999988079071",
+                "0.800000011920929",
+                "0.8999999761581421"
+            ]
+        },
+        "cfgCCDBPurityPath": "PurityCut",
+        "ccdbNoLaterThan": "1755046463873",
+        "ccdbUrl": "http:\/\/alice-ccdb.cern.ch"
+    },
+    "q-a-process-cent": {
+        "cfgCentralitybinsforQA": {
+            "values": [
+                "10",
+                "20",
+                "30",
+                "40",
+                "50"
+            ]
+        },
+        "cfgOpenDetailPlots": "false",
+        "cfgOpenITSafter": "false",
+        "cfgOpenPtEtaPhi": "true",
+        "cfgOpenITSTPCnSigma": "false",
+        "cfgOpenClusSizenSigmaTPC": "false",
+        "cfgOpenPi": "true",
+        "cfgOpenKa": "true",
+        "cfgOpenPr": "true",
+        "cfgOpenTOFITSnSigma": "false",
+        "cfgOpenTOFTPCnSigma": "false",
+        "cfgaxisetaPID": {
+            "values": [
+                "80",
+                "-0.8",
+                "0.8"
+            ]
+        },
+        "cfgaxisptPID": {
+            "values": [
+                "100",
+                "0",
+                "10"
+            ]
+        },
+        "cfgnSigmaBinsTPC": {
+            "values": [
+                "100",
+                "-5",
+                "5"
+            ]
+        },
+        "cfgnSigmaBinsITS": {
+            "values": [
+                "100",
+                "-5",
+                "5"
+            ]
+        },
+        "cfgnSigmaBinsTOF": {
+            "values": [
+                "100",
+                "-5",
+                "5"
+            ]
+        },
+        "cfgaxisAverClusterCoslnSigma": {
+            "values": [
+                "50",
+                "0",
+                "5"
+            ]
+        }
+    },
+    "internal-dpl-aod-global-analysis-file-sink": "",
+    "internal-dpl-injected-dummy-sink": ""
+}

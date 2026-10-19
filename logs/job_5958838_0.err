@@ -1,0 +1,7 @@
+ERROR: Environment Modules was not found on your system.
+       Get it with: yum install environment-modules
+ls: cannot access '/bin/modulecmd': No such file or directory
+ls: cannot access '/usr/bin/modulecmd': No such file or directory
+ls: cannot access '/usr/share/Modules': No such file or directory
+ERROR: Environment Modules was not found on your system.
+       Get it with: yum install environment-modules

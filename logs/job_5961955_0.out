@@ -1,0 +1,11 @@
+Host: wn-knek-008.nikhef.nl
+Checking executable...
+/data/alice/aenderic/alice/sw/slc9_x86-64/O2Physics/master-local1/bin/o2-analysis-cf-flow-pid-cme
+Current working directory: /data/alice/aenderic/CME_verify_results
+Input file check:
+-rw-r--r-- 1 aenderic alice 20 Oct 16 13:44 input_data.txt
+Absolute input path:
+/data/alice/aenderic/CME_verify_results/input_data.txt
+[INFO] Loading metadata from file data/AO2D_small.root in PID 29
+[FATAL] Couldn't open file "data/AO2D_small.root"!
+[FATAL] unknown error while setting up workflow in o2-analysis-pid-tpc-service.

@@ -1,0 +1,8 @@
+Host: wn-lot-037.nikhef.nl
+Checking executable...
+/data/alice/aenderic/alice/sw/slc9_x86-64/O2Physics/master-local1/bin/o2-analysis-cf-flow-pid-cme
+Current working directory: /data/alice/aenderic/CME_verify_results
+Input file check:
+-rw-r--r-- 1 aenderic alice 15 Oct 16 13:53 input_data.txt
+Absolute input path:
+/data/alice/aenderic/CME_verify_results/input_data.txt

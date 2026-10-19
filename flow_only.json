@@ -1,0 +1,3618 @@
+{
+    "workflow": [
+        {
+            "name": "fill-p-i-dcolums",
+            "inputs": [
+                {
+                    "binding": "TracksExtension",
+                    "origin": "AOD",
+                    "description": "EXTRACK",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "input:Tracks",
+                            "type": "4",
+                            "defaultValue": "Tracks/AOD/TRACK/0",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "input-schema:Tracks",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fIndexCollisions\",\"type\":7},{\"name\":\"fTrackType\",\"type\":2},{\"name\":\"fX\",\"type\":11},{\"name\":\"fAlpha\",\"type\":11},{\"name\":\"fY\",\"type\":11},{\"name\":\"fZ\",\"type\":11},{\"name\":\"fSnp\",\"type\":11},{\"name\":\"fTgl\",\"type\":11},{\"name\":\"fSigned1Pt\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "projectors",
+                            "type": "4",
+                            "defaultValue": "{\"projectors\":[{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":11,\"value\":8.507059173023462e37,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":27,\"left\":{\"kind\":2,\"index\":3,\"operation\":4,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":1.0,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":3,\"binding\":\"fSigned1Pt\",\"hash\":4225458101,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":null,\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":10,\"left\":{\"kind\":2,\"index\":2,\"operation\":27,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fSigned1Pt\",\"hash\":4225458101,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":11,\"value\":1.1754943508222876e-38,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":11,\"value\":8.507059173023462e37,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":4,\"left\":{\"kind\":2,\"index\":3,\"operation\":5,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.5,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":2,\"left\":{\"kind\":2,\"index\":3,\"operation\":23,\"left\":{\"kind\":2,\"index\":3,\"operation\":3,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.7853981852531433,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":5,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.5,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":26,\"left\":{\"kind\":1,\"index\":3,\"binding\":\"fTgl\",\"hash\":4259215054,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":4,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":1.0,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":23,\"left\":{\"kind\":2,\"index\":3,\"operation\":3,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.7853981852531433,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":5,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.5,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":26,\"left\":{\"kind\":1,\"index\":3,\"binding\":\"fTgl\",\"hash\":4259215054,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null},\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":27,\"left\":{\"kind\":1,\"index\":3,\"binding\":\"fSigned1Pt\",\"hash\":4225458101,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":10,\"left\":{\"kind\":2,\"index\":2,\"operation\":27,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fSigned1Pt\",\"hash\":4225458101,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":11,\"value\":1.1754943508222876e-38,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},{\"kind\":2,\"index\":0,\"operation\":5,\"left\":{\"kind\":0,\"index\":0,\"arrow_type\":11,\"value\":-1.0,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":0,\"operation\":19,\"left\":{\"kind\":2,\"index\":0,\"operation\":23,\"left\":{\"kind\":2,\"index\":0,\"operation\":3,\"left\":{\"kind\":0,\"index\":0,\"arrow_type\":11,\"value\":0.7853981852531433,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":0,\"operation\":5,\"left\":{\"kind\":0,\"index\":0,\"arrow_type\":11,\"value\":0.5,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":0,\"operation\":26,\"left\":{\"kind\":1,\"index\":0,\"binding\":\"fTgl\",\"hash\":4259215054,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null},\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},{\"kind\":4,\"index\":0,\"left\":{\"kind\":2,\"index\":1,\"operation\":2,\"left\":{\"kind\":2,\"index\":1,\"operation\":2,\"left\":{\"kind\":2,\"index\":1,\"operation\":24,\"left\":{\"kind\":1,\"index\":1,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":1,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":0,\"index\":1,\"arrow_type\":11,\"value\":6.2831854820251469,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":4,\"index\":3,\"left\":{\"kind\":2,\"index\":4,\"operation\":3,\"left\":{\"kind\":2,\"index\":4,\"operation\":2,\"left\":{\"kind\":2,\"index\":4,\"operation\":24,\"left\":{\"kind\":1,\"index\":4,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":4,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":0,\"index\":4,\"arrow_type\":11,\"value\":6.2831854820251469,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":2,\"index\":6,\"operation\":2,\"left\":{\"kind\":2,\"index\":6,\"operation\":24,\"left\":{\"kind\":1,\"index\":6,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":6,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"condition\":{\"kind\":2,\"index\":5,\"operation\":12,\"left\":{\"kind\":2,\"index\":5,\"operation\":2,\"left\":{\"kind\":2,\"index\":5,\"operation\":24,\"left\":{\"kind\":1,\"index\":5,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":5,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":0,\"index\":5,\"arrow_type\":11,\"value\":6.2831854820251469,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},\"condition\":{\"kind\":2,\"index\":2,\"operation\":9,\"left\":{\"kind\":2,\"index\":2,\"operation\":2,\"left\":{\"kind\":2,\"index\":2,\"operation\":24,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":2,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":11,\"value\":0.0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fPt\",\"type\":11},{\"name\":\"fP\",\"type\":11},{\"name\":\"fEta\",\"type\":11},{\"name\":\"fPhi\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "TracksExtra_002Extension",
+                    "origin": "AOD",
+                    "description": "EXTRACKEXTRA",
+                    "subspec": 2,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "input:TracksExtra",
+                            "type": "4",
+                            "defaultValue": "TracksExtra/AOD/TRACKEXTRA/2",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "input-schema:TracksExtra",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fTPCInnerParam\",\"type\":11},{\"name\":\"fFlags\",\"type\":6},{\"name\":\"fITSClusterSizes\",\"type\":6},{\"name\":\"fTPCNClsFindable\",\"type\":2},{\"name\":\"fTPCNClsFindableMinusFound\",\"type\":3},{\"name\":\"fTPCNClsFindableMinusPID\",\"type\":3},{\"name\":\"fTPCNClsFindableMinusCrossedRows\",\"type\":3},{\"name\":\"fTPCNClsShared\",\"type\":2},{\"name\":\"fTRDPattern\",\"type\":2},{\"name\":\"fITSChi2NCl\",\"type\":11},{\"name\":\"fTPCChi2NCl\",\"type\":11},{\"name\":\"fTRDChi2\",\"type\":11},{\"name\":\"fTOFChi2\",\"type\":11},{\"name\":\"fTPCSignal\",\"type\":11},{\"name\":\"fTRDSignal\",\"type\":11},{\"name\":\"fLength\",\"type\":11},{\"name\":\"fTOFExpMom\",\"type\":11},{\"name\":\"fTrackEtaEMCAL\",\"type\":11},{\"name\":\"fTrackPhiEMCAL\",\"type\":11},{\"name\":\"fTrackTime\",\"type\":11},{\"name\":\"fTrackTimeRes\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "projectors",
+                            "type": "4",
+                            "defaultValue": "{\"projectors\":[{\"kind\":2,\"index\":0,\"operation\":7,\"left\":{\"kind\":2,\"index\":0,\"operation\":7,\"left\":{\"kind\":2,\"index\":0,\"operation\":7,\"left\":{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":2,\"value\":1,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":3,\"arrow_type\":2,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":11,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fITSClusterSizes\",\"hash\":16815708,\"arrow_type\":6,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":6,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},\"right\":{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":2,\"value\":2,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":3,\"arrow_type\":2,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":11,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fTPCNClsFindable\",\"hash\":3514682942,\"arrow_type\":2,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":2,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},\"condition\":null},\"right\":{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":2,\"value\":4,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":3,\"arrow_type\":2,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":11,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fTRDPattern\",\"hash\":1512299729,\"arrow_type\":2,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":2,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},\"condition\":null},\"right\":{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":2,\"value\":8,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":3,\"arrow_type\":2,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":0,\"left\":{\"kind\":2,\"index\":2,\"operation\":12,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fTOFChi2\",\"hash\":779305490,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":11,\"value\":0.0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":2,\"index\":2,\"operation\":11,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fTOFExpMom\",\"hash\":3030140297,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":11,\"value\":0.0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null}},\"condition\":null}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fDetectorMap\",\"type\":2}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "Tracks",
+                    "origin": "AOD",
+                    "description": "TRACK",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fIndexCollisions\",\"type\":7},{\"name\":\"fTrackType\",\"type\":2},{\"name\":\"fX\",\"type\":11},{\"name\":\"fAlpha\",\"type\":11},{\"name\":\"fY\",\"type\":11},{\"name\":\"fZ\",\"type\":11},{\"name\":\"fSnp\",\"type\":11},{\"name\":\"fTgl\",\"type\":11},{\"name\":\"fSigned1Pt\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "TracksDCA",
+                    "origin": "AOD",
+                    "description": "TRACKDCA",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fDcaXY\",\"type\":11},{\"name\":\"fDcaZ\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "TracksExtra",
+                    "origin": "AOD",
+                    "description": "TRACKEXTRA",
+                    "subspec": 2,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fTPCInnerParam\",\"type\":11},{\"name\":\"fFlags\",\"type\":6},{\"name\":\"fITSClusterSizes\",\"type\":6},{\"name\":\"fTPCNClsFindable\",\"type\":2},{\"name\":\"fTPCNClsFindableMinusFound\",\"type\":3},{\"name\":\"fTPCNClsFindableMinusPID\",\"type\":3},{\"name\":\"fTPCNClsFindableMinusCrossedRows\",\"type\":3},{\"name\":\"fTPCNClsShared\",\"type\":2},{\"name\":\"fTRDPattern\",\"type\":2},{\"name\":\"fITSChi2NCl\",\"type\":11},{\"name\":\"fTPCChi2NCl\",\"type\":11},{\"name\":\"fTRDChi2\",\"type\":11},{\"name\":\"fTOFChi2\",\"type\":11},{\"name\":\"fTPCSignal\",\"type\":11},{\"name\":\"fTRDSignal\",\"type\":11},{\"name\":\"fLength\",\"type\":11},{\"name\":\"fTOFExpMom\",\"type\":11},{\"name\":\"fTrackEtaEMCAL\",\"type\":11},{\"name\":\"fTrackPhiEMCAL\",\"type\":11},{\"name\":\"fTrackTime\",\"type\":11},{\"name\":\"fTrackTimeRes\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "TrackSelection",
+                    "origin": "AOD",
+                    "description": "TRACKSELECTION",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fIsGlobalTrackSDD\",\"type\":2},{\"name\":\"fTrackCutFlag\",\"type\":4},{\"name\":\"fTrackCutFlagFb1\",\"type\":1},{\"name\":\"fTrackCutFlagFb2\",\"type\":1},{\"name\":\"fTrackCutFlagFb3\",\"type\":1},{\"name\":\"fTrackCutFlagFb4\",\"type\":1},{\"name\":\"fTrackCutFlagFb5\",\"type\":1}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "TrackSelectionExtension",
+                    "origin": "AOD",
+                    "description": "TRACKSELEXTRA",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fPassedTrackType\",\"type\":1},{\"name\":\"fPassedPtRange\",\"type\":1},{\"name\":\"fPassedEtaRange\",\"type\":1},{\"name\":\"fPassedTPCNCls\",\"type\":1},{\"name\":\"fPassedTPCCrossedRows\",\"type\":1},{\"name\":\"fPassedTPCCrossedRowsOverNCls\",\"type\":1},{\"name\":\"fPassedTPCChi2NDF\",\"type\":1},{\"name\":\"fPassedTPCRefit\",\"type\":1},{\"name\":\"fPassedITSNCls\",\"type\":1},{\"name\":\"fPassedITSChi2NDF\",\"type\":1},{\"name\":\"fPassedITSRefit\",\"type\":1},{\"name\":\"fPassedITSHits\",\"type\":1},{\"name\":\"fPassedGoldenChi2\",\"type\":1},{\"name\":\"fPassedDCAxy\",\"type\":1},{\"name\":\"fPassedDCAz\",\"type\":1},{\"name\":\"fPassedITSHitsFB1\",\"type\":1},{\"name\":\"fPassedITSHitsFB2\",\"type\":1}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "pidTOFFullKa",
+                    "origin": "AOD",
+                    "description": "pidTOFFullKa",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fTOFExpSigmaKa\",\"type\":11},{\"name\":\"fTOFNSigmaKa\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "pidTOFFullPi",
+                    "origin": "AOD",
+                    "description": "pidTOFFullPi",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fTOFExpSigmaPi\",\"type\":11},{\"name\":\"fTOFNSigmaPi\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "pidTOFFullPr",
+                    "origin": "AOD",
+                    "description": "pidTOFFullPr",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fTOFExpSigmaPr\",\"type\":11},{\"name\":\"fTOFNSigmaPr\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "pidTPCFullKa",
+                    "origin": "AOD",
+                    "description": "pidTPCFullKa",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fTPCExpSigmaKa\",\"type\":11},{\"name\":\"fTPCNSigmaKa\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "pidTPCFullPi",
+                    "origin": "AOD",
+                    "description": "pidTPCFullPi",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fTPCExpSigmaPi\",\"type\":11},{\"name\":\"fTPCNSigmaPi\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "pidTPCFullPr",
+                    "origin": "AOD",
+                    "description": "pidTPCFullPr",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fTPCExpSigmaPr\",\"type\":11},{\"name\":\"fTPCNSigmaPr\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                }
+            ],
+            "outputs": [
+                {
+                    "binding": "Flags",
+                    "origin": "AOD",
+                    "description": "Flags",
+                    "subspec": 0,
+                    "lifetime": 0
+                },
+                {
+                    "binding": "PidInfo",
+                    "origin": "AOD",
+                    "description": "PidInfo",
+                    "subspec": 0,
+                    "lifetime": 0
+                },
+                {
+                    "binding": "histosQAPID",
+                    "origin": "ATSK",
+                    "description": "a7734c6484e2____",
+                    "subspec": 0,
+                    "lifetime": 2
+                }
+            ],
+            "options": [
+                {
+                    "name": "cfgPtMaxforTPCOnlyPID",
+                    "type": "2",
+                    "defaultValue": "0.4",
+                    "help": "Maxmium track pt for TPC only PID,only when onlyTOF and onlyTOFHIT closed",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMinPtPID",
+                    "type": "2",
+                    "defaultValue": "0.15",
+                    "help": "Minimum track #P_{t} for PID",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMaxPtPID",
+                    "type": "2",
+                    "defaultValue": "99.9",
+                    "help": "Maximum track #P_{t} for PID",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMaxEtaPID",
+                    "type": "2",
+                    "defaultValue": "0.8",
+                    "help": "Maximum track #eta for PID",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMaxTPCChi2NCl",
+                    "type": "2",
+                    "defaultValue": "2.5",
+                    "help": "Maximum chi2 per cluster TPC for PID if not use costom track cuts",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMaxChi2NClITS",
+                    "type": "2",
+                    "defaultValue": "2.5",
+                    "help": "Maximum chi2 per cluster ITS for PID if not use costom track cuts",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMinTPCCls",
+                    "type": "2",
+                    "defaultValue": "70",
+                    "help": "Minimum TPC clusters for PID if not use costom track cuts",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMinITSCls",
+                    "type": "2",
+                    "defaultValue": "1",
+                    "help": "Minimum ITS clusters for PID if not use costom track cuts",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMaxTPCCls",
+                    "type": "2",
+                    "defaultValue": "999",
+                    "help": "Max TPC clusters for PID if not use costom track cuts",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMaxITSCls",
+                    "type": "2",
+                    "defaultValue": "999",
+                    "help": "Max ITS clusters for PID if not use costom track cuts",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMaxDCAxy",
+                    "type": "2",
+                    "defaultValue": "99",
+                    "help": "Maxium DCAxy for standard PID tracking",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMaxDCAz",
+                    "type": "2",
+                    "defaultValue": "2",
+                    "help": "Maxium DCAz for standard PID tracking",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgAveClusSizeCoslMinPi",
+                    "type": "2",
+                    "defaultValue": "0",
+                    "help": "Base line for minmum ITS cluster size x cos(#lambda) for Pions",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgAveClusSizeCoslMaxPi",
+                    "type": "2",
+                    "defaultValue": "1e+09",
+                    "help": "Base line for maxmum ITS cluster size x cos(#lambda) for Pions",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgAveClusSizeCoslMinKa",
+                    "type": "2",
+                    "defaultValue": "0",
+                    "help": "Base line for minmum ITS cluster size x cos(#lambda) for Kaons",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgAveClusSizeCoslMaxKa",
+                    "type": "2",
+                    "defaultValue": "1e+09",
+                    "help": "Base line for maxmum ITS cluster size x cos(#lambda) for Kaons",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgAveClusSizeCoslMinPr",
+                    "type": "2",
+                    "defaultValue": "0",
+                    "help": "Base line for minmum ITS cluster size x cos(#lambda) for Protons",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgAveClusSizeCoslMaxPr",
+                    "type": "2",
+                    "defaultValue": "1e+09",
+                    "help": "Base line for maxmum ITS cluster size x cos(#lambda) for Protons",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgrigidityBins",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[200.0,-10.0,10.0]}",
+                    "help": "Binning for rigidity #it{p}^{TPC}/#it{z}",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgdedxBins",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[1000.0,0.0,1000.0]}",
+                    "help": "Binning for dE/dx",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgnSigmaBinsTPC",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[200.0,-5.0,5.0]}",
+                    "help": "Binning for n sigma TPC",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgnSigmaBinsTOF",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[200.0,-5.0,5.0]}",
+                    "help": "Binning for n sigma TOF",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgnSigmaBinsITS",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[200.0,-5.0,5.0]}",
+                    "help": "Binning for n sigma ITS",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgnSigmaBinsCom",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[100.0,0.0,10.0]}",
+                    "help": "Combination Binning for TPC&TOF nsigma",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisptPID",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[120.0,0.0,12.0]}",
+                    "help": "Binning for P_{t} PID",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxispPID",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[50.0,0.0,5.0]}",
+                    "help": "Binning for P PID",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisAverClusterCosl",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[50.0,0.0,10.0]}",
+                    "help": "Binning for average cluster size x cos(#lambda)",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisAverClusterCoslnSigma",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[50.0,0.0,5.0]}",
+                    "help": "Binning for average cluster size x cos(#lambda) vs nSigam",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisetaPID",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[90.0,-0.9,0.9]}",
+                    "help": "Binning for Pt QA",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisDCAz",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[200.0,-1.0,1.0]}",
+                    "help": "Binning for DCAz",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisDCAxy",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[100.0,-0.5,0.5]}",
+                    "help": "Binning for DCAxy",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisChi2Ncls",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[50.0,0.0,5.0]}",
+                    "help": "Binning for Chi2Ncls TPC/ITS",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgQuietMode",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "open quiet mode for saving cpu cost and only do some basic QA plots",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgRequireGlobalTrack",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "Require track used must be the global track",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPIDPtSelection",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "Cut Pt reign PID particles for use",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotnSigmaOrigin",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "Open origin nSigma plots before PID selections",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotnSigmaTOFITSPt",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "plot nSigmaTOF vs nSigmaITS vs Pt",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotnSigmaITSTPCPt",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "plot nSigmaITS vs nSigmaTOF vs Pt",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotnSigmaTOFTPCPt",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "plot nSigmaTOF vs nSigmaTPC vs Pt",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotAverClus",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "plot average cluster size x cos(#lambda)",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotAverClusP",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "plot average cluster size x cos(#lambda) vs p",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotAverClusnSigmaTPC",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "plot average cluster size x cos(#lambda) vs nSigmaTPC",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotPhiDis",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "plot phi distribution QA",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotPhiDisPtEta",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "plot phi pt eta distribution QA",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenITSCut",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open ITSnsigma cut",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenITSCutQAPlots",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open QA plots after ITS nsigma cut",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenDetailPlotsTPCITSContaimination",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "open detail TH3D plots for nSigmaTPC-ITS Pt-eta-Phi nSigmaITS-clustersize",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgUseStrictPID",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "More strict pid strategy",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenAllowCrossTrack",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "Allow one track to be identified as different kind of PID particles",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenCrossTrackQAPlots",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open cross pid track QA plots",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenTOFOnlyPID",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "only accept tracks who has TOF infomation and use TOFnsigma for PID(priority greater than TPConly and combined",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenTPCAssistanceTOFOnlyPID",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "Set loose TPC nsigma cut for TOFOnlyPID mode using cfg nsigmaTPC configurations",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenTPCOnlyPID",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "only use TPCnsigma for PID(priority grater than combined less than TOFOnly)",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgUseCostomTrackCuts",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "use track cuts from default track selection table producer",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPtRangedTOFnSigmacutPi",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "use nSigma TOF cut for different pt Pion",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPtRangedTPCnSigmacutPi",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "use nSigma TPC cut for different pt Pion",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPtRangedITSnSigmacutPi",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "use nSigma ITS cut for different pt Pion",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPtRangedTOFnSigmacutKa",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "use nSigma TOF cut for different pt Kaon",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPtRangedTPCnSigmacutKa",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "use nSigma TPC cut for different pt Kaon",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPtRangedITSnSigmacutKa",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "use nSigma ITS cut for different pt Kaon",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPtRangedTOFnSigmacutPr",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "use nSigma TOF cut for different pt Proton",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPtRangedTPCnSigmacutPr",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "use nSigma TPC cut for different pt Proton",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPtRangedITSnSigmacutPr",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "use nSigma ITS cut for different pt Proton",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotCheckITSOnlytrackInfo",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "plot checks if track NclsTPC is 0 for assure it has p info or not",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenTrackingInfoCheck",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "plot track infomation check",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgPtCutLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[0.15000000596046449,0.15000000596046449,0.15000000596046449]}",
+                    "help": "Pt lower limit  for pi k p respectively",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgPtCutUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[99.0,99.0,99.0]}",
+                    "help": "Pt upper limit  for pi k p respectively",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaCutTPCUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[3.0,3.0,3.0]}",
+                    "help": "TPC nsigma cut upper limit  for pi k p respectively at low pt and for the TPCOnly case",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaCutTOFUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[1.5,1.5,1.5]}",
+                    "help": "TOF nsigma cut upper limit for pi k p respectively for the TOFonly case",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaCutRMSUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[3.0,3.0,3.0]}",
+                    "help": "TPC_TOF combined cut upper limit for pi k p respectively at high pt",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaCutITSUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[3.0,2.5,2.0]}",
+                    "help": "ITS nSigma cut upper limit for pi k p",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaCutTPCLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[-3.0,-3.0,-3.0]}",
+                    "help": "TPC nsigma cut lower limit for pi k p respectively at low pt and for the TPCOnly case",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaCutTOFLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[-1.5,-1.5,-1.5]}",
+                    "help": "TOF nsigma cut lower limit for pi k p respectively for the TOFonly case",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaCutRMSLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[-3.0,-3.0,-3.0]}",
+                    "help": "TPC_TOF combined cut lower limit for pi k p respectively at high pt",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaCutITSLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[-3.0,-2.5,-2.0]}",
+                    "help": "ITS nSigma cut lower limit for pi k p",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgPtBinPionPID",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[0.20000000298023225,0.30000001192092898,0.4000000059604645,0.5,0.6000000238418579,0.699999988079071,0.800000011920929,0.8999999761581421,1.0,1.25,1.5,1.75,2.0,2.25,2.5,3.0,3.5,4.0,5.0,6.0,8.0,10.0]}",
+                    "help": "pt bin for pion PIDnsigma",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgPtBinKaonPID",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[0.30000001192092898,0.4000000059604645,0.5,0.6000000238418579,0.699999988079071,0.800000011920929,0.8999999761581421,1.0,1.25,1.5,1.75,2.0,2.25,2.5,3.0,3.5,4.0,5.0,6.0]}",
+                    "help": "pt bin for pion PIDnsigma",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgPtBinProtonPID",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[0.5,0.6000000238418579,0.699999988079071,0.800000011920929,0.8999999761581421,1.0,1.25,1.5,1.75,2.0,2.25,2.5,3.0,3.5,4.0,5.0,6.0]}",
+                    "help": "pt bin for pion PIDnsigma",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaTPCPionPtUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]}",
+                    "help": "nSigmaTPC cut upper limit anchored to pion pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaTOFPionPtUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5]}",
+                    "help": "nSigmaTOF cut upper limit anchored to pion pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaITSPionPtUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]}",
+                    "help": "nSigmaITS cut upper limit anchored to pion pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaTPCKaonPtUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]}",
+                    "help": "nSigmaTPC cut upper limit anchored to kaon pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaTOFKaonPtUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5]}",
+                    "help": "nSigmaTOF cut upper limit anchored to kaon pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaITSKaonPtUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[2.5,2.5,2.5,2.5,2.5,2.5,2.5,2.5,2.5,2.5,2.5,2.5,2.5,2.5,2.5,2.5,2.5,2.5]}",
+                    "help": "nSigmaITS cut upper limit anchored to kaon pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaTPCProtonPtUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]}",
+                    "help": "nSigmaTPC cut upper limit anchored to proton pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaTOFProtonPtUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5]}",
+                    "help": "nSigmaTOF cut upper limit anchored to proton pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaITSProtonPtUpper",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]}",
+                    "help": "nSigmaITS cut upper limit anchored to proton pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaTPCPionPtLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0]}",
+                    "help": "nSigmaTPC cut lower limit anchored to pion pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaTOFPionPtLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5]}",
+                    "help": "nSigmaTOF cut lower limit anchored to pion pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaITSPionPtLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0]}",
+                    "help": "nSigmaITS cut lower limit anchored to pion pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaTPCKaonPtLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0]}",
+                    "help": "nSigmaTPC cut lower limit anchored to kaon pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaTOFKaonPtLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5]}",
+                    "help": "nSigmaTOF cut lower limit anchored to kaon pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaITSKaonPtLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[-2.5,-2.5,-2.5,-2.5,-2.5,-2.5,-2.5,-2.5,-2.5,-2.5,-2.5,-2.5,-2.5,-2.5,-2.5,-2.5,-2.5,-2.5]}",
+                    "help": "nSigmaITS cut lower limit anchored to kaon pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaTPCProtonPtLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0,-3.0]}",
+                    "help": "nSigmaTPC cut lower limit anchored to proton pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaTOFProtonPtLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5,-1.5]}",
+                    "help": "nSigmaTOF cut lower limit anchored to proton pt bins",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnSigmaITSProtonPtLower",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0,-2.0]}",
+                    "help": "nSigmaITS cut lower limit anchored to proton pt bins",
+                    "kind": "0"
+                }
+            ],
+            "labels": [],
+            "metadata": [],
+            "rank": 0,
+            "nSlots": 1,
+            "inputTimeSliceId": 0,
+            "maxInputTimeslices": 1
+        },
+        {
+            "name": "flow-pid-cme",
+            "inputs": [
+                {
+                    "binding": "BCs_001",
+                    "origin": "AOD",
+                    "description": "BC",
+                    "subspec": 1,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fRunNumber\",\"type\":7},{\"name\":\"fGlobalBC\",\"type\":8},{\"name\":\"fTriggerMask\",\"type\":8},{\"name\":\"fInputMask\",\"type\":8}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "CentFT0Cs",
+                    "origin": "AOD",
+                    "description": "CENTFT0C",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fCentFT0C\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "Collisions_001",
+                    "origin": "AOD",
+                    "description": "COLLISION",
+                    "subspec": 1,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fIndexBCs\",\"type\":7},{\"name\":\"fPosX\",\"type\":11},{\"name\":\"fPosY\",\"type\":11},{\"name\":\"fPosZ\",\"type\":11},{\"name\":\"fCovXX\",\"type\":11},{\"name\":\"fCovXY\",\"type\":11},{\"name\":\"fCovYY\",\"type\":11},{\"name\":\"fCovXZ\",\"type\":11},{\"name\":\"fCovYZ\",\"type\":11},{\"name\":\"fCovZZ\",\"type\":11},{\"name\":\"fFlags\",\"type\":4},{\"name\":\"fChi2\",\"type\":11},{\"name\":\"fNumContrib\",\"type\":4},{\"name\":\"fCollisionTime\",\"type\":11},{\"name\":\"fCollisionTimeRes\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "EvSels",
+                    "origin": "AOD",
+                    "description": "EVSEL",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fAlias\",\"type\":6},{\"name\":\"fSelection\",\"type\":8},{\"name\":\"fRct\",\"type\":6},{\"name\":\"fSel7\",\"type\":1},{\"name\":\"fSel8\",\"type\":1},{\"name\":\"fIndexBCs_foundBC\",\"type\":7},{\"name\":\"fIndexFT0s_foundFT0\",\"type\":7},{\"name\":\"fIndexFV0As_foundFV0\",\"type\":7},{\"name\":\"fIndexFDDs_foundFDD\",\"type\":7},{\"name\":\"fIndexZdcs_foundZDC\",\"type\":7},{\"name\":\"fNumTracksInTimeRange\",\"type\":7},{\"name\":\"fSumAmpFT0CInTimeRange\",\"type\":11},{\"name\":\"fOccupancyMedianTime\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "TracksExtension",
+                    "origin": "AOD",
+                    "description": "EXTRACK",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "input:Tracks",
+                            "type": "4",
+                            "defaultValue": "Tracks/AOD/TRACK/0",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "input-schema:Tracks",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fIndexCollisions\",\"type\":7},{\"name\":\"fTrackType\",\"type\":2},{\"name\":\"fX\",\"type\":11},{\"name\":\"fAlpha\",\"type\":11},{\"name\":\"fY\",\"type\":11},{\"name\":\"fZ\",\"type\":11},{\"name\":\"fSnp\",\"type\":11},{\"name\":\"fTgl\",\"type\":11},{\"name\":\"fSigned1Pt\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "projectors",
+                            "type": "4",
+                            "defaultValue": "{\"projectors\":[{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":11,\"value\":8.507059173023462e37,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":27,\"left\":{\"kind\":2,\"index\":3,\"operation\":4,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":1.0,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":3,\"binding\":\"fSigned1Pt\",\"hash\":4225458101,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":null,\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":10,\"left\":{\"kind\":2,\"index\":2,\"operation\":27,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fSigned1Pt\",\"hash\":4225458101,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":11,\"value\":1.1754943508222876e-38,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":11,\"value\":8.507059173023462e37,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":4,\"left\":{\"kind\":2,\"index\":3,\"operation\":5,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.5,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":2,\"left\":{\"kind\":2,\"index\":3,\"operation\":23,\"left\":{\"kind\":2,\"index\":3,\"operation\":3,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.7853981852531433,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":5,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.5,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":26,\"left\":{\"kind\":1,\"index\":3,\"binding\":\"fTgl\",\"hash\":4259215054,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":4,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":1.0,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":23,\"left\":{\"kind\":2,\"index\":3,\"operation\":3,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.7853981852531433,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":5,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.5,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":26,\"left\":{\"kind\":1,\"index\":3,\"binding\":\"fTgl\",\"hash\":4259215054,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null},\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":27,\"left\":{\"kind\":1,\"index\":3,\"binding\":\"fSigned1Pt\",\"hash\":4225458101,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":10,\"left\":{\"kind\":2,\"index\":2,\"operation\":27,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fSigned1Pt\",\"hash\":4225458101,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":11,\"value\":1.1754943508222876e-38,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},{\"kind\":2,\"index\":0,\"operation\":5,\"left\":{\"kind\":0,\"index\":0,\"arrow_type\":11,\"value\":-1.0,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":0,\"operation\":19,\"left\":{\"kind\":2,\"index\":0,\"operation\":23,\"left\":{\"kind\":2,\"index\":0,\"operation\":3,\"left\":{\"kind\":0,\"index\":0,\"arrow_type\":11,\"value\":0.7853981852531433,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":0,\"operation\":5,\"left\":{\"kind\":0,\"index\":0,\"arrow_type\":11,\"value\":0.5,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":0,\"operation\":26,\"left\":{\"kind\":1,\"index\":0,\"binding\":\"fTgl\",\"hash\":4259215054,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null},\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},{\"kind\":4,\"index\":0,\"left\":{\"kind\":2,\"index\":1,\"operation\":2,\"left\":{\"kind\":2,\"index\":1,\"operation\":2,\"left\":{\"kind\":2,\"index\":1,\"operation\":24,\"left\":{\"kind\":1,\"index\":1,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":1,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":0,\"index\":1,\"arrow_type\":11,\"value\":6.2831854820251469,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":4,\"index\":3,\"left\":{\"kind\":2,\"index\":4,\"operation\":3,\"left\":{\"kind\":2,\"index\":4,\"operation\":2,\"left\":{\"kind\":2,\"index\":4,\"operation\":24,\"left\":{\"kind\":1,\"index\":4,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":4,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":0,\"index\":4,\"arrow_type\":11,\"value\":6.2831854820251469,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":2,\"index\":6,\"operation\":2,\"left\":{\"kind\":2,\"index\":6,\"operation\":24,\"left\":{\"kind\":1,\"index\":6,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":6,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"condition\":{\"kind\":2,\"index\":5,\"operation\":12,\"left\":{\"kind\":2,\"index\":5,\"operation\":2,\"left\":{\"kind\":2,\"index\":5,\"operation\":24,\"left\":{\"kind\":1,\"index\":5,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":5,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":0,\"index\":5,\"arrow_type\":11,\"value\":6.2831854820251469,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},\"condition\":{\"kind\":2,\"index\":2,\"operation\":9,\"left\":{\"kind\":2,\"index\":2,\"operation\":2,\"left\":{\"kind\":2,\"index\":2,\"operation\":24,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":2,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":11,\"value\":0.0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fPt\",\"type\":11},{\"name\":\"fP\",\"type\":11},{\"name\":\"fEta\",\"type\":11},{\"name\":\"fPhi\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "TracksExtra_002Extension",
+                    "origin": "AOD",
+                    "description": "EXTRACKEXTRA",
+                    "subspec": 2,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "input:TracksExtra",
+                            "type": "4",
+                            "defaultValue": "TracksExtra/AOD/TRACKEXTRA/2",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "input-schema:TracksExtra",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fTPCInnerParam\",\"type\":11},{\"name\":\"fFlags\",\"type\":6},{\"name\":\"fITSClusterSizes\",\"type\":6},{\"name\":\"fTPCNClsFindable\",\"type\":2},{\"name\":\"fTPCNClsFindableMinusFound\",\"type\":3},{\"name\":\"fTPCNClsFindableMinusPID\",\"type\":3},{\"name\":\"fTPCNClsFindableMinusCrossedRows\",\"type\":3},{\"name\":\"fTPCNClsShared\",\"type\":2},{\"name\":\"fTRDPattern\",\"type\":2},{\"name\":\"fITSChi2NCl\",\"type\":11},{\"name\":\"fTPCChi2NCl\",\"type\":11},{\"name\":\"fTRDChi2\",\"type\":11},{\"name\":\"fTOFChi2\",\"type\":11},{\"name\":\"fTPCSignal\",\"type\":11},{\"name\":\"fTRDSignal\",\"type\":11},{\"name\":\"fLength\",\"type\":11},{\"name\":\"fTOFExpMom\",\"type\":11},{\"name\":\"fTrackEtaEMCAL\",\"type\":11},{\"name\":\"fTrackPhiEMCAL\",\"type\":11},{\"name\":\"fTrackTime\",\"type\":11},{\"name\":\"fTrackTimeRes\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "projectors",
+                            "type": "4",
+                            "defaultValue": "{\"projectors\":[{\"kind\":2,\"index\":0,\"operation\":7,\"left\":{\"kind\":2,\"index\":0,\"operation\":7,\"left\":{\"kind\":2,\"index\":0,\"operation\":7,\"left\":{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":2,\"value\":1,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":3,\"arrow_type\":2,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":11,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fITSClusterSizes\",\"hash\":16815708,\"arrow_type\":6,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":6,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},\"right\":{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":2,\"value\":2,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":3,\"arrow_type\":2,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":11,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fTPCNClsFindable\",\"hash\":3514682942,\"arrow_type\":2,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":2,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},\"condition\":null},\"right\":{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":2,\"value\":4,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":3,\"arrow_type\":2,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":11,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fTRDPattern\",\"hash\":1512299729,\"arrow_type\":2,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":2,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},\"condition\":null},\"right\":{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":2,\"value\":8,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":3,\"arrow_type\":2,\"value\":0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":0,\"left\":{\"kind\":2,\"index\":2,\"operation\":12,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fTOFChi2\",\"hash\":779305490,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":11,\"value\":0.0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":2,\"index\":2,\"operation\":11,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fTOFExpMom\",\"hash\":3030140297,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":11,\"value\":0.0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null}},\"condition\":null}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fDetectorMap\",\"type\":2}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "FDDMults",
+                    "origin": "AOD",
+                    "description": "FDDMULT",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fMultFDDA\",\"type\":11},{\"name\":\"fMultFDDC\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "FT0Mults",
+                    "origin": "AOD",
+                    "description": "FT0MULT",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fMultFT0A\",\"type\":11},{\"name\":\"fMultFT0C\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "FV0Mults",
+                    "origin": "AOD",
+                    "description": "FV0MULT",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fMultFV0A\",\"type\":11},{\"name\":\"fMultFV0C\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "Flags",
+                    "origin": "AOD",
+                    "description": "Flags",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fNPidFlag\",\"type\":3}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "PVMults",
+                    "origin": "AOD",
+                    "description": "PVMULT",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fMultNTracksPV\",\"type\":7},{\"name\":\"fMultNTracksPVeta1\",\"type\":7},{\"name\":\"fMultNTracksPVetaHalf\",\"type\":7}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "PidInfo",
+                    "origin": "AOD",
+                    "description": "PidInfo",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fAverClusterSizeCosl\",\"type\":11},{\"name\":\"fNSigmaPiITS\",\"type\":11},{\"name\":\"fNSigmaKaITS\",\"type\":11},{\"name\":\"fNSigmaPrITS\",\"type\":11},{\"name\":\"fNSigmaPiTPC\",\"type\":11},{\"name\":\"fNSigmaKaTPC\",\"type\":11},{\"name\":\"fNSigmaPrTPC\",\"type\":11},{\"name\":\"fNSigmaPiTOF\",\"type\":11},{\"name\":\"fNSigmaKaTOF\",\"type\":11},{\"name\":\"fNSigmaPrTOF\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "Qvectors",
+                    "origin": "AOD",
+                    "description": "QVECTORDEVS",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fCent\",\"type\":11},{\"name\":\"fIsCalibrated\",\"type\":1},{\"name\":\"fQvecRe\",\"size\":-1,\"element\":11,\"type\":25},{\"name\":\"fQvecIm\",\"size\":-1,\"element\":11,\"type\":25},{\"name\":\"fQvecAmp\",\"size\":-1,\"element\":11,\"type\":25}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "Timestamps",
+                    "origin": "AOD",
+                    "description": "TIMESTAMPS",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fTimestamp\",\"type\":8}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "TPCMults",
+                    "origin": "AOD",
+                    "description": "TPCMULT",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fMultTPC\",\"type\":7}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "Tracks",
+                    "origin": "AOD",
+                    "description": "TRACK",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fIndexCollisions\",\"type\":7},{\"name\":\"fTrackType\",\"type\":2},{\"name\":\"fX\",\"type\":11},{\"name\":\"fAlpha\",\"type\":11},{\"name\":\"fY\",\"type\":11},{\"name\":\"fZ\",\"type\":11},{\"name\":\"fSnp\",\"type\":11},{\"name\":\"fTgl\",\"type\":11},{\"name\":\"fSigned1Pt\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "TracksExtra",
+                    "origin": "AOD",
+                    "description": "TRACKEXTRA",
+                    "subspec": 2,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fTPCInnerParam\",\"type\":11},{\"name\":\"fFlags\",\"type\":6},{\"name\":\"fITSClusterSizes\",\"type\":6},{\"name\":\"fTPCNClsFindable\",\"type\":2},{\"name\":\"fTPCNClsFindableMinusFound\",\"type\":3},{\"name\":\"fTPCNClsFindableMinusPID\",\"type\":3},{\"name\":\"fTPCNClsFindableMinusCrossedRows\",\"type\":3},{\"name\":\"fTPCNClsShared\",\"type\":2},{\"name\":\"fTRDPattern\",\"type\":2},{\"name\":\"fITSChi2NCl\",\"type\":11},{\"name\":\"fTPCChi2NCl\",\"type\":11},{\"name\":\"fTRDChi2\",\"type\":11},{\"name\":\"fTOFChi2\",\"type\":11},{\"name\":\"fTPCSignal\",\"type\":11},{\"name\":\"fTRDSignal\",\"type\":11},{\"name\":\"fLength\",\"type\":11},{\"name\":\"fTOFExpMom\",\"type\":11},{\"name\":\"fTrackEtaEMCAL\",\"type\":11},{\"name\":\"fTrackPhiEMCAL\",\"type\":11},{\"name\":\"fTrackTime\",\"type\":11},{\"name\":\"fTrackTimeRes\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "TrackSelection",
+                    "origin": "AOD",
+                    "description": "TRACKSELECTION",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fIsGlobalTrackSDD\",\"type\":2},{\"name\":\"fTrackCutFlag\",\"type\":4},{\"name\":\"fTrackCutFlagFb1\",\"type\":1},{\"name\":\"fTrackCutFlagFb2\",\"type\":1},{\"name\":\"fTrackCutFlagFb3\",\"type\":1},{\"name\":\"fTrackCutFlagFb4\",\"type\":1},{\"name\":\"fTrackCutFlagFb5\",\"type\":1}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "TrackSelectionExtension",
+                    "origin": "AOD",
+                    "description": "TRACKSELEXTRA",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fPassedTrackType\",\"type\":1},{\"name\":\"fPassedPtRange\",\"type\":1},{\"name\":\"fPassedEtaRange\",\"type\":1},{\"name\":\"fPassedTPCNCls\",\"type\":1},{\"name\":\"fPassedTPCCrossedRows\",\"type\":1},{\"name\":\"fPassedTPCCrossedRowsOverNCls\",\"type\":1},{\"name\":\"fPassedTPCChi2NDF\",\"type\":1},{\"name\":\"fPassedTPCRefit\",\"type\":1},{\"name\":\"fPassedITSNCls\",\"type\":1},{\"name\":\"fPassedITSChi2NDF\",\"type\":1},{\"name\":\"fPassedITSRefit\",\"type\":1},{\"name\":\"fPassedITSHits\",\"type\":1},{\"name\":\"fPassedGoldenChi2\",\"type\":1},{\"name\":\"fPassedDCAxy\",\"type\":1},{\"name\":\"fPassedDCAz\",\"type\":1},{\"name\":\"fPassedITSHitsFB1\",\"type\":1},{\"name\":\"fPassedITSHitsFB2\",\"type\":1}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "TrackletMults",
+                    "origin": "AOD",
+                    "description": "TRKLTMULT",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fMultTracklets\",\"type\":7}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "ZDCMults",
+                    "origin": "AOD",
+                    "description": "ZDCMULT",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fMultZNA\",\"type\":11},{\"name\":\"fMultZNC\",\"type\":11},{\"name\":\"fMultZEM1\",\"type\":11},{\"name\":\"fMultZEM2\",\"type\":11},{\"name\":\"fMultZPA\",\"type\":11},{\"name\":\"fMultZPC\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                }
+            ],
+            "outputs": [
+                {
+                    "binding": "histosmain",
+                    "origin": "ATSK",
+                    "description": "323e4cae6a4a____",
+                    "subspec": 0,
+                    "lifetime": 2
+                }
+            ],
+            "options": [
+                {
+                    "name": "cfgnMods",
+                    "type": "6",
+                    "defaultValue": "{\"values\":[2]}",
+                    "help": "Modulation of interest",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgDetName",
+                    "type": "4",
+                    "defaultValue": "FT0C",
+                    "help": "The name of detector to be analyzed",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgRefAName",
+                    "type": "4",
+                    "defaultValue": "TPCpos",
+                    "help": "The name of detector for reference A",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgRefBName",
+                    "type": "4",
+                    "defaultValue": "TPCneg",
+                    "help": "The name of detector for reference B",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgnTotalSystem",
+                    "type": "0",
+                    "defaultValue": "7",
+                    "help": "total qvector number",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgCutOccupancyLow",
+                    "type": "0",
+                    "defaultValue": "0",
+                    "help": "Low boundary cut on TPC occupancy",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgCutOccupancyHigh",
+                    "type": "0",
+                    "defaultValue": "3000",
+                    "help": "High boundary cut on TPC occupancy",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgVtzCut",
+                    "type": "2",
+                    "defaultValue": "10",
+                    "help": "Accepted z-vertex range",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgCentMin",
+                    "type": "2",
+                    "defaultValue": "0",
+                    "help": "Centrality min",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgCentMax",
+                    "type": "2",
+                    "defaultValue": "100",
+                    "help": "Centrality max",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMinPt",
+                    "type": "2",
+                    "defaultValue": "0.15",
+                    "help": "Minimum transverse momentum for charged track",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMaxEta",
+                    "type": "2",
+                    "defaultValue": "0.8",
+                    "help": "Maximum pseudorapidiy for charged track",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMaxDCArToPVcut",
+                    "type": "2",
+                    "defaultValue": "0.1",
+                    "help": "Maximum transverse DCA",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgMaxDCAzToPVcut",
+                    "type": "2",
+                    "defaultValue": "1",
+                    "help": "Maximum longitudinal DCA",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgaxisQvecF",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[300.0,-1.0,1.0]}",
+                    "help": "",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisQvec",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[100.0,-3.0,3.0]}",
+                    "help": "",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisCent",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[100.0,0.0,100.0]}",
+                    "help": "",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxiscos",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[102.0,-1.02,1.02]}",
+                    "help": "",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxispt",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[100.0,0.0,10.0]}",
+                    "help": "",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisCentMerged",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[20.0,0.0,100.0]}",
+                    "help": "",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisCentForQA",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[100.0,0.0,100.0]}",
+                    "help": "centrality for event QA",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisNch",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[4000.0,0.0,4000.0]}",
+                    "help": "N_{ch}",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisT0C",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[70.0,0.0,70000.0]}",
+                    "help": "N_{ch} (T0C)",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisT0A",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[200.0,0.0,200000.0]}",
+                    "help": "N_{ch} (T0A)",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisNchPV",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[4000.0,0.0,4000.0]}",
+                    "help": "N_{ch} (PV)",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisptPID",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[120.0,0.0,12.0]}",
+                    "help": "Binning for P_{t} PID",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgnSigmaBinsTPC",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[200.0,-5.0,5.0]}",
+                    "help": "Binning for n sigma TPC",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgnSigmaBinsITS",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[200.0,-5.0,5.0]}",
+                    "help": "Binning for n sigma TPC",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxissumpt",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[16.0,0.0,16.0]}",
+                    "help": "Binning for #gamma and #delta sum p_{t}(particle1 + particle2)",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisdeltaeta",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[16.0,-1.6,1.6]}",
+                    "help": "Binning for #gamma and #delta #eta(particle1 - particle2)",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisdeltapt",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[16.0,-8.0,8.0]}",
+                    "help": "Binning for #gamma and #delta p_{t}(particle1 - particle2)",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgUseAdditionalEventCut",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "Use additional event cut beyond sel8",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenEvSelkIsGoodZvtxFT0vsPV",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "removes collisions with large differences between z of PV by tracks and z of PV from FT0 A-C time difference, use this cut at low multiplicities with caution",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenEvSelkNoSameBunchPileup",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "rejects collisions which are associated with the same found-by-T0 bunch crossing",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenEvSelkNoCollInTimeRangeStandard",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "no collisions in specified time range",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenEvSelkIsGoodITSLayersAll",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "cut time intervals with dead ITS staves",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenEvSelkNoCollInRofStandard",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "no other collisions in this Readout Frame with per-collision multiplicity above threshold",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenEvSelkNoHighMultCollInPrevRof",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "veto an event if FT0C amplitude in previous ITS ROF is above threshold",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenEvSelOccupancy",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "Occupancy cut",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenEvSelMultCorrelationPVTracks",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "Multiplicity correlation cut for PVtracks vs centrality(FT0C)",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenEvSelMultCorrelationGlobalTracks",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "Multiplicity correlation cut for Globaltracks vs centrality(FT0C)",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenEvSelV0AT0ACut",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "V0A T0A 5 sigma cut",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenFullEventQA",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "Open full QA plots for event QA",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenV2",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open V2 plots",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenCME",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open PID CME",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenCMEDifferential",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open Differential plot(#delta pt, #delta eta, #average pt) for cme #delta and #gamma",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenDeltaPt",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open CME Differential #Delta Pt",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenDeltaEta",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open CME Differential #Delta Eta",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenAveragePt",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open CME Differential #Average Pt",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenPiPi",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open Pi-Pi",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenKaKa",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open Ka-Ka",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenPrPr",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open Pr-Pr",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenPiKa",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open Pi-Ka",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenPiPr",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open Pi-Pr",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenKaPr",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open Ka-Pr",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenHaHa",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open Ha-Ha",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenSsOsCrossCheck",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "open check for matter an antimatter #gamma#delta",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenTPCITSPurityCut",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open ITS-TPC purity cut",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenTPCITSPurityCutQA",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open ITS-TPC purity cut QA plots",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgkOpenDebugPIDCME",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "open pidcme workflow debug mode",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotITSNcls",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open QA for overall ITSNcls distribution",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotITSNclsPtCent",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "open QA for ITSNcls distribution vs centality and pt",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotTPCNcls",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open QA for overall TPCNcls distribution",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPlotTPCNclsPtCent",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "open QA for TPCNcls distribution vs centality and pt",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenCustomTrackCutAssurance",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "Assure track using for v2 and cme pass the custom track cuts",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgITSPurityCen",
+                    "type": "6",
+                    "defaultValue": "{\"values\":[20,30]}",
+                    "help": "ITS purity cut centrality",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgPtPrCut",
+                    "type": "7",
+                    "defaultValue": "{\"values\":[0.5,0.6000000238418579,0.699999988079071,0.800000011920929,0.8999999761581421]}",
+                    "help": "pt binings for proton ITS purity cut",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgCCDBPurityPath",
+                    "type": "4",
+                    "defaultValue": "Users/z/zhengqiw/PurityCut",
+                    "help": "CCDB path for nsigmaITS - nSigmaTPC purity cut",
+                    "kind": "0"
+                },
+                {
+                    "name": "ccdbNoLaterThan",
+                    "type": "1",
+                    "defaultValue": "1792154309542",
+                    "help": "latest acceptable timestamp of creation for the object",
+                    "kind": "0"
+                },
+                {
+                    "name": "ccdbUrl",
+                    "type": "4",
+                    "defaultValue": "http://alice-ccdb.cern.ch",
+                    "help": "url of the ccdb repository",
+                    "kind": "0"
+                }
+            ],
+            "labels": [],
+            "metadata": [],
+            "rank": 0,
+            "nSlots": 1,
+            "inputTimeSliceId": 0,
+            "maxInputTimeslices": 1
+        },
+        {
+            "name": "q-a-process-cent",
+            "inputs": [
+                {
+                    "binding": "CentFT0Cs",
+                    "origin": "AOD",
+                    "description": "CENTFT0C",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fCentFT0C\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "Collisions_001",
+                    "origin": "AOD",
+                    "description": "COLLISION",
+                    "subspec": 1,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fIndexBCs\",\"type\":7},{\"name\":\"fPosX\",\"type\":11},{\"name\":\"fPosY\",\"type\":11},{\"name\":\"fPosZ\",\"type\":11},{\"name\":\"fCovXX\",\"type\":11},{\"name\":\"fCovXY\",\"type\":11},{\"name\":\"fCovYY\",\"type\":11},{\"name\":\"fCovXZ\",\"type\":11},{\"name\":\"fCovYZ\",\"type\":11},{\"name\":\"fCovZZ\",\"type\":11},{\"name\":\"fFlags\",\"type\":4},{\"name\":\"fChi2\",\"type\":11},{\"name\":\"fNumContrib\",\"type\":4},{\"name\":\"fCollisionTime\",\"type\":11},{\"name\":\"fCollisionTimeRes\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "TracksExtension",
+                    "origin": "AOD",
+                    "description": "EXTRACK",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "input:Tracks",
+                            "type": "4",
+                            "defaultValue": "Tracks/AOD/TRACK/0",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "input-schema:Tracks",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fIndexCollisions\",\"type\":7},{\"name\":\"fTrackType\",\"type\":2},{\"name\":\"fX\",\"type\":11},{\"name\":\"fAlpha\",\"type\":11},{\"name\":\"fY\",\"type\":11},{\"name\":\"fZ\",\"type\":11},{\"name\":\"fSnp\",\"type\":11},{\"name\":\"fTgl\",\"type\":11},{\"name\":\"fSigned1Pt\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "projectors",
+                            "type": "4",
+                            "defaultValue": "{\"projectors\":[{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":11,\"value\":8.507059173023462e37,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":27,\"left\":{\"kind\":2,\"index\":3,\"operation\":4,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":1.0,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":3,\"binding\":\"fSigned1Pt\",\"hash\":4225458101,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":null,\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":10,\"left\":{\"kind\":2,\"index\":2,\"operation\":27,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fSigned1Pt\",\"hash\":4225458101,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":11,\"value\":1.1754943508222876e-38,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},{\"kind\":4,\"index\":0,\"left\":{\"kind\":0,\"index\":1,\"arrow_type\":11,\"value\":8.507059173023462e37,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":4,\"left\":{\"kind\":2,\"index\":3,\"operation\":5,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.5,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":2,\"left\":{\"kind\":2,\"index\":3,\"operation\":23,\"left\":{\"kind\":2,\"index\":3,\"operation\":3,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.7853981852531433,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":5,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.5,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":26,\"left\":{\"kind\":1,\"index\":3,\"binding\":\"fTgl\",\"hash\":4259215054,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":4,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":1.0,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":23,\"left\":{\"kind\":2,\"index\":3,\"operation\":3,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.7853981852531433,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":5,\"left\":{\"kind\":0,\"index\":3,\"arrow_type\":11,\"value\":0.5,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":26,\"left\":{\"kind\":1,\"index\":3,\"binding\":\"fTgl\",\"hash\":4259215054,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null},\"condition\":null},\"right\":{\"kind\":2,\"index\":3,\"operation\":27,\"left\":{\"kind\":1,\"index\":3,\"binding\":\"fSigned1Pt\",\"hash\":4225458101,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":{\"kind\":2,\"index\":2,\"operation\":10,\"left\":{\"kind\":2,\"index\":2,\"operation\":27,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fSigned1Pt\",\"hash\":4225458101,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":11,\"value\":1.1754943508222876e-38,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},{\"kind\":2,\"index\":0,\"operation\":5,\"left\":{\"kind\":0,\"index\":0,\"arrow_type\":11,\"value\":-1.0,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":0,\"operation\":19,\"left\":{\"kind\":2,\"index\":0,\"operation\":23,\"left\":{\"kind\":2,\"index\":0,\"operation\":3,\"left\":{\"kind\":0,\"index\":0,\"arrow_type\":11,\"value\":0.7853981852531433,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":0,\"operation\":5,\"left\":{\"kind\":0,\"index\":0,\"arrow_type\":11,\"value\":0.5,\"left\":null,\"right\":null,\"condition\":null},\"right\":{\"kind\":2,\"index\":0,\"operation\":26,\"left\":{\"kind\":1,\"index\":0,\"binding\":\"fTgl\",\"hash\":4259215054,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},\"condition\":null},\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"condition\":null},{\"kind\":4,\"index\":0,\"left\":{\"kind\":2,\"index\":1,\"operation\":2,\"left\":{\"kind\":2,\"index\":1,\"operation\":2,\"left\":{\"kind\":2,\"index\":1,\"operation\":24,\"left\":{\"kind\":1,\"index\":1,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":1,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":0,\"index\":1,\"arrow_type\":11,\"value\":6.2831854820251469,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":4,\"index\":3,\"left\":{\"kind\":2,\"index\":4,\"operation\":3,\"left\":{\"kind\":2,\"index\":4,\"operation\":2,\"left\":{\"kind\":2,\"index\":4,\"operation\":24,\"left\":{\"kind\":1,\"index\":4,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":4,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":0,\"index\":4,\"arrow_type\":11,\"value\":6.2831854820251469,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":2,\"index\":6,\"operation\":2,\"left\":{\"kind\":2,\"index\":6,\"operation\":24,\"left\":{\"kind\":1,\"index\":6,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":6,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"condition\":{\"kind\":2,\"index\":5,\"operation\":12,\"left\":{\"kind\":2,\"index\":5,\"operation\":2,\"left\":{\"kind\":2,\"index\":5,\"operation\":24,\"left\":{\"kind\":1,\"index\":5,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":5,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":0,\"index\":5,\"arrow_type\":11,\"value\":6.2831854820251469,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}},\"condition\":{\"kind\":2,\"index\":2,\"operation\":9,\"left\":{\"kind\":2,\"index\":2,\"operation\":2,\"left\":{\"kind\":2,\"index\":2,\"operation\":24,\"left\":{\"kind\":1,\"index\":2,\"binding\":\"fSnp\",\"hash\":1028818765,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"right\":null,\"condition\":null},\"right\":{\"kind\":1,\"index\":2,\"binding\":\"fAlpha\",\"hash\":1349170286,\"arrow_type\":11,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null},\"right\":{\"kind\":0,\"index\":2,\"arrow_type\":11,\"value\":0.0,\"left\":null,\"right\":null,\"condition\":null},\"condition\":null}}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fPt\",\"type\":11},{\"name\":\"fP\",\"type\":11},{\"name\":\"fEta\",\"type\":11},{\"name\":\"fPhi\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "Flags",
+                    "origin": "AOD",
+                    "description": "Flags",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fNPidFlag\",\"type\":3}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "PidInfo",
+                    "origin": "AOD",
+                    "description": "PidInfo",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fAverClusterSizeCosl\",\"type\":11},{\"name\":\"fNSigmaPiITS\",\"type\":11},{\"name\":\"fNSigmaKaITS\",\"type\":11},{\"name\":\"fNSigmaPrITS\",\"type\":11},{\"name\":\"fNSigmaPiTPC\",\"type\":11},{\"name\":\"fNSigmaKaTPC\",\"type\":11},{\"name\":\"fNSigmaPrTPC\",\"type\":11},{\"name\":\"fNSigmaPiTOF\",\"type\":11},{\"name\":\"fNSigmaKaTOF\",\"type\":11},{\"name\":\"fNSigmaPrTOF\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                },
+                {
+                    "binding": "Tracks",
+                    "origin": "AOD",
+                    "description": "TRACK",
+                    "subspec": 0,
+                    "lifetime": 0,
+                    "metadata": [
+                        {
+                            "name": "schema",
+                            "type": "4",
+                            "defaultValue": "{\"fields\":[{\"name\":\"fIndexCollisions\",\"type\":7},{\"name\":\"fTrackType\",\"type\":2},{\"name\":\"fX\",\"type\":11},{\"name\":\"fAlpha\",\"type\":11},{\"name\":\"fY\",\"type\":11},{\"name\":\"fZ\",\"type\":11},{\"name\":\"fSnp\",\"type\":11},{\"name\":\"fTgl\",\"type\":11},{\"name\":\"fSigned1Pt\",\"type\":11}]}",
+                            "help": "\"\""
+                        },
+                        {
+                            "name": "control:default",
+                            "type": "5",
+                            "defaultValue": "1",
+                            "help": "\"\""
+                        }
+                    ]
+                }
+            ],
+            "outputs": [
+                {
+                    "binding": "histosQAwithcent",
+                    "origin": "ATSK",
+                    "description": "960cf6eaf10d____",
+                    "subspec": 0,
+                    "lifetime": 2
+                }
+            ],
+            "options": [
+                {
+                    "name": "cfgCentralitybinsforQA",
+                    "type": "6",
+                    "defaultValue": "{\"values\":[0,30,60]}",
+                    "help": "Centrality bins for track phi and TPC_ITS matching check",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenDetailPlots",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open detail TH3D plots for nSigmaTPC-ITS Pt-eta-Phi nSigmaITS-clustersize",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenITSafter",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open check for after ITS cut check(if used ITScut in table producer it need else close to save cpu usage)",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPtEtaPhi",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open pt-#eta-#phi PID QA  (Optional for limited memory usage)",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenITSTPCnSigma",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open ITS-TPC nSigma QA (Optional for limited memory usage)",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenClusSizenSigmaTPC",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open ITSClustersize-TPCnsigma QA (Optional for limited memory usage)",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPi",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open Pion QA (Optional for limited memory usage)",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenKa",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open Kaon QA (Optional for limited memory usage)",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenPr",
+                    "type": "5",
+                    "defaultValue": "1",
+                    "help": "open Proton QA (Optional for limited memory usage)",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenTOFITSnSigma",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "open TOF-ITS nsigma 2D plots vs pt at a certain centrality",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgOpenTOFTPCnSigma",
+                    "type": "5",
+                    "defaultValue": "0",
+                    "help": "open TOF-TPC nsigma 2D plots vs pt at a certain centrality",
+                    "kind": "0"
+                },
+                {
+                    "name": "cfgaxisetaPID",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[90.0,-0.9,0.9]}",
+                    "help": "Binning for Pt QA",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisptPID",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[120.0,0.0,12.0]}",
+                    "help": "Binning for P_{t} PID",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgnSigmaBinsTPC",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[200.0,-5.0,5.0]}",
+                    "help": "Binning for n sigma TPC",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgnSigmaBinsITS",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[200.0,-5.0,5.0]}",
+                    "help": "Binning for n sigma ITS",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgnSigmaBinsTOF",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[200.0,-5.0,5.0]}",
+                    "help": "Binning for n sigma TOF",
+                    "kind": "1"
+                },
+                {
+                    "name": "cfgaxisAverClusterCoslnSigma",
+                    "type": "8",
+                    "defaultValue": "{\"values\":[50.0,0.0,5.0]}",
+                    "help": "Binning for average cluster size x cos(#lambda) vs nSigam",
+                    "kind": "1"
+                }
+            ],
+            "labels": [],
+            "metadata": [],
+            "rank": 0,
+            "nSlots": 1,
+            "inputTimeSliceId": 0,
+            "maxInputTimeslices": 1
+        }
+    ],
+    "metadata": [
+        {
+            "name": "internal-dpl-clock",
+            "executable": "o2-analysis-cf-flow-pid-cme",
+            "cmdLineArgs": [
+                "-b",
+                "--configuration",
+                "json://configuration.json",
+                "--dump-workflow",
+                "--dump-workflow-file",
+                "flow_only.json",
+                "--shm-segment-size",
+                "2000000000"
+            ],
+            "workflowOptions": [
+                {
+                    "name": "readers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel readers to use"
+                },
+                {
+                    "name": "ccdb-fetchers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel ccdb-fetchers to use"
+                },
+                {
+                    "name": "spawners",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel spawners to use"
+                },
+                {
+                    "name": "pipeline",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "override default pipeline size"
+                },
+                {
+                    "name": "clone",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "clone processors from a template"
+                },
+                {
+                    "name": "labels",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "add labels to dataprocessors"
+                },
+                {
+                    "name": "workflow-suffix",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "suffix to add to all dataprocessors"
+                },
+                {
+                    "name": "timeframes-rate-limit-ipcid",
+                    "type": "4",
+                    "defaultValue": "-1",
+                    "help": "Suffix for IPC channel for metric-feedback, -1 = disable"
+                },
+                {
+                    "name": "aod-memory-rate-limit",
+                    "type": "1",
+                    "defaultValue": "0",
+                    "help": "Rate limit AOD processing based on memory"
+                },
+                {
+                    "name": "aod-file",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Input AOD file"
+                },
+                {
+                    "name": "aod-writer-json",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the json configuration file"
+                },
+                {
+                    "name": "aod-writer-resdir",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the output directory"
+                },
+                {
+                    "name": "aod-writer-resfile",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Default name of the output file"
+                },
+                {
+                    "name": "aod-writer-maxfilesize",
+                    "type": "2",
+                    "defaultValue": "0",
+                    "help": "Maximum size of an output file in megabytes"
+                },
+                {
+                    "name": "aod-writer-resmode",
+                    "type": "4",
+                    "defaultValue": "RECREATE",
+                    "help": "Creation mode of the result files: NEW, CREATE, RECREATE, UPDATE"
+                },
+                {
+                    "name": "aod-writer-ntfmerge",
+                    "type": "0",
+                    "defaultValue": "-1",
+                    "help": "Number of time frames to merge into one file"
+                },
+                {
+                    "name": "aod-writer-keep",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Comma separated list of ORIGIN/DESCRIPTION/SUBSPECIFICATION:treename:col1/col2/..:filename"
+                },
+                {
+                    "name": "aod-origin-replace",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Replace AOD origin with the string provided"
+                },
+                {
+                    "name": "fairmq-rate-logging",
+                    "type": "0",
+                    "defaultValue": "0",
+                    "help": "Rate logging for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-recv-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "recvBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-send-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "sendBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-ipc-prefix",
+                    "type": "4",
+                    "defaultValue": "@",
+                    "help": "Prefix for FairMQ channels location"
+                },
+                {
+                    "name": "forwarding-policy",
+                    "type": "4",
+                    "defaultValue": "dangling",
+                    "help": "Which messages to forward. *dangling*: dangling outputs, all: all messages, none: no forwarding - it will complain if you try to create dangling outputs"
+                },
+                {
+                    "name": "forwarding-destination",
+                    "type": "4",
+                    "defaultValue": "drop",
+                    "help": "Destination for forwarded messages. drop: simply drop them, file: write to file, fairmq: send to output proxy"
+                }
+            ],
+            "channels": [
+                "from_internal-dpl-clock_to_internal-dpl-aod-reader"
+            ]
+        },
+        {
+            "name": "internal-dpl-aod-reader",
+            "executable": "o2-analysis-cf-flow-pid-cme",
+            "cmdLineArgs": [
+                "-b",
+                "--configuration",
+                "json://configuration.json",
+                "--dump-workflow",
+                "--dump-workflow-file",
+                "flow_only.json",
+                "--shm-segment-size",
+                "2000000000"
+            ],
+            "workflowOptions": [
+                {
+                    "name": "readers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel readers to use"
+                },
+                {
+                    "name": "ccdb-fetchers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel ccdb-fetchers to use"
+                },
+                {
+                    "name": "spawners",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel spawners to use"
+                },
+                {
+                    "name": "pipeline",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "override default pipeline size"
+                },
+                {
+                    "name": "clone",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "clone processors from a template"
+                },
+                {
+                    "name": "labels",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "add labels to dataprocessors"
+                },
+                {
+                    "name": "workflow-suffix",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "suffix to add to all dataprocessors"
+                },
+                {
+                    "name": "timeframes-rate-limit-ipcid",
+                    "type": "4",
+                    "defaultValue": "-1",
+                    "help": "Suffix for IPC channel for metric-feedback, -1 = disable"
+                },
+                {
+                    "name": "aod-memory-rate-limit",
+                    "type": "1",
+                    "defaultValue": "0",
+                    "help": "Rate limit AOD processing based on memory"
+                },
+                {
+                    "name": "aod-file",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Input AOD file"
+                },
+                {
+                    "name": "aod-writer-json",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the json configuration file"
+                },
+                {
+                    "name": "aod-writer-resdir",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the output directory"
+                },
+                {
+                    "name": "aod-writer-resfile",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Default name of the output file"
+                },
+                {
+                    "name": "aod-writer-maxfilesize",
+                    "type": "2",
+                    "defaultValue": "0",
+                    "help": "Maximum size of an output file in megabytes"
+                },
+                {
+                    "name": "aod-writer-resmode",
+                    "type": "4",
+                    "defaultValue": "RECREATE",
+                    "help": "Creation mode of the result files: NEW, CREATE, RECREATE, UPDATE"
+                },
+                {
+                    "name": "aod-writer-ntfmerge",
+                    "type": "0",
+                    "defaultValue": "-1",
+                    "help": "Number of time frames to merge into one file"
+                },
+                {
+                    "name": "aod-writer-keep",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Comma separated list of ORIGIN/DESCRIPTION/SUBSPECIFICATION:treename:col1/col2/..:filename"
+                },
+                {
+                    "name": "aod-origin-replace",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Replace AOD origin with the string provided"
+                },
+                {
+                    "name": "fairmq-rate-logging",
+                    "type": "0",
+                    "defaultValue": "0",
+                    "help": "Rate logging for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-recv-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "recvBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-send-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "sendBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-ipc-prefix",
+                    "type": "4",
+                    "defaultValue": "@",
+                    "help": "Prefix for FairMQ channels location"
+                },
+                {
+                    "name": "forwarding-policy",
+                    "type": "4",
+                    "defaultValue": "dangling",
+                    "help": "Which messages to forward. *dangling*: dangling outputs, all: all messages, none: no forwarding - it will complain if you try to create dangling outputs"
+                },
+                {
+                    "name": "forwarding-destination",
+                    "type": "4",
+                    "defaultValue": "drop",
+                    "help": "Destination for forwarded messages. drop: simply drop them, file: write to file, fairmq: send to output proxy"
+                }
+            ],
+            "channels": [
+                "from_internal-dpl-clock_to_internal-dpl-aod-reader",
+                "from_internal-dpl-aod-reader_to_internal-dpl-aod-spawner",
+                "from_internal-dpl-aod-reader_to_fill-p-i-dcolums",
+                "from_internal-dpl-aod-reader_to_flow-pid-cme",
+                "from_internal-dpl-aod-reader_to_internal-dpl-injected-dummy-sink"
+            ]
+        },
+        {
+            "name": "internal-dpl-aod-spawner",
+            "executable": "o2-analysis-cf-flow-pid-cme",
+            "cmdLineArgs": [
+                "-b",
+                "--configuration",
+                "json://configuration.json",
+                "--dump-workflow",
+                "--dump-workflow-file",
+                "flow_only.json",
+                "--shm-segment-size",
+                "2000000000"
+            ],
+            "workflowOptions": [
+                {
+                    "name": "readers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel readers to use"
+                },
+                {
+                    "name": "ccdb-fetchers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel ccdb-fetchers to use"
+                },
+                {
+                    "name": "spawners",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel spawners to use"
+                },
+                {
+                    "name": "pipeline",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "override default pipeline size"
+                },
+                {
+                    "name": "clone",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "clone processors from a template"
+                },
+                {
+                    "name": "labels",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "add labels to dataprocessors"
+                },
+                {
+                    "name": "workflow-suffix",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "suffix to add to all dataprocessors"
+                },
+                {
+                    "name": "timeframes-rate-limit-ipcid",
+                    "type": "4",
+                    "defaultValue": "-1",
+                    "help": "Suffix for IPC channel for metric-feedback, -1 = disable"
+                },
+                {
+                    "name": "aod-memory-rate-limit",
+                    "type": "1",
+                    "defaultValue": "0",
+                    "help": "Rate limit AOD processing based on memory"
+                },
+                {
+                    "name": "aod-file",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Input AOD file"
+                },
+                {
+                    "name": "aod-writer-json",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the json configuration file"
+                },
+                {
+                    "name": "aod-writer-resdir",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the output directory"
+                },
+                {
+                    "name": "aod-writer-resfile",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Default name of the output file"
+                },
+                {
+                    "name": "aod-writer-maxfilesize",
+                    "type": "2",
+                    "defaultValue": "0",
+                    "help": "Maximum size of an output file in megabytes"
+                },
+                {
+                    "name": "aod-writer-resmode",
+                    "type": "4",
+                    "defaultValue": "RECREATE",
+                    "help": "Creation mode of the result files: NEW, CREATE, RECREATE, UPDATE"
+                },
+                {
+                    "name": "aod-writer-ntfmerge",
+                    "type": "0",
+                    "defaultValue": "-1",
+                    "help": "Number of time frames to merge into one file"
+                },
+                {
+                    "name": "aod-writer-keep",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Comma separated list of ORIGIN/DESCRIPTION/SUBSPECIFICATION:treename:col1/col2/..:filename"
+                },
+                {
+                    "name": "aod-origin-replace",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Replace AOD origin with the string provided"
+                },
+                {
+                    "name": "fairmq-rate-logging",
+                    "type": "0",
+                    "defaultValue": "0",
+                    "help": "Rate logging for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-recv-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "recvBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-send-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "sendBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-ipc-prefix",
+                    "type": "4",
+                    "defaultValue": "@",
+                    "help": "Prefix for FairMQ channels location"
+                },
+                {
+                    "name": "forwarding-policy",
+                    "type": "4",
+                    "defaultValue": "dangling",
+                    "help": "Which messages to forward. *dangling*: dangling outputs, all: all messages, none: no forwarding - it will complain if you try to create dangling outputs"
+                },
+                {
+                    "name": "forwarding-destination",
+                    "type": "4",
+                    "defaultValue": "drop",
+                    "help": "Destination for forwarded messages. drop: simply drop them, file: write to file, fairmq: send to output proxy"
+                }
+            ],
+            "channels": [
+                "from_internal-dpl-aod-reader_to_internal-dpl-aod-spawner",
+                "from_internal-dpl-aod-spawner_to_fill-p-i-dcolums"
+            ]
+        },
+        {
+            "name": "fill-p-i-dcolums",
+            "executable": "o2-analysis-cf-flow-pid-cme",
+            "cmdLineArgs": [
+                "-b",
+                "--configuration",
+                "json://configuration.json",
+                "--dump-workflow",
+                "--dump-workflow-file",
+                "flow_only.json",
+                "--shm-segment-size",
+                "2000000000"
+            ],
+            "workflowOptions": [
+                {
+                    "name": "readers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel readers to use"
+                },
+                {
+                    "name": "ccdb-fetchers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel ccdb-fetchers to use"
+                },
+                {
+                    "name": "spawners",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel spawners to use"
+                },
+                {
+                    "name": "pipeline",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "override default pipeline size"
+                },
+                {
+                    "name": "clone",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "clone processors from a template"
+                },
+                {
+                    "name": "labels",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "add labels to dataprocessors"
+                },
+                {
+                    "name": "workflow-suffix",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "suffix to add to all dataprocessors"
+                },
+                {
+                    "name": "timeframes-rate-limit-ipcid",
+                    "type": "4",
+                    "defaultValue": "-1",
+                    "help": "Suffix for IPC channel for metric-feedback, -1 = disable"
+                },
+                {
+                    "name": "aod-memory-rate-limit",
+                    "type": "1",
+                    "defaultValue": "0",
+                    "help": "Rate limit AOD processing based on memory"
+                },
+                {
+                    "name": "aod-file",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Input AOD file"
+                },
+                {
+                    "name": "aod-writer-json",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the json configuration file"
+                },
+                {
+                    "name": "aod-writer-resdir",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the output directory"
+                },
+                {
+                    "name": "aod-writer-resfile",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Default name of the output file"
+                },
+                {
+                    "name": "aod-writer-maxfilesize",
+                    "type": "2",
+                    "defaultValue": "0",
+                    "help": "Maximum size of an output file in megabytes"
+                },
+                {
+                    "name": "aod-writer-resmode",
+                    "type": "4",
+                    "defaultValue": "RECREATE",
+                    "help": "Creation mode of the result files: NEW, CREATE, RECREATE, UPDATE"
+                },
+                {
+                    "name": "aod-writer-ntfmerge",
+                    "type": "0",
+                    "defaultValue": "-1",
+                    "help": "Number of time frames to merge into one file"
+                },
+                {
+                    "name": "aod-writer-keep",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Comma separated list of ORIGIN/DESCRIPTION/SUBSPECIFICATION:treename:col1/col2/..:filename"
+                },
+                {
+                    "name": "aod-origin-replace",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Replace AOD origin with the string provided"
+                },
+                {
+                    "name": "fairmq-rate-logging",
+                    "type": "0",
+                    "defaultValue": "0",
+                    "help": "Rate logging for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-recv-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "recvBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-send-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "sendBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-ipc-prefix",
+                    "type": "4",
+                    "defaultValue": "@",
+                    "help": "Prefix for FairMQ channels location"
+                },
+                {
+                    "name": "forwarding-policy",
+                    "type": "4",
+                    "defaultValue": "dangling",
+                    "help": "Which messages to forward. *dangling*: dangling outputs, all: all messages, none: no forwarding - it will complain if you try to create dangling outputs"
+                },
+                {
+                    "name": "forwarding-destination",
+                    "type": "4",
+                    "defaultValue": "drop",
+                    "help": "Destination for forwarded messages. drop: simply drop them, file: write to file, fairmq: send to output proxy"
+                }
+            ],
+            "channels": [
+                "from_internal-dpl-aod-reader_to_fill-p-i-dcolums",
+                "from_internal-dpl-aod-spawner_to_fill-p-i-dcolums",
+                "from_fill-p-i-dcolums_to_flow-pid-cme",
+                "from_fill-p-i-dcolums_to_internal-dpl-aod-global-analysis-file-sink"
+            ]
+        },
+        {
+            "name": "flow-pid-cme",
+            "executable": "o2-analysis-cf-flow-pid-cme",
+            "cmdLineArgs": [
+                "-b",
+                "--configuration",
+                "json://configuration.json",
+                "--dump-workflow",
+                "--dump-workflow-file",
+                "flow_only.json",
+                "--shm-segment-size",
+                "2000000000"
+            ],
+            "workflowOptions": [
+                {
+                    "name": "readers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel readers to use"
+                },
+                {
+                    "name": "ccdb-fetchers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel ccdb-fetchers to use"
+                },
+                {
+                    "name": "spawners",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel spawners to use"
+                },
+                {
+                    "name": "pipeline",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "override default pipeline size"
+                },
+                {
+                    "name": "clone",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "clone processors from a template"
+                },
+                {
+                    "name": "labels",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "add labels to dataprocessors"
+                },
+                {
+                    "name": "workflow-suffix",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "suffix to add to all dataprocessors"
+                },
+                {
+                    "name": "timeframes-rate-limit-ipcid",
+                    "type": "4",
+                    "defaultValue": "-1",
+                    "help": "Suffix for IPC channel for metric-feedback, -1 = disable"
+                },
+                {
+                    "name": "aod-memory-rate-limit",
+                    "type": "1",
+                    "defaultValue": "0",
+                    "help": "Rate limit AOD processing based on memory"
+                },
+                {
+                    "name": "aod-file",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Input AOD file"
+                },
+                {
+                    "name": "aod-writer-json",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the json configuration file"
+                },
+                {
+                    "name": "aod-writer-resdir",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the output directory"
+                },
+                {
+                    "name": "aod-writer-resfile",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Default name of the output file"
+                },
+                {
+                    "name": "aod-writer-maxfilesize",
+                    "type": "2",
+                    "defaultValue": "0",
+                    "help": "Maximum size of an output file in megabytes"
+                },
+                {
+                    "name": "aod-writer-resmode",
+                    "type": "4",
+                    "defaultValue": "RECREATE",
+                    "help": "Creation mode of the result files: NEW, CREATE, RECREATE, UPDATE"
+                },
+                {
+                    "name": "aod-writer-ntfmerge",
+                    "type": "0",
+                    "defaultValue": "-1",
+                    "help": "Number of time frames to merge into one file"
+                },
+                {
+                    "name": "aod-writer-keep",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Comma separated list of ORIGIN/DESCRIPTION/SUBSPECIFICATION:treename:col1/col2/..:filename"
+                },
+                {
+                    "name": "aod-origin-replace",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Replace AOD origin with the string provided"
+                },
+                {
+                    "name": "fairmq-rate-logging",
+                    "type": "0",
+                    "defaultValue": "0",
+                    "help": "Rate logging for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-recv-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "recvBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-send-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "sendBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-ipc-prefix",
+                    "type": "4",
+                    "defaultValue": "@",
+                    "help": "Prefix for FairMQ channels location"
+                },
+                {
+                    "name": "forwarding-policy",
+                    "type": "4",
+                    "defaultValue": "dangling",
+                    "help": "Which messages to forward. *dangling*: dangling outputs, all: all messages, none: no forwarding - it will complain if you try to create dangling outputs"
+                },
+                {
+                    "name": "forwarding-destination",
+                    "type": "4",
+                    "defaultValue": "drop",
+                    "help": "Destination for forwarded messages. drop: simply drop them, file: write to file, fairmq: send to output proxy"
+                }
+            ],
+            "channels": [
+                "from_internal-dpl-aod-reader_to_flow-pid-cme",
+                "from_fill-p-i-dcolums_to_flow-pid-cme",
+                "from_flow-pid-cme_to_q-a-process-cent",
+                "from_flow-pid-cme_to_internal-dpl-aod-global-analysis-file-sink"
+            ]
+        },
+        {
+            "name": "q-a-process-cent",
+            "executable": "o2-analysis-cf-flow-pid-cme",
+            "cmdLineArgs": [
+                "-b",
+                "--configuration",
+                "json://configuration.json",
+                "--dump-workflow",
+                "--dump-workflow-file",
+                "flow_only.json",
+                "--shm-segment-size",
+                "2000000000"
+            ],
+            "workflowOptions": [
+                {
+                    "name": "readers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel readers to use"
+                },
+                {
+                    "name": "ccdb-fetchers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel ccdb-fetchers to use"
+                },
+                {
+                    "name": "spawners",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel spawners to use"
+                },
+                {
+                    "name": "pipeline",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "override default pipeline size"
+                },
+                {
+                    "name": "clone",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "clone processors from a template"
+                },
+                {
+                    "name": "labels",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "add labels to dataprocessors"
+                },
+                {
+                    "name": "workflow-suffix",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "suffix to add to all dataprocessors"
+                },
+                {
+                    "name": "timeframes-rate-limit-ipcid",
+                    "type": "4",
+                    "defaultValue": "-1",
+                    "help": "Suffix for IPC channel for metric-feedback, -1 = disable"
+                },
+                {
+                    "name": "aod-memory-rate-limit",
+                    "type": "1",
+                    "defaultValue": "0",
+                    "help": "Rate limit AOD processing based on memory"
+                },
+                {
+                    "name": "aod-file",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Input AOD file"
+                },
+                {
+                    "name": "aod-writer-json",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the json configuration file"
+                },
+                {
+                    "name": "aod-writer-resdir",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the output directory"
+                },
+                {
+                    "name": "aod-writer-resfile",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Default name of the output file"
+                },
+                {
+                    "name": "aod-writer-maxfilesize",
+                    "type": "2",
+                    "defaultValue": "0",
+                    "help": "Maximum size of an output file in megabytes"
+                },
+                {
+                    "name": "aod-writer-resmode",
+                    "type": "4",
+                    "defaultValue": "RECREATE",
+                    "help": "Creation mode of the result files: NEW, CREATE, RECREATE, UPDATE"
+                },
+                {
+                    "name": "aod-writer-ntfmerge",
+                    "type": "0",
+                    "defaultValue": "-1",
+                    "help": "Number of time frames to merge into one file"
+                },
+                {
+                    "name": "aod-writer-keep",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Comma separated list of ORIGIN/DESCRIPTION/SUBSPECIFICATION:treename:col1/col2/..:filename"
+                },
+                {
+                    "name": "aod-origin-replace",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Replace AOD origin with the string provided"
+                },
+                {
+                    "name": "fairmq-rate-logging",
+                    "type": "0",
+                    "defaultValue": "0",
+                    "help": "Rate logging for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-recv-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "recvBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-send-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "sendBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-ipc-prefix",
+                    "type": "4",
+                    "defaultValue": "@",
+                    "help": "Prefix for FairMQ channels location"
+                },
+                {
+                    "name": "forwarding-policy",
+                    "type": "4",
+                    "defaultValue": "dangling",
+                    "help": "Which messages to forward. *dangling*: dangling outputs, all: all messages, none: no forwarding - it will complain if you try to create dangling outputs"
+                },
+                {
+                    "name": "forwarding-destination",
+                    "type": "4",
+                    "defaultValue": "drop",
+                    "help": "Destination for forwarded messages. drop: simply drop them, file: write to file, fairmq: send to output proxy"
+                }
+            ],
+            "channels": [
+                "from_flow-pid-cme_to_q-a-process-cent",
+                "from_q-a-process-cent_to_internal-dpl-aod-global-analysis-file-sink"
+            ]
+        },
+        {
+            "name": "internal-dpl-aod-global-analysis-file-sink",
+            "executable": "o2-analysis-cf-flow-pid-cme",
+            "cmdLineArgs": [
+                "-b",
+                "--configuration",
+                "json://configuration.json",
+                "--dump-workflow",
+                "--dump-workflow-file",
+                "flow_only.json",
+                "--shm-segment-size",
+                "2000000000"
+            ],
+            "workflowOptions": [
+                {
+                    "name": "readers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel readers to use"
+                },
+                {
+                    "name": "ccdb-fetchers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel ccdb-fetchers to use"
+                },
+                {
+                    "name": "spawners",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel spawners to use"
+                },
+                {
+                    "name": "pipeline",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "override default pipeline size"
+                },
+                {
+                    "name": "clone",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "clone processors from a template"
+                },
+                {
+                    "name": "labels",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "add labels to dataprocessors"
+                },
+                {
+                    "name": "workflow-suffix",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "suffix to add to all dataprocessors"
+                },
+                {
+                    "name": "timeframes-rate-limit-ipcid",
+                    "type": "4",
+                    "defaultValue": "-1",
+                    "help": "Suffix for IPC channel for metric-feedback, -1 = disable"
+                },
+                {
+                    "name": "aod-memory-rate-limit",
+                    "type": "1",
+                    "defaultValue": "0",
+                    "help": "Rate limit AOD processing based on memory"
+                },
+                {
+                    "name": "aod-file",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Input AOD file"
+                },
+                {
+                    "name": "aod-writer-json",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the json configuration file"
+                },
+                {
+                    "name": "aod-writer-resdir",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the output directory"
+                },
+                {
+                    "name": "aod-writer-resfile",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Default name of the output file"
+                },
+                {
+                    "name": "aod-writer-maxfilesize",
+                    "type": "2",
+                    "defaultValue": "0",
+                    "help": "Maximum size of an output file in megabytes"
+                },
+                {
+                    "name": "aod-writer-resmode",
+                    "type": "4",
+                    "defaultValue": "RECREATE",
+                    "help": "Creation mode of the result files: NEW, CREATE, RECREATE, UPDATE"
+                },
+                {
+                    "name": "aod-writer-ntfmerge",
+                    "type": "0",
+                    "defaultValue": "-1",
+                    "help": "Number of time frames to merge into one file"
+                },
+                {
+                    "name": "aod-writer-keep",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Comma separated list of ORIGIN/DESCRIPTION/SUBSPECIFICATION:treename:col1/col2/..:filename"
+                },
+                {
+                    "name": "aod-origin-replace",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Replace AOD origin with the string provided"
+                },
+                {
+                    "name": "fairmq-rate-logging",
+                    "type": "0",
+                    "defaultValue": "0",
+                    "help": "Rate logging for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-recv-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "recvBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-send-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "sendBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-ipc-prefix",
+                    "type": "4",
+                    "defaultValue": "@",
+                    "help": "Prefix for FairMQ channels location"
+                },
+                {
+                    "name": "forwarding-policy",
+                    "type": "4",
+                    "defaultValue": "dangling",
+                    "help": "Which messages to forward. *dangling*: dangling outputs, all: all messages, none: no forwarding - it will complain if you try to create dangling outputs"
+                },
+                {
+                    "name": "forwarding-destination",
+                    "type": "4",
+                    "defaultValue": "drop",
+                    "help": "Destination for forwarded messages. drop: simply drop them, file: write to file, fairmq: send to output proxy"
+                }
+            ],
+            "channels": [
+                "from_fill-p-i-dcolums_to_internal-dpl-aod-global-analysis-file-sink",
+                "from_flow-pid-cme_to_internal-dpl-aod-global-analysis-file-sink",
+                "from_q-a-process-cent_to_internal-dpl-aod-global-analysis-file-sink",
+                "from_internal-dpl-aod-global-analysis-file-sink_to_internal-dpl-injected-dummy-sink"
+            ]
+        },
+        {
+            "name": "internal-dpl-injected-dummy-sink",
+            "executable": "o2-analysis-cf-flow-pid-cme",
+            "cmdLineArgs": [
+                "-b",
+                "--configuration",
+                "json://configuration.json",
+                "--dump-workflow",
+                "--dump-workflow-file",
+                "flow_only.json",
+                "--shm-segment-size",
+                "2000000000"
+            ],
+            "workflowOptions": [
+                {
+                    "name": "readers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel readers to use"
+                },
+                {
+                    "name": "ccdb-fetchers",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel ccdb-fetchers to use"
+                },
+                {
+                    "name": "spawners",
+                    "type": "1",
+                    "defaultValue": "1",
+                    "help": "number of parallel spawners to use"
+                },
+                {
+                    "name": "pipeline",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "override default pipeline size"
+                },
+                {
+                    "name": "clone",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "clone processors from a template"
+                },
+                {
+                    "name": "labels",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "add labels to dataprocessors"
+                },
+                {
+                    "name": "workflow-suffix",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "suffix to add to all dataprocessors"
+                },
+                {
+                    "name": "timeframes-rate-limit-ipcid",
+                    "type": "4",
+                    "defaultValue": "-1",
+                    "help": "Suffix for IPC channel for metric-feedback, -1 = disable"
+                },
+                {
+                    "name": "aod-memory-rate-limit",
+                    "type": "1",
+                    "defaultValue": "0",
+                    "help": "Rate limit AOD processing based on memory"
+                },
+                {
+                    "name": "aod-file",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Input AOD file"
+                },
+                {
+                    "name": "aod-writer-json",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the json configuration file"
+                },
+                {
+                    "name": "aod-writer-resdir",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Name of the output directory"
+                },
+                {
+                    "name": "aod-writer-resfile",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Default name of the output file"
+                },
+                {
+                    "name": "aod-writer-maxfilesize",
+                    "type": "2",
+                    "defaultValue": "0",
+                    "help": "Maximum size of an output file in megabytes"
+                },
+                {
+                    "name": "aod-writer-resmode",
+                    "type": "4",
+                    "defaultValue": "RECREATE",
+                    "help": "Creation mode of the result files: NEW, CREATE, RECREATE, UPDATE"
+                },
+                {
+                    "name": "aod-writer-ntfmerge",
+                    "type": "0",
+                    "defaultValue": "-1",
+                    "help": "Number of time frames to merge into one file"
+                },
+                {
+                    "name": "aod-writer-keep",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Comma separated list of ORIGIN/DESCRIPTION/SUBSPECIFICATION:treename:col1/col2/..:filename"
+                },
+                {
+                    "name": "aod-origin-replace",
+                    "type": "4",
+                    "defaultValue": "",
+                    "help": "Replace AOD origin with the string provided"
+                },
+                {
+                    "name": "fairmq-rate-logging",
+                    "type": "0",
+                    "defaultValue": "0",
+                    "help": "Rate logging for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-recv-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "recvBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-send-buffer-size",
+                    "type": "0",
+                    "defaultValue": "4",
+                    "help": "sendBufferSize option for FairMQ channels"
+                },
+                {
+                    "name": "fairmq-ipc-prefix",
+                    "type": "4",
+                    "defaultValue": "@",
+                    "help": "Prefix for FairMQ channels location"
+                },
+                {
+                    "name": "forwarding-policy",
+                    "type": "4",
+                    "defaultValue": "dangling",
+                    "help": "Which messages to forward. *dangling*: dangling outputs, all: all messages, none: no forwarding - it will complain if you try to create dangling outputs"
+                },
+                {
+                    "name": "forwarding-destination",
+                    "type": "4",
+                    "defaultValue": "drop",
+                    "help": "Destination for forwarded messages. drop: simply drop them, file: write to file, fairmq: send to output proxy"
+                }
+            ],
+            "channels": [
+                "from_internal-dpl-aod-reader_to_internal-dpl-injected-dummy-sink",
+                "from_internal-dpl-aod-global-analysis-file-sink_to_internal-dpl-injected-dummy-sink"
+            ]
+        }
+    ],
+    "command": "o2-analysis-cf-flow-pid-cme -b --configuration json://configuration.json --dump-workflow --dump-workflow-file flow_only.json"
+}
