@@ -98,7 +98,7 @@
       ]
     },
     "cfgkOpenCMEDifferential": "1",
-    "ccdbUrl": "http://alice-ccdb.cern.ch",
+    "ccdbUrl": "file:///data/alice/aenderic/CME_verify_results/ccdb-local",
     "cfgUseAdditionalEventCut": "1",
     "cfgnMods": {
       "values": [
@@ -229,7 +229,7 @@
     },
     "cfgkOpenV2": "1",
     "cfgkOpenTPCITSPurityCutQA": "0",
-    "cfgCCDBPurityPath": "PurityCut",
+    "cfgCCDBPurityPath": "Users/z/zhengqiw/PurityCut",
     "cfgaxisNchPV": {
       "values": [
         500,
@@ -1283,7 +1283,7 @@
     "maxDCAxyToPVMFTTrack": "2",
     "maxEtaMFTTrack": "-2",
     "autoConfigureProcess": "0",
-    "ccdburl": "http://alice-ccdb.cern.ch",
+    "ccdburl": "file:///data/alice/aenderic/CME_verify_results/ccdb-local",
     "processCentralityRun3": "1"
   },
   "eventselection-run3": {
@@ -1321,7 +1321,7 @@
     "evselOpts.VzDiffMargin": "0.2",
     "bcselOpts.amIneeded": "-1",
     "evselOpts.TimeIntervalForOccupancyCalculationMax": "100",
-    "ccdburl": "http://alice-ccdb.cern.ch",
+    "ccdburl": "file:///data/alice/aenderic/CME_verify_results/ccdb-local",
     "evselOpts.muonSelection": "0",
     "evselOpts.UseWeightsForOccupancyEstimator": "1",
     "timestamp.verbose": "0",
@@ -1524,7 +1524,7 @@
     "v0BuilderOpts.mc_treatPiToMuDecays": "1",
     "trackTuner.debugInfo": "0",
     "trackPropagation.minPropagationDistance": "5",
-    "ccdburl": "http://alice-ccdb.cern.ch",
+    "ccdburl": "file:///data/alice/aenderic/CME_verify_results/ccdb-local",
     "cascadeBuilderOpts.mc_keepOnlyPhysicalPrimary": "0",
     "cascadeBuilderOpts.mc_addGeneratedXiMinus": "1",
     "cascadeBuilderOpts.minCrossedRows": "50",
@@ -1732,7 +1732,7 @@
     "pidTPC.useNetworkTr": "0",
     "pidTPC.useNetworkPi": "1",
     "pidTPC.param-file": "",
-    "ccdburl": "http://alice-ccdb.cern.ch",
+    "ccdburl": "file:///data/alice/aenderic/CME_verify_results/ccdb-local",
     "pidTPC.phiEntranceCoeff2": "85",
     "pidTPC.phiEntranceCoeff1": "1.026",
     "processTracksMCIU": "0"

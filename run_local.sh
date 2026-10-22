@@ -34,7 +34,7 @@ readlink -f input_data.txt || true
 #   --aod-writer-resfile AO2D_flowinput \
 #   --aod-writer-keep "$KEEP"
 
-export ALICEO2_CCDB_LOCALCACHE="/data/alice/aenderic/CME_verify_results/alice_ccdb_cache"
+# export ALICEO2_CCDB_LOCALCACHE="/data/alice/aenderic/CME_verify_results/alice_ccdb_cache"
 o2-analysis-cf-flow-pid-cme -b --configuration json://configuration_local.json \
   --aod-file AO2D_flowinput.root \
   --shm-segment-size 4000000000 --aod-memory-rate-limit 200000000

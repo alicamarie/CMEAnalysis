@@ -1,0 +1,49 @@
+000 (5972447.000.000) 2026-10-20 09:49:49 Job submitted from host: <145.107.7.246:9618?addrs=145.107.7.246-9618+[2a07-8500-120-e070--3f6]-9618&alias=taai-007.nikhef.nl&noUDP&sock=schedd_2720_45b1>
+...
+001 (5972447.000.000) 2026-10-20 09:53:29 Job executing on host: <145.107.4.167:9618?addrs=145.107.4.167-9618+[2a07-8500-120-e070--a7]-9618&alias=wn-pijl-006.nikhef.nl&noUDP&sock=startd_5030_bd77>
+	SlotName: slot1_6@wn-pijl-006.nikhef.nl
+	AvailableGPUs = {  }
+	CondorScratchDir = "/scratch/condor_execute/dir_131747"
+	Cpus = 4
+	Disk = 14715
+	GPUs = 0
+	Memory = 16384
+...
+006 (5972447.000.000) 2026-10-20 09:53:38 Image size of job updated: 869660
+	850  -  MemoryUsage of job (MB)
+	869660  -  ResidentSetSize of job (KB)
+...
+006 (5972447.000.000) 2026-10-20 09:58:38 Image size of job updated: 939372
+	916  -  MemoryUsage of job (MB)
+	937580  -  ResidentSetSize of job (KB)
+...
+006 (5972447.000.000) 2026-10-20 10:03:38 Image size of job updated: 939372
+	916  -  MemoryUsage of job (MB)
+	937804  -  ResidentSetSize of job (KB)
+...
+006 (5972447.000.000) 2026-10-20 10:13:39 Image size of job updated: 939372
+	916  -  MemoryUsage of job (MB)
+	937808  -  ResidentSetSize of job (KB)
+...
+006 (5972447.000.000) 2026-10-20 10:43:42 Image size of job updated: 939372
+	917  -  MemoryUsage of job (MB)
+	938692  -  ResidentSetSize of job (KB)
+...
+004 (5972447.000.000) 2026-10-20 10:52:04 Job was evicted. Code 1009 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:21, Sys 0 00:00:57  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Claim deactivated
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.02        4         4 
+	   Disk (KB)            :     1           1     14715 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   917       16384     16384 
+	   TimeExecute (s)      :  3515                       
+	   TimeSlotBusy (s)     :  3516                       
+...
+009 (5972447.000.000) 2026-10-20 10:52:04 Job was aborted.
+	via condor_rm (by user aenderic)
+...

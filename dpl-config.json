@@ -891,9 +891,9 @@
                 "0.8999999761581421"
             ]
         },
-        "cfgCCDBPurityPath": "PurityCut",
+        "cfgCCDBPurityPath": "Users\/z\/zhengqiw\/PurityCut",
         "ccdbNoLaterThan": "1755046463873",
-        "ccdbUrl": "http:\/\/alice-ccdb.cern.ch"
+        "ccdbUrl": "file:\/\/\/data\/alice\/aenderic\/CME_verify_results\/ccdb-local"
     },
     "q-a-process-cent": {
         "cfgCentralitybinsforQA": {

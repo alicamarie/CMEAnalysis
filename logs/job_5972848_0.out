@@ -1,0 +1,371 @@
+Host: wn-pijl-003.nikhef.nl
+Checking executable...
+/data/alice/aenderic/alice/sw/slc9_x86-64/O2Physics/master-local1/bin/o2-analysis-cf-flow-pid-cme
+Current working directory: /data/alice/aenderic/CME_verify_results
+Input file check:
+-rw-r--r-- 1 aenderic alice 15 Oct 16 13:53 input_data.txt
+Absolute input path:
+/data/alice/aenderic/CME_verify_results/input_data.txt
+[INFO] Loading metadata from file AO2D_flowinput.root in PID 26
+[INFO] No metadata found in file "AO2D_flowinput.root" and parent level 0 prevents further lookup.
+[INFO] Initialising O2 Data Processing Layer. Driver PID: 26.
+[INFO] Driver listening on port: 8106
+[INFO] Rate limiting set up at 200 MB and 64 timeframes distributed over 1 readers
+[INFO] O2 Data Processing Layer initialised. We brake for nobody.
+[INFO] Optimised build. O2DEBUG / LOG(debug) / LOGF(debug) / assert statement will not be shown.
+[INFO] Redeployment of configuration asked.
+[INFO] Starting internal-dpl-clock on pid 35
+[INFO] Starting internal-dpl-aod-reader on pid 36
+[INFO] Starting internal-dpl-aod-spawner on pid 37
+[INFO] Starting fill-p-i-dcolums on pid 38
+[INFO] Starting flow-pid-cme on pid 39
+[INFO] Starting q-a-process-cent on pid 40
+[INFO] Starting internal-dpl-aod-global-analysis-file-sink on pid 41
+[INFO] Starting internal-dpl-injected-dummy-sink on pid 42
+[INFO] Redeployment of configuration done.
+[35:internal-dpl-clock]: [INFO] Instrumenting crash signals
+[35:internal-dpl-clock]: [INFO] Spawning new device internal-dpl-clock in process with pid 35
+[35:internal-dpl-clock]: [12:54:42][INFO] 
+[35:internal-dpl-clock]:       ______      _    _______  _________ 
+[35:internal-dpl-clock]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[35:internal-dpl-clock]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[35:internal-dpl-clock]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[35:internal-dpl-clock]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[35:internal-dpl-clock]: 
+[35:internal-dpl-clock]: [12:54:42][STATE] Starting FairMQ state machine --> IDLE
+[35:internal-dpl-clock]: [12:54:42][STATE] IDLE ---> INITIALIZING DEVICE
+[35:internal-dpl-clock]: [12:54:42][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[35:internal-dpl-clock]: [12:54:42][STATE] INITIALIZED ---> BINDING
+[35:internal-dpl-clock]: [12:54:42][STATE] BINDING ---> BOUND
+[35:internal-dpl-clock]: [12:54:42][STATE] BOUND ---> CONNECTING
+[35:internal-dpl-clock]: [12:54:42][STATE] CONNECTING ---> DEVICE READY
+[35:internal-dpl-clock]: [12:54:42][STATE] DEVICE READY ---> INITIALIZING TASK
+[35:internal-dpl-clock]: [12:54:42][STATE] INITIALIZING TASK ---> READY
+[35:internal-dpl-clock]: [12:54:42][STATE] READY ---> RUNNING
+[35:internal-dpl-clock]: [12:54:42][INFO] fair::mq::Device running...
+[35:internal-dpl-clock]: [12:54:42][INFO] LHCPeriod is not available, using current month OCT
+[35:internal-dpl-clock]: [12:54:42][INFO] Correctly handshaken websocket connection.
+[38:fill-p-i-dcolums]: [INFO] Instrumenting crash signals
+[INFO] Controller for internal-dpl-aod-reader not yet available.
+[38:fill-p-i-dcolums]: [INFO] Spawning new device fill-p-i-dcolums in process with pid 38
+[38:fill-p-i-dcolums]: [12:54:42][INFO] 
+[38:fill-p-i-dcolums]:       ______      _    _______  _________ 
+[38:fill-p-i-dcolums]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[38:fill-p-i-dcolums]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[38:fill-p-i-dcolums]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[38:fill-p-i-dcolums]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[38:fill-p-i-dcolums]: 
+[38:fill-p-i-dcolums]: [12:54:42][STATE] Starting FairMQ state machine --> IDLE
+[39:flow-pid-cme]: [INFO] Instrumenting crash signals
+[40:q-a-process-cent]: [INFO] Instrumenting crash signals
+[36:internal-dpl-aod-reader]: [INFO] Instrumenting crash signals
+[42:internal-dpl-injected-dummy-sink]: [INFO] Instrumenting crash signals
+[39:flow-pid-cme]: [INFO] Spawning new device flow-pid-cme in process with pid 39
+[38:fill-p-i-dcolums]: [12:54:42][STATE] IDLE ---> INITIALIZING DEVICE
+[40:q-a-process-cent]: [INFO] Spawning new device q-a-process-cent in process with pid 40
+[39:flow-pid-cme]: [12:54:42][INFO] 
+[39:flow-pid-cme]:       ______      _    _______  _________ 
+[39:flow-pid-cme]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[39:flow-pid-cme]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[39:flow-pid-cme]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[39:flow-pid-cme]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[39:flow-pid-cme]: 
+[40:q-a-process-cent]: [12:54:42][INFO] 
+[40:q-a-process-cent]:       ______      _    _______  _________ 
+[40:q-a-process-cent]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[40:q-a-process-cent]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[40:q-a-process-cent]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[40:q-a-process-cent]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[40:q-a-process-cent]: 
+[40:q-a-process-cent]: [12:54:42][STATE] Starting FairMQ state machine --> IDLE
+[39:flow-pid-cme]: [12:54:42][STATE] Starting FairMQ state machine --> IDLE
+[36:internal-dpl-aod-reader]: [INFO] Spawning new device internal-dpl-aod-reader in process with pid 36
+[36:internal-dpl-aod-reader]: [12:54:42][INFO] 
+[36:internal-dpl-aod-reader]:       ______      _    _______  _________ 
+[36:internal-dpl-aod-reader]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[36:internal-dpl-aod-reader]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[36:internal-dpl-aod-reader]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[36:internal-dpl-aod-reader]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[36:internal-dpl-aod-reader]: 
+[36:internal-dpl-aod-reader]: [12:54:42][STATE] Starting FairMQ state machine --> IDLE
+[39:flow-pid-cme]: [12:54:42][STATE] IDLE ---> INITIALIZING DEVICE
+[40:q-a-process-cent]: [12:54:42][STATE] IDLE ---> INITIALIZING DEVICE
+[36:internal-dpl-aod-reader]: [12:54:42][STATE] IDLE ---> INITIALIZING DEVICE
+[41:internal-dpl-aod-global-analysis-file-sink]: [INFO] Instrumenting crash signals
+[40:q-a-process-cent]: [12:54:42][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[40:q-a-process-cent]: [12:54:42][STATE] INITIALIZED ---> BINDING
+[40:q-a-process-cent]: [12:54:42][STATE] BINDING ---> BOUND
+[40:q-a-process-cent]: [12:54:42][STATE] BOUND ---> CONNECTING
+[40:q-a-process-cent]: [12:54:42][STATE] CONNECTING ---> DEVICE READY
+[40:q-a-process-cent]: [12:54:42][STATE] DEVICE READY ---> INITIALIZING TASK
+[42:internal-dpl-injected-dummy-sink]: [INFO] Spawning new device internal-dpl-injected-dummy-sink in process with pid 42
+[40:q-a-process-cent]: [12:54:42][STATE] INITIALIZING TASK ---> READY
+[40:q-a-process-cent]: [12:54:42][STATE] READY ---> RUNNING
+[40:q-a-process-cent]: [12:54:42][INFO] fair::mq::Device running...
+[40:q-a-process-cent]: [12:54:42][INFO] LHCPeriod is not available, using current month OCT
+[40:q-a-process-cent]: [12:54:42][INFO] Correctly handshaken websocket connection.
+[39:flow-pid-cme]: [12:54:42][INFO] Init CcdApi with UserAgentID: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@39 target/Linux_x86_64 init/1792493682473 id/aenderic@stbc-i2.nikhef.nl session/82K3sp76, Host: http://alice-ccdb.cern.ch/, Curl timeouts: upload:20 download:5
+[39:flow-pid-cme]: [12:54:42][INFO] Init CcdApi with UserAgentID: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@39 target/Linux_x86_64 init/1792493682473 id/aenderic@stbc-i2.nikhef.nl session/82K3sp76, Host: file:///data/alice/aenderic/CME_verify_results/ccdb-local(snapshot readonly mode), Curl timeouts: upload:20 download:5
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][INFO] 
+[42:internal-dpl-injected-dummy-sink]:       ______      _    _______  _________ 
+[42:internal-dpl-injected-dummy-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[42:internal-dpl-injected-dummy-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[42:internal-dpl-injected-dummy-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[42:internal-dpl-injected-dummy-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[42:internal-dpl-injected-dummy-sink]: 
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][STATE] Starting FairMQ state machine --> IDLE
+[37:internal-dpl-aod-spawner]: [INFO] Instrumenting crash signals
+[38:fill-p-i-dcolums]: [12:54:42][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[38:fill-p-i-dcolums]: [12:54:42][STATE] INITIALIZED ---> BINDING
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][STATE] IDLE ---> INITIALIZING DEVICE
+[38:fill-p-i-dcolums]: [12:54:42][STATE] BINDING ---> BOUND
+[38:fill-p-i-dcolums]: [12:54:42][STATE] BOUND ---> CONNECTING
+[38:fill-p-i-dcolums]: [12:54:42][STATE] CONNECTING ---> DEVICE READY
+[38:fill-p-i-dcolums]: [12:54:42][STATE] DEVICE READY ---> INITIALIZING TASK
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][STATE] INITIALIZED ---> BINDING
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][STATE] BINDING ---> BOUND
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][STATE] BOUND ---> CONNECTING
+[38:fill-p-i-dcolums]: [12:54:42][STATE] INITIALIZING TASK ---> READY
+[38:fill-p-i-dcolums]: [12:54:42][STATE] READY ---> RUNNING
+[38:fill-p-i-dcolums]: [12:54:42][INFO] fair::mq::Device running...
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][STATE] CONNECTING ---> DEVICE READY
+[38:fill-p-i-dcolums]: [12:54:42][INFO] LHCPeriod is not available, using current month OCT
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][STATE] DEVICE READY ---> INITIALIZING TASK
+[38:fill-p-i-dcolums]: [12:54:42][INFO] Correctly handshaken websocket connection.
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][STATE] INITIALIZING TASK ---> READY
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][STATE] READY ---> RUNNING
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][INFO] fair::mq::Device running...
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][INFO] LHCPeriod is not available, using current month OCT
+[42:internal-dpl-injected-dummy-sink]: [12:54:42][INFO] Correctly handshaken websocket connection.
+[37:internal-dpl-aod-spawner]: [INFO] Spawning new device internal-dpl-aod-spawner in process with pid 37
+[37:internal-dpl-aod-spawner]: [12:54:42][INFO] 
+[37:internal-dpl-aod-spawner]:       ______      _    _______  _________ 
+[37:internal-dpl-aod-spawner]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[37:internal-dpl-aod-spawner]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[37:internal-dpl-aod-spawner]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[37:internal-dpl-aod-spawner]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[37:internal-dpl-aod-spawner]: 
+[37:internal-dpl-aod-spawner]: [12:54:42][STATE] Starting FairMQ state machine --> IDLE
+[37:internal-dpl-aod-spawner]: [12:54:42][STATE] IDLE ---> INITIALIZING DEVICE
+[37:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[37:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:324: Detected CPU Name : znver4
+[37:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:325: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 +avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs +invpcid +64bit +xsavec -avx10.1-512 +avx512vpopcntdq +cmov -avx512vp2intersect +avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 +evex512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -sha512 +vpclmulqdq +avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 +gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd +avx512f -amx-bf16 +avx512bf16 +avx512vnni -push2pop2 +cx8 +avx512bw +sse3 +pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c +avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed +avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 +avx512vbmi +shstk +vaes -waitpkg -sgx +fxsr +avx512dq +sse4a]
+[41:internal-dpl-aod-global-analysis-file-sink]: [INFO] Spawning new device internal-dpl-aod-global-analysis-file-sink in process with pid 41
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][INFO] 
+[41:internal-dpl-aod-global-analysis-file-sink]:       ______      _    _______  _________ 
+[41:internal-dpl-aod-global-analysis-file-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.11.0
+[41:internal-dpl-aod-global-analysis-file-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[41:internal-dpl-aod-global-analysis-file-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[41:internal-dpl-aod-global-analysis-file-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2025 GSI
+[41:internal-dpl-aod-global-analysis-file-sink]: 
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][STATE] Starting FairMQ state machine --> IDLE
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][STATE] IDLE ---> INITIALIZING DEVICE
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][STATE] INITIALIZED ---> BINDING
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][STATE] BINDING ---> BOUND
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][STATE] BOUND ---> CONNECTING
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][STATE] CONNECTING ---> DEVICE READY
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][STATE] DEVICE READY ---> INITIALIZING TASK
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][STATE] INITIALIZING TASK ---> READY
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][STATE] READY ---> RUNNING
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][INFO] fair::mq::Device running...
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][INFO] LHCPeriod is not available, using current month OCT
+[41:internal-dpl-aod-global-analysis-file-sink]: [12:54:42][INFO] Correctly handshaken websocket connection.
+[37:internal-dpl-aod-spawner]: [12:54:42][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[37:internal-dpl-aod-spawner]: [12:54:42][STATE] INITIALIZED ---> BINDING
+[37:internal-dpl-aod-spawner]: [12:54:42][STATE] BINDING ---> BOUND
+[37:internal-dpl-aod-spawner]: [12:54:42][STATE] BOUND ---> CONNECTING
+[37:internal-dpl-aod-spawner]: [12:54:42][STATE] CONNECTING ---> DEVICE READY
+[37:internal-dpl-aod-spawner]: [12:54:42][STATE] DEVICE READY ---> INITIALIZING TASK
+[37:internal-dpl-aod-spawner]: [12:54:42][STATE] INITIALIZING TASK ---> READY
+[37:internal-dpl-aod-spawner]: [12:54:42][STATE] READY ---> RUNNING
+[37:internal-dpl-aod-spawner]: [12:54:42][INFO] fair::mq::Device running...
+[37:internal-dpl-aod-spawner]: [12:54:42][INFO] LHCPeriod is not available, using current month OCT
+[37:internal-dpl-aod-spawner]: [12:54:42][INFO] Correctly handshaken websocket connection.
+[39:flow-pid-cme]: [12:54:44][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[39:flow-pid-cme]: [12:54:44][STATE] INITIALIZED ---> BINDING
+[39:flow-pid-cme]: [12:54:44][STATE] BINDING ---> BOUND
+[39:flow-pid-cme]: [12:54:44][STATE] BOUND ---> CONNECTING
+[39:flow-pid-cme]: [12:54:44][STATE] CONNECTING ---> DEVICE READY
+[39:flow-pid-cme]: [12:54:44][STATE] DEVICE READY ---> INITIALIZING TASK
+[39:flow-pid-cme]: [12:54:44][STATE] INITIALIZING TASK ---> READY
+[39:flow-pid-cme]: [12:54:44][STATE] READY ---> RUNNING
+[39:flow-pid-cme]: [12:54:44][INFO] fair::mq::Device running...
+[39:flow-pid-cme]: [12:54:44][INFO] LHCPeriod is not available, using current month OCT
+[39:flow-pid-cme]: [12:54:44][INFO] Correctly handshaken websocket connection.
+[36:internal-dpl-aod-reader]: [12:54:44][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[36:internal-dpl-aod-reader]: [12:54:44][STATE] INITIALIZED ---> BINDING
+[36:internal-dpl-aod-reader]: [12:54:44][STATE] BINDING ---> BOUND
+[36:internal-dpl-aod-reader]: [12:54:44][STATE] BOUND ---> CONNECTING
+[36:internal-dpl-aod-reader]: [12:54:44][STATE] CONNECTING ---> DEVICE READY
+[36:internal-dpl-aod-reader]: [12:54:44][STATE] DEVICE READY ---> INITIALIZING TASK
+[INFO] Controller for internal-dpl-aod-reader now available.
+[36:internal-dpl-aod-reader]: [12:54:44][STATE] INITIALIZING TASK ---> READY
+[36:internal-dpl-aod-reader]: [12:54:44][STATE] READY ---> RUNNING
+[36:internal-dpl-aod-reader]: [12:54:44][INFO] fair::mq::Device running...
+[36:internal-dpl-aod-reader]: [12:54:44][INFO] LHCPeriod is not available, using current month OCT
+[36:internal-dpl-aod-reader]: [12:54:44][INFO] Correctly handshaken websocket connection.
+[36:internal-dpl-aod-reader]: [12:54:44][INFO] Opening file: lfn=AO2D_flowinput.root,size=116576845
+[36:internal-dpl-aod-reader]: [12:54:45][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 504 ms ago. Missing: - shared memory (have 12 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[36:internal-dpl-aod-reader]: [12:54:45][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 504 ms ago. Missing: - shared memory (have 12 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[36:internal-dpl-aod-reader]: [12:54:45][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 634 ms ago. Missing: - shared memory (have 12 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[36:internal-dpl-aod-reader]: [12:54:48][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 3126 ms ago. Missing: - shared memory (have 12 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[39:flow-pid-cme]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[39:flow-pid-cme]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:324: Detected CPU Name : znver4
+[39:flow-pid-cme]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:325: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 +avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs +invpcid +64bit +xsavec -avx10.1-512 +avx512vpopcntdq +cmov -avx512vp2intersect +avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 +evex512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -sha512 +vpclmulqdq +avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 +gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd +avx512f -amx-bf16 +avx512bf16 +avx512vnni -push2pop2 +cx8 +avx512bw +sse3 +pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c +avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed +avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 +avx512vbmi +shstk +vaes -waitpkg -sgx +fxsr +avx512dq +sse4a]
+[39:flow-pid-cme]: [12:54:49][INFO] ccdb reads file:///data/alice/aenderic/CME_verify_results/ccdb-local/Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_500_600/1/b363295a-edac-11ef-9234-200114580301 for 1696561101869 (retrieve from snapshot, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@39 target/Linux_x86_64 init/1792493682473 id/aenderic@stbc-i2.nikhef.nl session/82K3sp76), 
+[39:flow-pid-cme]: [12:54:49][INFO] ccdb reads file:///data/alice/aenderic/CME_verify_results/ccdb-local/Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_500_600/1/13cce654-edad-11ef-9234-200114580301 for 1696561101869 (retrieve from snapshot, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@39 target/Linux_x86_64 init/1792493682473 id/aenderic@stbc-i2.nikhef.nl session/82K3sp76), 
+[39:flow-pid-cme]: [12:54:49][INFO] ccdb reads file:///data/alice/aenderic/CME_verify_results/ccdb-local/Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_600_700/1/d420f18c-edac-11ef-9234-200114580301 for 1696561101869 (retrieve from snapshot, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@39 target/Linux_x86_64 init/1792493682473 id/aenderic@stbc-i2.nikhef.nl session/82K3sp76), 
+[39:flow-pid-cme]: [12:54:49][INFO] ccdb reads file:///data/alice/aenderic/CME_verify_results/ccdb-local/Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_600_700/1/0b2409f0-edad-11ef-9234-200114580301 for 1696561101869 (retrieve from snapshot, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@39 target/Linux_x86_64 init/1792493682473 id/aenderic@stbc-i2.nikhef.nl session/82K3sp76), 
+[39:flow-pid-cme]: [12:54:49][INFO] ccdb reads file:///data/alice/aenderic/CME_verify_results/ccdb-local/Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_700_800/1/df0748f8-edac-11ef-b238-200114580301 for 1696561101869 (retrieve from snapshot, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@39 target/Linux_x86_64 init/1792493682473 id/aenderic@stbc-i2.nikhef.nl session/82K3sp76), 
+[39:flow-pid-cme]: [12:54:49][INFO] ccdb reads file:///data/alice/aenderic/CME_verify_results/ccdb-local/Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_700_800/1/0239d8fe-edad-11ef-b238-200114580301 for 1696561101869 (retrieve from snapshot, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@39 target/Linux_x86_64 init/1792493682473 id/aenderic@stbc-i2.nikhef.nl session/82K3sp76), 
+[39:flow-pid-cme]: [12:54:49][INFO] ccdb reads file:///data/alice/aenderic/CME_verify_results/ccdb-local/Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_800_900/1/e8d13f3a-edac-11ef-b238-200114580301 for 1696561101869 (retrieve from snapshot, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@39 target/Linux_x86_64 init/1792493682473 id/aenderic@stbc-i2.nikhef.nl session/82K3sp76), 
+[39:flow-pid-cme]: [12:54:49][INFO] ccdb reads file:///data/alice/aenderic/CME_verify_results/ccdb-local/Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_800_900/1/f8a114cd-edac-11ef-9234-200114580301 for 1696561101869 (retrieve from snapshot, agent_id: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@39 target/Linux_x86_64 init/1792493682473 id/aenderic@stbc-i2.nikhef.nl session/82K3sp76), 
+[39:flow-pid-cme]: [12:54:49][INFO] ==================CCDB file successfuly applied====================
+[39:flow-pid-cme]: [12:54:49][INFO] size of hPosPrCut is 1 x 4
+[39:flow-pid-cme]: [12:54:49][INFO] size of hNegPrCut is 1 x 4
+[39:flow-pid-cme]: [12:54:49][INFO] ===================================================================
+[36:internal-dpl-aod-reader]: [12:54:52][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 7129 ms ago. Missing: - shared memory (have 12 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[36:internal-dpl-aod-reader]: [12:54:55][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 10735 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[36:internal-dpl-aod-reader]: [12:55:06][WARN] Not enough resources to schedule computation on stream 0. 64 consecutive skips, last scheduled 20836 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[36:internal-dpl-aod-reader]: [12:55:24][WARN] Not enough resources to schedule computation on stream 0. 128 consecutive skips, last scheduled 39256 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[36:internal-dpl-aod-reader]: [12:55:50][WARN] Not enough resources to schedule computation on stream 0. 256 consecutive skips, last scheduled 65421 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[36:internal-dpl-aod-reader]: [12:56:38][WARN] Not enough resources to schedule computation on stream 0. 512 consecutive skips, last scheduled 113426 ms ago. Missing: - shared memory (have 0 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[40:q-a-process-cent]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/cache.cc:58: Creating gandiva cache with capacity of 5000
+[40:q-a-process-cent]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:324: Detected CPU Name : znver4
+[40:q-a-process-cent]: /local/workspace/DailyBuilds/DailyO2Physics-slc9/daily-tags.OZ2mngfjYu/BUILD/cb32c322ff366bc8828dffffeff8b94481ec654b/arrow/src_tmp/cpp/src/gandiva/engine.cc:325: Detected CPU Features: [ +prfchw -cldemote +avx +aes +sahf +pclmul -xop +crc32 -amx-fp8 +xsaves -avx512fp16 -usermsr -sm4 -egpr +sse4.1 +avx512ifma +xsave +sse4.2 -tsxldtrk -sm3 -ptwrite -widekl -movrs +invpcid +64bit +xsavec -avx10.1-512 +avx512vpopcntdq +cmov -avx512vp2intersect +avx512cd +movbe -avxvnniint8 -ccmp -amx-int8 -kl -avx10.1-256 +evex512 -avxvnni -rtm +adx +avx2 -hreset -movdiri -serialize -sha512 +vpclmulqdq +avx512vl -uintr -cf +clflushopt -raoint -cmpccxadd +bmi -amx-tile +sse -avx10.2-256 +gfni -avxvnniint16 -amx-fp16 -zu -ndd +xsaveopt +rdrnd +avx512f -amx-bf16 +avx512bf16 +avx512vnni -push2pop2 +cx8 +avx512bw +sse3 +pku -nf -amx-tf32 -amx-avx512 +fsgsbase +clzero +mwaitx -lwp +lzcnt +sha -movdir64b -ppx +wbnoinvd -enqcmd -amx-transpose -avx10.2-512 -avxneconvert -tbm -pconfig -amx-complex +ssse3 +cx16 +bmi2 +fma +popcnt -avxifma +f16c +avx512bitalg +rdpru +clwb +mmx +sse2 +rdseed +avx512vbmi2 -prefetchi -amx-movrs +rdpid -fma4 +avx512vbmi +shstk +vaes -waitpkg -sgx +fxsr +avx512dq +sse4a]
+[36:internal-dpl-aod-reader]: [12:57:01][INFO] No input files left to read for reader 0!
+[36:internal-dpl-aod-reader]: [12:57:01][INFO] Read info: lfn=AO2D_flowinput.root,size=116576845,total_df=3,read_df=3,skipped_df=0,read_bytes=116577250,read_calls=157,io_time=1.6,wait_time=135.5,level=0
+[36:internal-dpl-aod-reader]: [12:57:01][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-aod-spawner
+[36:internal-dpl-aod-reader]: [12:57:01][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_fill-p-i-dcolums
+[36:internal-dpl-aod-reader]: [12:57:01][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_flow-pid-cme
+[36:internal-dpl-aod-reader]: [12:57:01][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-injected-dummy-sink
+[36:internal-dpl-aod-reader]: [12:57:01][WARN] Not enough resources to schedule computation on stream 0. 1 consecutive skips, last scheduled 398 ms ago. Missing: - shared memory (have 13 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[37:internal-dpl-aod-spawner]: [12:57:01][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-spawner_to_fill-p-i-dcolums
+[36:internal-dpl-aod-reader]: [12:57:02][WARN] Not enough resources to schedule computation on stream 0. 2 consecutive skips, last scheduled 769 ms ago. Missing: - shared memory (have 13 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[36:internal-dpl-aod-reader]: [12:57:02][WARN] Not enough resources to schedule computation on stream 0. 4 consecutive skips, last scheduled 770 ms ago. Missing: - shared memory (have 13 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[36:internal-dpl-aod-reader]: [12:57:04][WARN] Not enough resources to schedule computation on stream 0. 8 consecutive skips, last scheduled 3384 ms ago. Missing: - shared memory (have 13 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[36:internal-dpl-aod-reader]: [12:57:05][WARN] Not enough resources to schedule computation on stream 0. 16 consecutive skips, last scheduled 4107 ms ago. Missing: - shared memory (have 13 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[38:fill-p-i-dcolums]: [12:57:06][INFO] Sending end-of-stream message to channel from_fill-p-i-dcolums_to_flow-pid-cme
+[38:fill-p-i-dcolums]: [12:57:06][INFO] Sending end-of-stream message to channel from_fill-p-i-dcolums_to_internal-dpl-aod-global-analysis-file-sink
+[36:internal-dpl-aod-reader]: [12:57:09][WARN] Not enough resources to schedule computation on stream 0. 32 consecutive skips, last scheduled 7752 ms ago. Missing: - shared memory (have 13 MB, need 100 MB). Data is not lost and it will be scheduled again.
+[39:flow-pid-cme]: [13:01:13][INFO] CCDBManager summary: 8 queries, 37,489 fetched / 37,489 requested bytes for 8 objects, 8 good fetches (and 0 failed ones) in 406 ms, instance: o2-analysis-cf-/o2-analysis-cf-flow-pid-cme@39 target/Linux_x86_64 init/1792493682473 id/aenderic@stbc-i2.nikhef.nl session/82K3sp76
+[39:flow-pid-cme]: [13:01:13][INFO] CCDB cache miss/hit/failures
+[39:flow-pid-cme]: [13:01:13][INFO]   Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_800_900: 1/0/0 (4777-4777 bytes)
+[39:flow-pid-cme]: [13:01:13][INFO]   Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_800_900: 1/0/0 (4781-4781 bytes)
+[39:flow-pid-cme]: [13:01:13][INFO]   Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_700_800: 1/0/0 (4718-4718 bytes)
+[39:flow-pid-cme]: [13:01:13][INFO]   Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_600_700: 1/0/0 (4660-4660 bytes)
+[39:flow-pid-cme]: [13:01:13][INFO]   Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_600_700: 1/0/0 (4656-4656 bytes)
+[39:flow-pid-cme]: [13:01:13][INFO]   Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_700_800: 1/0/0 (4749-4749 bytes)
+[39:flow-pid-cme]: [13:01:13][INFO]   Users/z/zhengqiw/PurityCut/ProtonNeg/Cen_20_30/Pt_500_600: 1/0/0 (4580-4580 bytes)
+[39:flow-pid-cme]: [13:01:13][INFO]   Users/z/zhengqiw/PurityCut/ProtonPos/Cen_20_30/Pt_500_600: 1/0/0 (4568-4568 bytes)
+[39:flow-pid-cme]: [13:01:13][INFO] Sending end-of-stream message to channel from_flow-pid-cme_to_q-a-process-cent
+[39:flow-pid-cme]: [13:01:13][INFO] Sending end-of-stream message to channel from_flow-pid-cme_to_internal-dpl-aod-global-analysis-file-sink
+[40:q-a-process-cent]: [13:01:13][INFO] Sending end-of-stream message to channel from_q-a-process-cent_to_internal-dpl-aod-global-analysis-file-sink
+[41:internal-dpl-aod-global-analysis-file-sink]: [13:01:19][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-global-analysis-file-sink_to_internal-dpl-injected-dummy-sink
+[INFO] Quitting
+[INFO] Quit requested at Tue Oct 20 13:01:19 2026
+
+[42:internal-dpl-injected-dummy-sink]: [13:01:19][INFO] Received device shutdown request (signal 15).
+[42:internal-dpl-injected-dummy-sink]: [13:01:19][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[42:internal-dpl-injected-dummy-sink]: [13:01:19][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[42:internal-dpl-injected-dummy-sink]: [13:01:19][STATE] RUNNING ---> READY
+[42:internal-dpl-injected-dummy-sink]: [13:01:19][STATE] READY ---> RESETTING TASK
+[42:internal-dpl-injected-dummy-sink]: [13:01:19][STATE] RESETTING TASK ---> DEVICE READY
+[42:internal-dpl-injected-dummy-sink]: [13:01:19][STATE] DEVICE READY ---> RESETTING DEVICE
+[39:flow-pid-cme]: [13:01:19][INFO] Received device shutdown request (signal 15).
+[39:flow-pid-cme]: [13:01:19][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[39:flow-pid-cme]: [13:01:19][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[39:flow-pid-cme]: [13:01:19][STATE] RUNNING ---> READY
+[42:internal-dpl-injected-dummy-sink]: [13:01:19][STATE] RESETTING DEVICE ---> IDLE
+[39:flow-pid-cme]: [13:01:19][STATE] READY ---> RESETTING TASK
+[39:flow-pid-cme]: [13:01:19][STATE] RESETTING TASK ---> DEVICE READY
+[39:flow-pid-cme]: [13:01:19][STATE] DEVICE READY ---> RESETTING DEVICE
+[42:internal-dpl-injected-dummy-sink]: [13:01:19][STATE] IDLE ---> EXITING
+[42:internal-dpl-injected-dummy-sink]: [13:01:19][STATE] Exiting FairMQ state machine
+[39:flow-pid-cme]: [13:01:19][STATE] RESETTING DEVICE ---> IDLE
+[39:flow-pid-cme]: [13:01:19][STATE] IDLE ---> EXITING
+[39:flow-pid-cme]: [13:01:19][STATE] Exiting FairMQ state machine
+[36:internal-dpl-aod-reader]: [13:01:19][INFO] Received device shutdown request (signal 15).
+[36:internal-dpl-aod-reader]: [13:01:19][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[36:internal-dpl-aod-reader]: [13:01:19][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[36:internal-dpl-aod-reader]: [13:01:19][STATE] RUNNING ---> READY
+[36:internal-dpl-aod-reader]: [13:01:19][STATE] READY ---> RESETTING TASK
+[36:internal-dpl-aod-reader]: [13:01:19][STATE] RESETTING TASK ---> DEVICE READY
+[36:internal-dpl-aod-reader]: [13:01:19][STATE] DEVICE READY ---> RESETTING DEVICE
+[37:internal-dpl-aod-spawner]: [13:01:19][INFO] Received device shutdown request (signal 15).
+[37:internal-dpl-aod-spawner]: [13:01:19][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[37:internal-dpl-aod-spawner]: [13:01:19][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[37:internal-dpl-aod-spawner]: [13:01:19][STATE] RUNNING ---> READY
+[37:internal-dpl-aod-spawner]: [13:01:19][STATE] READY ---> RESETTING TASK
+[37:internal-dpl-aod-spawner]: [13:01:19][STATE] RESETTING TASK ---> DEVICE READY
+[37:internal-dpl-aod-spawner]: [13:01:19][STATE] DEVICE READY ---> RESETTING DEVICE
+[35:internal-dpl-clock]: [13:01:19][INFO] Received device shutdown request (signal 15).
+[35:internal-dpl-clock]: [13:01:19][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[37:internal-dpl-aod-spawner]: [13:01:19][STATE] RESETTING DEVICE ---> IDLE
+[37:internal-dpl-aod-spawner]: [13:01:19][STATE] IDLE ---> EXITING
+[35:internal-dpl-clock]: [13:01:19][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[36:internal-dpl-aod-reader]: [13:01:19][STATE] RESETTING DEVICE ---> IDLE
+[36:internal-dpl-aod-reader]: [13:01:19][STATE] IDLE ---> EXITING
+[36:internal-dpl-aod-reader]: [13:01:19][STATE] Exiting FairMQ state machine
+[37:internal-dpl-aod-spawner]: [13:01:19][STATE] Exiting FairMQ state machine
+[40:q-a-process-cent]: [13:01:19][INFO] Received device shutdown request (signal 15).
+[40:q-a-process-cent]: [13:01:19][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[40:q-a-process-cent]: [13:01:19][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[40:q-a-process-cent]: [13:01:19][STATE] RUNNING ---> READY
+[40:q-a-process-cent]: [13:01:19][STATE] READY ---> RESETTING TASK
+[40:q-a-process-cent]: [13:01:19][STATE] RESETTING TASK ---> DEVICE READY
+[40:q-a-process-cent]: [13:01:19][STATE] DEVICE READY ---> RESETTING DEVICE
+[41:internal-dpl-aod-global-analysis-file-sink]: [13:01:19][INFO] Received device shutdown request (signal 15).
+[41:internal-dpl-aod-global-analysis-file-sink]: [13:01:19][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[41:internal-dpl-aod-global-analysis-file-sink]: [13:01:19][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[41:internal-dpl-aod-global-analysis-file-sink]: [13:01:19][STATE] RUNNING ---> READY
+[41:internal-dpl-aod-global-analysis-file-sink]: [13:01:19][STATE] READY ---> RESETTING TASK
+[41:internal-dpl-aod-global-analysis-file-sink]: [13:01:19][STATE] RESETTING TASK ---> DEVICE READY
+[41:internal-dpl-aod-global-analysis-file-sink]: [13:01:19][STATE] DEVICE READY ---> RESETTING DEVICE
+[40:q-a-process-cent]: [13:01:19][STATE] RESETTING DEVICE ---> IDLE
+[40:q-a-process-cent]: [13:01:19][STATE] IDLE ---> EXITING
+[40:q-a-process-cent]: [13:01:19][STATE] Exiting FairMQ state machine
+[38:fill-p-i-dcolums]: [13:01:19][INFO] Received device shutdown request (signal 15).
+[38:fill-p-i-dcolums]: [13:01:19][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[38:fill-p-i-dcolums]: [13:01:19][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[38:fill-p-i-dcolums]: [13:01:19][STATE] RUNNING ---> READY
+[38:fill-p-i-dcolums]: [13:01:19][STATE] READY ---> RESETTING TASK
+[38:fill-p-i-dcolums]: [13:01:19][STATE] RESETTING TASK ---> DEVICE READY
+[38:fill-p-i-dcolums]: [13:01:19][STATE] DEVICE READY ---> RESETTING DEVICE
+[41:internal-dpl-aod-global-analysis-file-sink]: [13:01:19][STATE] RESETTING DEVICE ---> IDLE
+[41:internal-dpl-aod-global-analysis-file-sink]: [13:01:19][STATE] IDLE ---> EXITING
+[41:internal-dpl-aod-global-analysis-file-sink]: [13:01:19][STATE] Exiting FairMQ state machine
+[38:fill-p-i-dcolums]: [13:01:19][STATE] RESETTING DEVICE ---> IDLE
+[38:fill-p-i-dcolums]: [13:01:19][STATE] IDLE ---> EXITING
+[38:fill-p-i-dcolums]: [13:01:19][STATE] Exiting FairMQ state machine
+[35:internal-dpl-clock]: [13:01:19][INFO] Sending end-of-stream message to channel from_internal-dpl-clock_to_internal-dpl-aod-reader
+[35:internal-dpl-clock]: [13:01:19][STATE] RUNNING ---> READY
+[35:internal-dpl-clock]: [13:01:19][STATE] READY ---> RESETTING TASK
+[35:internal-dpl-clock]: [13:01:19][STATE] RESETTING TASK ---> DEVICE READY
+[35:internal-dpl-clock]: [13:01:19][STATE] DEVICE READY ---> RESETTING DEVICE
+[35:internal-dpl-clock]: [13:01:19][INFO] Cleaning up for shared memory id '5a93e1c3'...
+[35:internal-dpl-clock]: [13:01:19][INFO] Found 0 unmanaged regions...
+[35:internal-dpl-clock]: [13:01:19][INFO] Found 1 managed segments...
+[35:internal-dpl-clock]: [13:01:19][INFO] Successfully removed 'fmq_5a93e1c3_m_0'.
+[35:internal-dpl-clock]: [13:01:19][INFO] Successfully removed 'fmq_5a93e1c3_mng'.
+[35:internal-dpl-clock]: [13:01:19][STATE] RESETTING DEVICE ---> IDLE
+[35:internal-dpl-clock]: [13:01:19][STATE] IDLE ---> EXITING
+[35:internal-dpl-clock]: [13:01:19][STATE] Exiting FairMQ state machine
+[INFO] ## Processes completed. Run summary:
+[INFO] ### Devices started: 8
+[INFO]  - Device internal-dpl-clock: pid 35 (exit 0)
+[INFO]  - Device internal-dpl-aod-reader: pid 36 (exit 0)
+[INFO]  - Device internal-dpl-aod-spawner: pid 37 (exit 0)
+[INFO]  - Device fill-p-i-dcolums: pid 38 (exit 0)
+[INFO]  - Device flow-pid-cme: pid 39 (exit 0)
+[INFO]  - Device q-a-process-cent: pid 40 (exit 0)
+[INFO]  - Device internal-dpl-aod-global-analysis-file-sink: pid 41 (exit 0)
+[INFO]  - Device internal-dpl-injected-dummy-sink: pid 42 (exit 0)
+[INFO] ## Analysis Run Summary ##
+[INFO] ### Files read stats ###
+[INFO] lfn=AO2D_flowinput.root,size=116576845,total_df=3,read_df=3,skipped_df=0,read_bytes=116577250,read_calls=157,io_time=1.6,wait_time=135.5,level=0
+[INFO] ### Files opened stats ###
+[INFO] Last file opened: lfn=AO2D_flowinput.root,size=116576845
+[INFO] Dumping used configuration in dpl-config.json

@@ -8,8 +8,8 @@ echo "Host: $(hostname)"
 
 source /data/alice/aenderic/o2physics_env.sh
 
-export JALIEN_TOKEN_CERT=/data/alice/aenderic/GridTokens/tokencert_11900.pem
-export JALIEN_TOKEN_KEY=/data/alice/aenderic/GridTokens/tokenkey_11900.pem
+# export JALIEN_TOKEN_CERT=/data/alice/aenderic/GridTokens/tokencert_11900.pem
+# export JALIEN_TOKEN_KEY=/data/alice/aenderic/GridTokens/tokenkey_11900.pem
 
 echo "Checking executable..."
 command -v o2-analysis-cf-flow-pid-cme
